@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Lato', 'sans-serif'],        // Paragraphs
+        heading: ['Montserrat', 'sans-serif'] // Headings
+      },
+      colors: {
+        primary: {
+          DEFAULT: '#312e81', // indigo-900 hex value
+        },
+      },
+    },
   },
   plugins: [],
 }

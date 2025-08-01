@@ -1,12 +1,37 @@
-import Header from "./components/Header";
+// src/App.jsx
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
+import Home from "./page/Home";
+import Footer from "./components/Footer";
 
-const App = () => (
-  <>
-    <Navbar />
-    <HeroSection />
-  </>
+// Dummy pages (you can create real ones later)
+const About = () => <div className="pt-[150px] p-6">About Us Page</div>;
+const PilotTraining = () => (
+  <div className="pt-[150px] p-6">Pilot Training Page</div>
 );
+const CabinCrew = () => (
+  <div className="pt-[150px] p-6">Cabin Crew Training Page</div>
+);
+const Services = () => (
+  <div className="pt-[150px] p-6">Services & Expertise Page</div>
+);
+const Contact = () => <div className="pt-[150px] p-6">Contact Page</div>;
+
+const App = () => {
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/pilot-training" element={<PilotTraining />} />
+        <Route path="/cabin-crew-training" element={<CabinCrew />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </>
+  );
+};
 
 export default App;
