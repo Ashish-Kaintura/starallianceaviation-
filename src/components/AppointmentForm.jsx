@@ -33,8 +33,9 @@ const AppointmentForm = () => {
           "url('https://drawdown.org/sites/default/files/solutions/airplanes-web.jpg')",
       }}
     >
-      <div className=" w-full max-w-6xl sm:justify-start">
-        <div className="w-full max-w-md bg-[#111c44] text-white p-8 rounded-xl border-2 border-purple-400 shadow-lg mr-8">
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div className=" relative z-10 w-full max-w-6xl sm:justify-start">
+        <div className="w-full max-w-md bg-[#111c44] text-white p-8 rounded-xl border-2shadow-lg mr-8">
           <h2 className="text-center text-xl font-semibold mb-6">
             Make An Appointment
           </h2>

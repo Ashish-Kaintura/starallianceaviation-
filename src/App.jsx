@@ -4,8 +4,9 @@ import Navbar from "./components/Navbar";
 import Home from "./page/Home";
 import Footer from "./components/Footer";
 import Test from "./page/Test";
+import AboutUs from "./page/AboutUs";
 // Dummy pages (you can create real ones later)
-const About = () => <div className="pt-[150px] p-6">About Us Page</div>;
+
 const PilotTraining = () => (
   <div className="pt-[150px] p-6">Pilot Training Page</div>
 );
@@ -23,7 +24,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/pilot-training" element={<PilotTraining />} />
         <Route path="/cabin-crew-training" element={<CabinCrew />} />
         <Route path="/services" element={<Services />} />
