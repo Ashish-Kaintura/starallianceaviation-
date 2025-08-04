@@ -3,6 +3,10 @@ import HeroSection from "../components/HeroSection";
 import { FaPlane } from "react-icons/fa";
 import img1 from "../img/students.png";
 import CommitmentSection from "../components/CommitmentSection";
+import PilotTrainingSection from "../components/PilotTrainingSection";
+import Testimonials from "../components/Testimonials";
+import AppointmentForm from "../components/AppointmentForm";
+import FAQSection from "../components/FAQSection";
 export default function Home() {
   return (
     <>
@@ -73,7 +77,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <CommitmentSection/>
+      <CommitmentSection />
+      <PilotTrainingSection />
+      <Testimonials />
+      <AppointmentForm />
+      <FAQSection/>
+      <section className="p-4 " >
+
+      </section>
     </>
   );
 }

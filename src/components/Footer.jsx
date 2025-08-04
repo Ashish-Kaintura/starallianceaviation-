@@ -17,9 +17,9 @@ const Footer = () => {
         {/* Brand */}
         <div>
           <img
-            src="http://starallianceaviation.com/wp-content/uploads/2025/07/PNG-1-e1751434504963.png"
+            src="https://i.postimg.cc/hvBpty6H/white-logo.png"
             alt="Logo"
-            className="h-16 mb-4"
+            className="h-28 mb-4"
           />
           <p className="text-sm text-gray-300">
             Star Alliance Aviation Academy is committed to shaping the next generation of aviation professionals with passion, integrity, and excellence.

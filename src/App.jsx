@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./page/Home";
 import Footer from "./components/Footer";
-
+import Test from "./page/Test";
 // Dummy pages (you can create real ones later)
 const About = () => <div className="pt-[150px] p-6">About Us Page</div>;
 const PilotTraining = () => (
@@ -28,6 +28,7 @@ const App = () => {
         <Route path="/cabin-crew-training" element={<CabinCrew />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
       <Footer />
     </>

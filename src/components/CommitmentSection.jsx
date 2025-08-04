@@ -24,10 +24,10 @@ const CommitmentSection = () => {
   return (
     <section className="bg-white py-16 px-4 font-lato">
       <div className="text-center mb-12">
-        <h4 className="text-sm text-red-500 tracking-wider uppercase font-heading">
+        <h4 className="text-lg font-semibold text-red-500 tracking-wider uppercase font-heading">
           _We are committed to_
         </h4>
-        <h2 className="text-4xl font-bold text-blue-900 font-heading">Pilot training</h2>
+        {/* <h2 className="text-4xl font-bold text-blue-900 font-heading">Pilot training</h2> */}
       </div>
 
       <div className="flex justify-center">
