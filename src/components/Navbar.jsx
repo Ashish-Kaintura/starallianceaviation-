@@ -108,9 +108,12 @@ const Navbar = () => {
               onMouseEnter={() => setActiveDropdown("pilot")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <div className="flex items-center gap-1 cursor-pointer hover:text-indigo-700">
-                Pilot Training <ChevronDown size={16} />
-              </div>
+              <NavLink to="/pilot-training">
+                <div className="flex items-center gap-1 cursor-pointer hover:text-indigo-700">
+                  {" "}
+                  Pilot Training <ChevronDown size={16} />
+                </div>{" "}
+              </NavLink>
               {activeDropdown === "pilot" && renderDropdown("pilot")}
             </li>
 
