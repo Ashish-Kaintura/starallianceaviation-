@@ -5,11 +5,9 @@ import Home from "./page/Home";
 import Footer from "./components/Footer";
 import Test from "./page/Test";
 import AboutUs from "./page/AboutUs";
+import PilotTraining from "./page/PilotTraining";
 // Dummy pages (you can create real ones later)
 
-const PilotTraining = () => (
-  <div className="pt-[150px] p-6">Pilot Training Page</div>
-);
 const CabinCrew = () => (
   <div className="pt-[150px] p-6">Cabin Crew Training Page</div>
 );
@@ -25,7 +23,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/pilot-training" element={<PilotTraining />} />
+        <Route path="/pilot-training" element={<PilotTraining/> } />
         <Route path="/cabin-crew-training" element={<CabinCrew />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
