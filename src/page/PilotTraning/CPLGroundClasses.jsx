@@ -37,7 +37,7 @@ export default function CPLGroundClasses() {
             />
           </div>
           <div className="flex flex-col justify-start w-full lg:w-1/2">
-            <h2 className="text-primary text-3xl font-bold mt-2">
+            <h2 className="text-primary text-3xl font-bold mt-2 font-heading">
               Introduction to CPL (Commercial Pilot License) by DGCA:
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">

@@ -12,6 +12,7 @@ import ATPLOralViva from "./page/PilotTraning/ATPLOralViva";
 import RTRRadioTelephonyRestricted from "./page/PilotTraning/RTRRadioTelephonyRestricted";
 import CadetPilotProgram from "./page/PilotTraning/CadetPilotProgram";
 import AirlinesPreparationCourse from "./page/PilotTraning/AirlinesPreparationCourse";
+import FLCRecencyFlying from "./page/PilotTraning/FLCRecencyFlying";
 // Dummy pages (you can create real ones later)
 
 const CabinCrew = () => (
@@ -42,6 +43,7 @@ const App = () => {
           path="/airlines-preparation-course"
           element={<AirlinesPreparationCourse />}
         />
+        <Route path="/flc-recency-flying" element={<FLCRecencyFlying />} />
 
         <Route path="/cabin-crew-training" element={<CabinCrew />} />
         <Route path="/services" element={<Services />} />
