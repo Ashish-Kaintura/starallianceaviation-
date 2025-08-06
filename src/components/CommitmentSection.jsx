@@ -49,7 +49,7 @@ const CommitmentSection = () => {
 
           {/* Center image */}
           <div className="flex justify-center">
-            <img
+            <img  loading="lazy"
               src="https://starallianceaviation.com/wp-content/uploads/2025/07/website-5-images-chng.jpg"
               alt="Pilot Training"
               className="w-full max-w-3xl md:max-w-3xl rounded-lg"

@@ -16,7 +16,7 @@ const HeroSection = () => (
           our customers.
         </p>
       </div>
-      {/* <img src="" alt="Cabin Crew" className="w-full max-w-md mt-8 lg:mt-0" /> */}
+      {/* <img  loading="lazy" src="" alt="Cabin Crew" className="w-full max-w-md mt-8 lg:mt-0" /> */}
     </div>
   </section>
 );

@@ -56,7 +56,7 @@ const PilotTrainingSection = () => {
               key={index}
               className="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition-all duration-300"
             >
-              <img
+              <img  loading="lazy"
                 src={item.image}
                 alt={item.title}
                 className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"

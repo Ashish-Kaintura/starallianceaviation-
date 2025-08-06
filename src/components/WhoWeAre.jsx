@@ -30,22 +30,22 @@ const WhoWeAre = () => {
 
         {/* Right: Grid Images */}
         <div className="grid grid-cols-2 gap-4">
-          <img
+          <img  loading="lazy"
             src="https://images.pexels.com/photos/3844917/pexels-photo-3844917.jpeg"
             alt="crew"
             className="rounded-xl h-44 w-full object-cover shadow-md"
           />
-          <img
+          <img  loading="lazy"
             src="https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg"
             alt="plane"
             className="rounded-xl h-44 w-full object-cover shadow-md"
           />
-          <img
+          <img  loading="lazy"
             src="https://images.pexels.com/photos/3274304/pexels-photo-3274304.jpeg"
             alt="attendant"
             className="rounded-xl h-44 w-full object-cover shadow-md"
           />
-          <img
+          <img  loading="lazy"
             src="https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg"
             alt="pilot"
             className="rounded-xl h-44 w-full object-cover shadow-md"

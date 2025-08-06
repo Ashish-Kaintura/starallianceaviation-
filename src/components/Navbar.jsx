@@ -92,7 +92,7 @@ const Navbar = () => {
       >
         <nav className="flex items-center justify-between w-full max-w-[1320px] p-4 relative">
           <Link to="/">
-            <img
+            <img  loading="lazy"
               src="http://starallianceaviation.com/wp-content/uploads/2025/07/PNG-1-e1751434504963.png"
               alt="Star Alliance Aviation"
               className="h-16"
@@ -152,7 +152,7 @@ const Navbar = () => {
       {/* Mobile Navbar */}
       <div className="w-full md:hidden bg-white shadow mt-2 px-4 py-2">
         <div className="flex items-center justify-between">
-          <img
+          <img  loading="lazy"
             src="http://starallianceaviation.com/wp-content/uploads/2025/07/PNG-1-e1751434504963.png"
             alt="Star Alliance Aviation"
             className="h-14"

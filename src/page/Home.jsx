@@ -46,7 +46,7 @@ export default function Home() {
             </p>
             <div className="mt-8">
               <div className="bg-primary w-72">
-                <img src={img1} alt="" />
+                <img  loading="lazy" src={img1} alt="" />
               </div>
             </div>
           </div>
@@ -54,12 +54,12 @@ export default function Home() {
           {/* Right Images + Badge */}
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <div className="w-full flex flex-col lg:flex-row gap-4 items-center justify-center">
-              <img
+              <img  loading="lazy"
                 src="https://starallianceaviation.com/wp-content/uploads/2024/03/abt-1.jpg"
                 alt="Pilot"
                 className="rounded-xl w-full lg:w-[70%] object-cover shadow-lg"
               />
-              <img
+              <img  loading="lazy"
                 src="https://starallianceaviation.com/wp-content/uploads/2024/03/abt-2.jpg"
                 alt="Air Hostess"
                 className="rounded-xl w-full lg:w-[30%] object-cover shadow-lg mt-4 lg:mt-0"
