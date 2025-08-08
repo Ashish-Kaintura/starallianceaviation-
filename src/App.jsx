@@ -1,5 +1,8 @@
 // src/App.jsx
 import { Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
 import Home from "./page/Home";
 import Footer from "./components/Footer";
@@ -13,17 +16,20 @@ import RTRRadioTelephonyRestricted from "./page/PilotTraning/RTRRadioTelephonyRe
 import CadetPilotProgram from "./page/PilotTraning/CadetPilotProgram";
 import AirlinesPreparationCourse from "./page/PilotTraning/AirlinesPreparationCourse";
 import FLCRecencyFlying from "./page/PilotTraning/FLCRecencyFlying";
+import ClassMedical from "./page/PilotTraning/ClassMedical";
+import CabinCrew from "./page/CabinCrew";
+
 // Dummy pages (you can create real ones later)
 
-const CabinCrew = () => (
-  <div className="pt-[150px] p-6">Cabin Crew Training Page</div>
-);
 const Services = () => (
   <div className="pt-[150px] p-6">Services & Expertise Page</div>
 );
 const Contact = () => <div className="pt-[150px] p-6">Contact Page</div>;
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <Navbar />
@@ -44,6 +50,7 @@ const App = () => {
           element={<AirlinesPreparationCourse />}
         />
         <Route path="/flc-recency-flying" element={<FLCRecencyFlying />} />
+        <Route path="/class-12-medical" element={<ClassMedical />} />
 
         <Route path="/cabin-crew-training" element={<CabinCrew />} />
         <Route path="/services" element={<Services />} />

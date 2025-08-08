@@ -14,12 +14,21 @@ export default function FLCRecencyFlying() {
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 w-[1300px] mt-8">
           <div className="text-white p-5 max-w-lg">
-            <h1 className="text-4xl font-bold leading-tight font-heading">
+            <h1 className="text-4xl md:text-5xl font-bold text-white font-heading animate-fade-in-down">
               FLC & Recency Flying
             </h1>
-            <h2 className="mt-1 text-white text-sm font-heading">
-              <Link to="/">Star Alliance Aviation /</Link>FLC & Recency Flying
+            <h2 className="mt-2 text-sm text-white font-heading">
+              <Link to="/" className="hover:underline text-blue-300">
+                Star Alliance Aviation
+              </Link>{" "}
+              FLC & Recency Flying
             </h2>
+            <Link
+              to="/contact"
+              className="inline-block mt-6 px-6 py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+            >
+              Make an Appointment
+            </Link>
           </div>
         </div>
       </section>

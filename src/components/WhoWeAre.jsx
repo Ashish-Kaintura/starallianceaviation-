@@ -6,7 +6,7 @@ const WhoWeAre = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Text Content */}
         <div className="bg-[#103057] text-white p-8 md:p-10 rounded-3xl shadow-lg">
-          <p className="text-red-400 tracking-wider uppercase text-sm font-medium mb-2">
+          <p className="text-Secondary tracking-wider uppercase text-sm font-medium mb-2">
             Who we are
           </p>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
