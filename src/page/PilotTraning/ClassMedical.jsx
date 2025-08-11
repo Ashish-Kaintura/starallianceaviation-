@@ -11,23 +11,19 @@ export default function ClassMedical() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="relative h-[550px] flex items-center justify-start"
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative"
       >
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/20 backdrop-brightness-75" />
-
-        {/* Text Content */}
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 w-[1300px] mt-8">
           <div className="text-white p-5 max-w-lg">
             <h1 className="text-4xl md:text-5xl font-bold text-white font-heading animate-fade-in-down">
-              FLC & Recency Flying
+              Class-1,2 Medical
             </h1>
             <h2 className="mt-2 text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
                 Star Alliance Aviation
               </Link>{" "}
-              FLC & Recency Flying
+              Class-1,2 Medical
             </h2>
             <Link
               to="/contact"

@@ -7,7 +7,10 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
+  FaTwitter,
+  FaPinterestP,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,7 +19,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
-          <img  loading="lazy"
+          <img
+            loading="lazy"
             src="https://i.postimg.cc/hvBpty6H/white-logo.png"
             alt="Logo"
             className="h-28 mb-4"
@@ -138,18 +142,42 @@ const Footer = () => {
 
           {/* Social Links */}
           <div className="flex gap-4 text-xl">
-            <a href="#" className="hover:text-gray-200">
+            <Link
+              to="https://www.facebook.com/starallianceaviation/"
+              className="w-8 h-8 bg-blue-600 rounded-full flex items-center p-0 justify-center"
+            >
               <FaFacebookF />
-            </a>
-            <a href="#" className="hover:text-gray-200">
-              <FaInstagram />
-            </a>
-            <a href="#" className="hover:text-gray-200">
+            </Link>
+            <Link
+              to="https://x.com/staralliance_in"
+              className="w-8 h-8 bg-blue-400 rounded-full flex items-center p-0 justify-center"
+            >
+              <FaTwitter />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/company/starallianceaviation/"
+              className="w-8 h-8 bg-blue-700 rounded-full flex items-center p-0 justify-center"
+            >
               <FaLinkedinIn />
-            </a>
-            <a href="#" className="hover:text-gray-200">
+            </Link>
+            <Link
+              to="https://www.instagram.com/starallianceaviation/"
+              className="w-8 h-8 bg-pink-700 rounded-full flex items-center p-0 justify-center"
+            >
+              <FaInstagram />
+            </Link>
+            <Link
+              to="https://in.pinterest.com/starallianceaviation/"
+              className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
+            >
+              <FaPinterestP />
+            </Link>
+            <Link
+              to=" https://www.youtube.com/@StarAllianceAviation"
+              className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
+            >
               <FaYoutube />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

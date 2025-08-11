@@ -18,6 +18,10 @@ import AirlinesPreparationCourse from "./page/PilotTraning/AirlinesPreparationCo
 import FLCRecencyFlying from "./page/PilotTraning/FLCRecencyFlying";
 import ClassMedical from "./page/PilotTraning/ClassMedical";
 import CabinCrew from "./page/CabinCrew";
+import TRIncludingEndorsement from "./page/PilotTraning/TRIncludingEndorsement";
+import FAQSection from "./components/FAQSection";
+import CounsellingReappearance from "./page/cabincrewtraning/CounsellingReappearance";
+import JobOrientedCC from "./page/cabincrewtraning/JobOrientedCC";
 
 // Dummy pages (you can create real ones later)
 
@@ -50,13 +54,20 @@ const App = () => {
           element={<AirlinesPreparationCourse />}
         />
         <Route path="/flc-recency-flying" element={<FLCRecencyFlying />} />
+        <Route
+          path="/tr-including-endorsement"
+          element={<TRIncludingEndorsement />}
+        />
         <Route path="/class-12-medical" element={<ClassMedical />} />
 
         <Route path="/cabin-crew-training" element={<CabinCrew />} />
+        <Route path="/counselling-for-reappearance" element={<CounsellingReappearance />} />
+        <Route path="/job-oriented-cc-training" element={<JobOrientedCC />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/test" element={<Test />} />
       </Routes>
+      <FAQSection />
       <Footer />
     </>
   );

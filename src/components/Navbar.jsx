@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaPinterestP,
   FaBars,
+  FaYoutube,
 } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
@@ -28,16 +29,25 @@ const Navbar = () => {
       { name: "CPL Ground Classes", path: "/cpl-ground-classes" },
       { name: "ATPL Ground Classes", path: "/atpl-ground-classes" },
       { name: "ATPL Oral Viva", path: "/atpl-oral-viva" },
-      { name: "RTR (Radio Telephone Restricted)", path: "/rtr-radio-telephony-restricted" },
+      {
+        name: "RTR (Radio Telephone Restricted)",
+        path: "/rtr-radio-telephony-restricted",
+      },
       { name: "Cadet Pilot Program", path: "/cadet-pilot-program" },
-      { name: "Airlines Preparation Course", path: "/airlines-preparation-course" },
+      {
+        name: "Airlines Preparation Course",
+        path: "/airlines-preparation-course",
+      },
       { name: "FLC & Recency Flying", path: "/flc-recency-flying" },
       { name: "TR Including Endorsement", path: "/tr-including-endorsement" },
       { name: "Class-1,2 Medical", path: "/class-12-medical" },
     ],
     cabin: [
-      { name: "Cabin Crew Course", path: "/cabin/crew-course" },
-      { name: "Grooming & Interview", path: "/cabin/grooming" },
+      {
+        name: "Counselling (For Reappearance)",
+        path: "/counselling-for-reappearance",
+      },
+      { name: "Job Oriented CC Training", path: "/job-oriented-cc-training" },
     ],
     services: [
       { name: "DGCA Documentation", path: "/services/dgca" },
@@ -62,46 +72,47 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 right-0 z-50 flex flex-col items-center w-full font-sans">
       {/* Top Bar */}
       {!scrolling && (
-        <div className="text-white text-sm w-full flex justify-center py-2 bg-white/20">
+        <div className="text-white text-sm w-full sm:flex hidden justify-center py-2 bg-white/20">
           <div className="w-full max-w-[1320px] flex justify-between items-center px-6 flex-wrap gap-2">
             <span>Book Online • You can request appointment 24 hours</span>
             <div className="flex items-center gap-4">
               <span>Phone: +92 89595558</span>
               <div className="flex gap-3 text-white text-base">
                 <Link
-                  to=""
+                  to="https://www.facebook.com/starallianceaviation/"
                   className="w-8 h-8 bg-blue-600 rounded-full flex items-center p-0 justify-center"
-                  href="#"
                 >
                   <FaFacebookF />
                 </Link>
                 <Link
-                  to=""
+                  to="https://x.com/staralliance_in"
                   className="w-8 h-8 bg-blue-400 rounded-full flex items-center p-0 justify-center"
-                  href="#"
                 >
                   <FaTwitter />
                 </Link>
                 <Link
-                  to=""
+                  to="https://www.linkedin.com/company/starallianceaviation/"
                   className="w-8 h-8 bg-blue-700 rounded-full flex items-center p-0 justify-center"
-                  href="#"
                 >
                   <FaLinkedinIn />
                 </Link>
                 <Link
-                  to=""
+                  to="https://www.instagram.com/starallianceaviation/"
                   className="w-8 h-8 bg-pink-700 rounded-full flex items-center p-0 justify-center"
-                  href="#"
                 >
                   <FaInstagram />
                 </Link>
                 <Link
-                  to=""
+                  to="https://in.pinterest.com/starallianceaviation/"
                   className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
-                  href="#"
                 >
                   <FaPinterestP />
+                </Link>
+                <Link
+                  to=" https://www.youtube.com/@StarAllianceAviation"
+                  className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
+                >
+                  <FaYoutube />
                 </Link>
               </div>
             </div>
@@ -148,9 +159,11 @@ const Navbar = () => {
               onMouseEnter={() => setActiveDropdown("cabin")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
-                Cabin Crew Training <ChevronDown size={16} />
-              </div>
+              <NavLink to="/cabin-crew-training">
+                <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
+                  Cabin Crew Training <ChevronDown size={16} />
+                </div>
+              </NavLink>
               {activeDropdown === "cabin" && renderDropdown("cabin")}
             </li>
 
@@ -176,7 +189,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="w-full md:hidden bg-white shadow mt-2 px-4 py-2">
+      <div className="w-full md:hidden bg-white shadow  px-4 py-2">
         <div className="flex items-center justify-between">
           <img
             loading="lazy"

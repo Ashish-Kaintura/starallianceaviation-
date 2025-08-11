@@ -81,7 +81,7 @@ export default function Home() {
       <PilotTrainingSection />
       <Testimonials />
       <AppointmentForm />
-      <FAQSection/>
+      {/* <FAQSection/> */}
       <section className="p-4 " >
 
       </section>

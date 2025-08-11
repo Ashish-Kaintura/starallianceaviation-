@@ -12,7 +12,7 @@ export default function AboutUs() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[550px] relative "
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative "
       >
         <div className="absolute inset-0 bg-black/25"></div>
 
