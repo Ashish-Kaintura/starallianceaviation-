@@ -9,12 +9,14 @@ const trainingPrograms = [
   },
   {
     name: "ATPL Ground Classes",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/Atpl.jpg",
+    image:
+      "http://starallianceaviation.com/wp-content/uploads/2024/03/Atpl.jpg",
     slug: "atpl-ground-classes",
   },
   {
     name: "ATPL Oral/Viva",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/atpl2.jpg",
+    image:
+      "http://starallianceaviation.com/wp-content/uploads/2024/03/atpl2.jpg",
     slug: "atpl-oral-viva",
   },
   {
@@ -24,12 +26,14 @@ const trainingPrograms = [
   },
   {
     name: "Cadet Pilot Program",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/Cadet-Pilot.jpg",
+    image:
+      "http://starallianceaviation.com/wp-content/uploads/2024/03/Cadet-Pilot.jpg",
     slug: "cadet-pilot-program",
   },
   {
     name: "Airlines Preparation Course",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/Airlines2.jpg",
+    image:
+      "http://starallianceaviation.com/wp-content/uploads/2024/03/Airlines2.jpg",
     slug: "airlines-preparation",
   },
   {
@@ -39,12 +43,14 @@ const trainingPrograms = [
   },
   {
     name: "TR Including Endorsement",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/services04.jpg",
+    image:
+      "http://starallianceaviation.com/wp-content/uploads/2024/03/services04.jpg",
     slug: "tr-including-endorsement",
   },
   {
     name: "Class-1,2 Medical",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/class.jpg",
+    image:
+      "http://starallianceaviation.com/wp-content/uploads/2024/03/class.jpg",
     slug: "class-1-2-medical",
   },
 ];
@@ -65,7 +71,7 @@ const PilotTraining = () => {
         <div className="relative z-10 w-[1300px] mt-8">
           <div className=" text-white p-5 max-w-lg ">
             <h1 className="text-4xl font-bold leading-tight font-heading">
-             Pilot Training
+              Pilot Training
             </h1>
             <h2 className="mt-1  text-white text-sm font-heading">
               <Link to="/"> Alliance Aviation /</Link> Pilot Training
