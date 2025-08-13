@@ -1,61 +1,15 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
-const trainingPrograms = [
-  {
-    name: "CPL Ground Classes",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/cpl.jpg",
-    slug: "cpl-ground-classes",
-  },
-  {
-    name: "ATPL Ground Classes",
-    image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/Atpl.jpg",
-    slug: "atpl-ground-classes",
-  },
-  {
-    name: "ATPL Oral/Viva",
-    image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/atpl2.jpg",
-    slug: "atpl-oral-viva",
-  },
-  {
-    name: "RTR (Radio Telephony Restricted)",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/Rtr.jpg",
-    slug: "rtr-radio-telephony",
-  },
-  {
-    name: "Cadet Pilot Program",
-    image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/Cadet-Pilot.jpg",
-    slug: "cadet-pilot-program",
-  },
-  {
-    name: "Airlines Preparation Course",
-    image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/Airlines2.jpg",
-    slug: "airlines-preparation",
-  },
-  {
-    name: "FLC & Recency Flying",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/flc.jpg",
-    slug: "flc-recency-flying",
-  },
-  {
-    name: "TR Including Endorsement",
-    image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/services04.jpg",
-    slug: "tr-including-endorsement",
-  },
-  {
-    name: "Class-1,2 Medical",
-    image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/class.jpg",
-    slug: "class-1-2-medical",
-  },
-];
+import data from "../data/services.json";
 import Img1 from "../img/coolbackgrounds-particles-stellar.png";
+
 const ServicesAndExpertise = () => {
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    setServices(data); // data is already an array
+  }, []);
   return (
     <>
       {/* Hero Section */}
@@ -102,14 +56,15 @@ const ServicesAndExpertise = () => {
           </p>
 
           <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-            {trainingPrograms.map((program, idx) => (
+            {services.map((program, idx) => (
               <Link
                 key={idx}
-                to={`/${program.slug}`}
+                to={program.slug}
                 className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 bg-white"
               >
                 <div className="w-full h-56 overflow-hidden">
-                  <img  loading="lazy"
+                  <img
+                    loading="lazy"
                     src={program.image}
                     alt={program.name}
                     className="w-full h-full  group-hover:scale-105 transition-transform duration-300"

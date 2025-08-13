@@ -61,7 +61,7 @@ const PilotTraining = () => {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/Pilot-training.jpg)`,
+          backgroundImage: `url(https://i.postimg.cc/NMHxkR4P/Pilot-Training-Banner-1.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -109,7 +109,8 @@ const PilotTraining = () => {
                 className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 bg-white"
               >
                 <div className="w-full h-56 overflow-hidden">
-                  <img  loading="lazy"
+                  <img
+                    loading="lazy"
                     src={program.image}
                     alt={program.name}
                     className="w-full h-full  group-hover:scale-105 transition-transform duration-300"

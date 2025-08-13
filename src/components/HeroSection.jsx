@@ -33,11 +33,12 @@ const HeroSection = () => (
     </div>
     <div className="flex sm:hidden">
       <video
-        className="pt-20 w-full object-cotain"
+        className="pt-20 w-full object-contain"
         autoPlay
         loop
         muted
-        src={Video1}
+        playsInline
+        src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/video/Mobile%20view.mp4"
       />
     </div>
   </>
