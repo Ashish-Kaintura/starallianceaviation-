@@ -1,4 +1,5 @@
-import Video1 from "../video/Part_1.mp4"
+import Video1 from "../video/Part_1.mp4";
+import Video2 from "../video/Mobile view.mp4";
 const HeroSection = () => (
   // <section
   //   style={{
@@ -21,13 +22,25 @@ const HeroSection = () => (
   //   </div>
   // </section>
   <>
-    <video
-      className="w-full h-screen object-cover"
-      autoPlay
-      loop
-      muted
-      src={Video1}
-    />
+    <div className="sm:flex hidden">
+      <video
+        className="w-full h-screen object-cover"
+        autoPlay
+        loop
+        muted
+        src={Video1}
+      />
+    </div>
+    <div className="flex sm:hidden">
+      <video
+        className="pt-20 w-full object-contain"
+        autoPlay
+        loop
+        muted
+        playsInline
+        src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/video/Mobile%20view.mp4"
+      />
+    </div>
   </>
 );
 

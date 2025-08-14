@@ -22,12 +22,11 @@ import TRIncludingEndorsement from "./page/PilotTraning/TRIncludingEndorsement";
 import FAQSection from "./components/FAQSection";
 import CounsellingReappearance from "./page/cabincrewtraning/CounsellingReappearance";
 import JobOrientedCC from "./page/cabincrewtraning/JobOrientedCC";
-
+import ServicesAndExpertise from "./page/ServicesAndExpertise";
+import ServiceDetail from "./page/ServiceDetail";
+import SocialMedia from "./components/SocialMedia";
 // Dummy pages (you can create real ones later)
 
-const Services = () => (
-  <div className="pt-[150px] p-6">Services & Expertise Page</div>
-);
 const Contact = () => <div className="pt-[150px] p-6">Contact Page</div>;
 
 const App = () => {
@@ -61,9 +60,14 @@ const App = () => {
         <Route path="/class-12-medical" element={<ClassMedical />} />
 
         <Route path="/cabin-crew-training" element={<CabinCrew />} />
-        <Route path="/counselling-for-reappearance" element={<CounsellingReappearance />} />
+        <Route
+          path="/counselling-for-reappearance"
+          element={<CounsellingReappearance />}
+        />
         <Route path="/job-oriented-cc-training" element={<JobOrientedCC />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/services-expertise" element={<ServicesAndExpertise />} />
+        <Route path="/:slug" element={<ServiceDetail />} />
+
         <Route path="/contact" element={<Contact />} />
         <Route path="/test" element={<Test />} />
       </Routes>

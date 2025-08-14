@@ -50,9 +50,12 @@ const Navbar = () => {
       { name: "Job Oriented CC Training", path: "/job-oriented-cc-training" },
     ],
     services: [
-      { name: "DGCA Documentation", path: "/services/dgca" },
-      { name: "Simulator Training", path: "/services/simulator" },
-      { name: "Placement Assistance", path: "/services/placement" },
+      { name: "NSOP Management", path: "/nsop-management" },
+      { name: "DGCA/MOCA Liaison", path: "/dgca-moca-liaison" },
+      { name: "eGCA Account Management", path: "/egca-account-managemen" },
+      { name: "JOB Placement Assistance", path: "/job-placement-assistance" },
+      { name: "Legal Assistance/Guidance", path: "/legal-assistance-guidance" },
+      { name: "Strategic Counselling", path: "/strategic-counsellingt" },
     ],
   };
 
@@ -172,9 +175,11 @@ const Navbar = () => {
               onMouseEnter={() => setActiveDropdown("services")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
-                Services & Expertise <ChevronDown size={16} />
-              </div>
+              <NavLink to="/services-expertise">
+                <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
+                  Services & Expertise <ChevronDown size={16} />
+                </div>
+              </NavLink>
               {activeDropdown === "services" && renderDropdown("services")}
             </li>
 

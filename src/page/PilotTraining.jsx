@@ -61,7 +61,7 @@ const PilotTraining = () => {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/Pilot-training.jpg)`,
+          backgroundImage: `url(https://i.postimg.cc/NMHxkR4P/Pilot-Training-Banner-1.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

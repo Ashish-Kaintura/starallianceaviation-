@@ -54,7 +54,7 @@ const CommitmentSection = () => {
           <div className="flex justify-center">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2025/07/website-5-images-chng.jpg"
+              src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/img/Homeimg/H3.jpg"
               alt="Pilot Training"
               className="w-full max-w-3xl md:max-w-3xl rounded-lg"
             />
