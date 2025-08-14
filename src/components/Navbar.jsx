@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaPinterestP,
   FaBars,
+  FaYoutube,
 } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
@@ -25,14 +26,28 @@ const Navbar = () => {
 
   const dropdowns = {
     pilot: [
-      { name: "CPL Ground Classes", path: "/pilot/cpl-ground" },
-      { name: "ATPL Ground Classes", path: "/pilot/atpl-ground" },
-      { name: "ATPL Oral Viva", path: "/pilot/atpl-oral" },
-      { name: "RTR (Radio Telephone Restricted)", path: "/pilot/rtr" },
+      { name: "CPL Ground Classes", path: "/cpl-ground-classes" },
+      { name: "ATPL Ground Classes", path: "/atpl-ground-classes" },
+      { name: "ATPL Oral Viva", path: "/atpl-oral-viva" },
+      {
+        name: "RTR (Radio Telephone Restricted)",
+        path: "/rtr-radio-telephony-restricted",
+      },
+      { name: "Cadet Pilot Program", path: "/cadet-pilot-program" },
+      {
+        name: "Airlines Preparation Course",
+        path: "/airlines-preparation-course",
+      },
+      { name: "FLC & Recency Flying", path: "/flc-recency-flying" },
+      { name: "TR Including Endorsement", path: "/tr-including-endorsement" },
+      { name: "Class-1,2 Medical", path: "/class-12-medical" },
     ],
     cabin: [
-      { name: "Cabin Crew Course", path: "/cabin/crew-course" },
-      { name: "Grooming & Interview", path: "/cabin/grooming" },
+      {
+        name: "Counselling (For Reappearance)",
+        path: "/counselling-for-reappearance",
+      },
+      { name: "Job Oriented CC Training", path: "/job-oriented-cc-training" },
     ],
     services: [
       { name: "DGCA Documentation", path: "/services/dgca" },
@@ -57,27 +72,48 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 right-0 z-50 flex flex-col items-center w-full font-sans">
       {/* Top Bar */}
       {!scrolling && (
-        <div className="text-white text-sm w-full flex justify-center py-2 bg-white/10">
+        <div className="text-white text-sm w-full sm:flex hidden justify-center py-2 bg-white/20">
           <div className="w-full max-w-[1320px] flex justify-between items-center px-6 flex-wrap gap-2">
             <span>Book Online • You can request appointment 24 hours</span>
             <div className="flex items-center gap-4">
               <span>Phone: +92 89595558</span>
               <div className="flex gap-3 text-white text-base">
-                <a href="#">
+                <Link
+                  to="https://www.facebook.com/starallianceaviation/"
+                  className="w-8 h-8 bg-blue-600 rounded-full flex items-center p-0 justify-center"
+                >
                   <FaFacebookF />
-                </a>
-                <a href="#">
+                </Link>
+                <Link
+                  to="https://x.com/staralliance_in"
+                  className="w-8 h-8 bg-blue-400 rounded-full flex items-center p-0 justify-center"
+                >
                   <FaTwitter />
-                </a>
-                <a href="#">
+                </Link>
+                <Link
+                  to="https://www.linkedin.com/company/starallianceaviation/"
+                  className="w-8 h-8 bg-blue-700 rounded-full flex items-center p-0 justify-center"
+                >
                   <FaLinkedinIn />
-                </a>
-                <a href="#">
+                </Link>
+                <Link
+                  to="https://www.instagram.com/starallianceaviation/"
+                  className="w-8 h-8 bg-pink-700 rounded-full flex items-center p-0 justify-center"
+                >
                   <FaInstagram />
-                </a>
-                <a href="#">
+                </Link>
+                <Link
+                  to="https://in.pinterest.com/starallianceaviation/"
+                  className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
+                >
                   <FaPinterestP />
-                </a>
+                </Link>
+                <Link
+                  to=" https://www.youtube.com/@StarAllianceAviation"
+                  className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
+                >
+                  <FaYoutube />
+                </Link>
               </div>
             </div>
           </div>
@@ -88,19 +124,20 @@ const Navbar = () => {
       <div
         className={`hidden md:flex ${
           scrolling ? "w-full" : "w-[1300px]"
-        } rounded-lg justify-center bg-white shadow transition-all duration-300`}
+        } rounded-lg justify-center bg-gradient-to-r from-primary via-[#013066]   to-[#00163d]  text-white shadow transition-all duration-300 uppercase`}
       >
-        <nav className="flex items-center justify-between w-full max-w-[1320px] p-4 relative">
+        <nav className="flex items-center justify-between w-full max-w-[1320px] px-4 py-2 relative">
           <Link to="/">
             <img
-              src="http://starallianceaviation.com/wp-content/uploads/2025/07/PNG-1-e1751434504963.png"
+              loading="lazy"
+              src="https://i.postimg.cc/hvBpty6H/white-logo.png"
               alt="Star Alliance Aviation"
-              className="h-16"
+              className="h-[5rem]"
             />
           </Link>
           <ul className="flex gap-6 text-sm font-medium relative">
             <NavLink to="/about-us">
-              <li className="hover:text-indigo-700">About Us</li>
+              <li className="hover:text-Secondary">About Us</li>
             </NavLink>
 
             <li
@@ -109,7 +146,7 @@ const Navbar = () => {
               onMouseLeave={() => setActiveDropdown(null)}
             >
               <NavLink to="/pilot-training">
-                <div className="flex items-center gap-1 cursor-pointer hover:text-indigo-700">
+                <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
                   {" "}
                   Pilot Training <ChevronDown size={16} />
                 </div>{" "}
@@ -122,9 +159,11 @@ const Navbar = () => {
               onMouseEnter={() => setActiveDropdown("cabin")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <div className="flex items-center gap-1 cursor-pointer hover:text-indigo-700">
-                Cabin Crew Training <ChevronDown size={16} />
-              </div>
+              <NavLink to="/cabin-crew-training">
+                <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
+                  Cabin Crew Training <ChevronDown size={16} />
+                </div>
+              </NavLink>
               {activeDropdown === "cabin" && renderDropdown("cabin")}
             </li>
 
@@ -133,26 +172,27 @@ const Navbar = () => {
               onMouseEnter={() => setActiveDropdown("services")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <div className="flex items-center gap-1 cursor-pointer hover:text-indigo-700">
+              <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
                 Services & Expertise <ChevronDown size={16} />
               </div>
               {activeDropdown === "services" && renderDropdown("services")}
             </li>
 
-            <NavLink to="/contact">
-              <li className="hover:text-indigo-700">Contact Us</li>
+            <NavLink to="/blog">
+              <li className="hover:text-Secondary">Blog</li>
             </NavLink>
           </ul>
-          <button className="bg-indigo-900 text-white px-4 py-2 rounded hover:bg-indigo-800 transition">
-            Make Appointment
+          <button className="bg-white text-primary text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-indigo-800 transition">
+            Contact Us
           </button>
         </nav>
       </div>
 
       {/* Mobile Navbar */}
-      <div className="w-full md:hidden bg-white shadow mt-2 px-4 py-2">
+      <div className="w-full md:hidden bg-white shadow  px-4 py-2">
         <div className="flex items-center justify-between">
           <img
+            loading="lazy"
             src="http://starallianceaviation.com/wp-content/uploads/2025/07/PNG-1-e1751434504963.png"
             alt="Star Alliance Aviation"
             className="h-14"
@@ -180,7 +220,9 @@ const Navbar = () => {
                   <ul className="pl-4 mt-2 space-y-1">
                     {dropdowns.pilot.map((item) => (
                       <NavLink key={item.name} to={item.path}>
-                        <li className="hover:text-indigo-600">{item.name}</li>
+                        <li className="hover:text-Secondaryindigo-600">
+                          {item.name}
+                        </li>
                       </NavLink>
                     ))}
                   </ul>
@@ -196,7 +238,9 @@ const Navbar = () => {
                   <ul className="pl-4 mt-2 space-y-1">
                     {dropdowns.cabin.map((item) => (
                       <NavLink key={item.name} to={item.path}>
-                        <li className="hover:text-indigo-600">{item.name}</li>
+                        <li className="hover:text-Secondaryindigo-600">
+                          {item.name}
+                        </li>
                       </NavLink>
                     ))}
                   </ul>
@@ -212,7 +256,9 @@ const Navbar = () => {
                   <ul className="pl-4 mt-2 space-y-1">
                     {dropdowns.services.map((item) => (
                       <NavLink key={item.name} to={item.path}>
-                        <li className="hover:text-indigo-600">{item.name}</li>
+                        <li className="hover:text-Secondaryindigo-600">
+                          {item.name}
+                        </li>
                       </NavLink>
                     ))}
                   </ul>

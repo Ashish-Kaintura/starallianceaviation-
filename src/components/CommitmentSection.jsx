@@ -36,7 +36,10 @@ const CommitmentSection = () => {
           <div className="space-y-10">
             {values.slice(0, 2).map((val, i) => (
               <div key={i} className="flex items-start gap-3">
-                <FaCheckCircle size={50} className="text-blue-800 text-xl mt-1" />
+                <FaCheckCircle
+                  size={50}
+                  className="text-blue-800 text-xl mt-1"
+                />
                 <div>
                   <h3 className="text-xl font-bold text-blue-900 font-heading">
                     {val.title}
@@ -50,6 +53,7 @@ const CommitmentSection = () => {
           {/* Center image */}
           <div className="flex justify-center">
             <img
+              loading="lazy"
               src="https://starallianceaviation.com/wp-content/uploads/2025/07/website-5-images-chng.jpg"
               alt="Pilot Training"
               className="w-full max-w-3xl md:max-w-3xl rounded-lg"
@@ -60,7 +64,10 @@ const CommitmentSection = () => {
           <div className="space-y-10">
             {values.slice(2).map((val, i) => (
               <div key={i} className="flex items-start gap-3">
-                <FaCheckCircle size={50}  className="text-blue-800 text-xl mt-1" />
+                <FaCheckCircle
+                  size={50}
+                  className="text-blue-800 text-xl mt-1"
+                />
                 <div>
                   <h3 className="text-xl font-bold text-blue-900 font-heading">
                     {val.title}

@@ -6,7 +6,7 @@ const WhoWeAre = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Text Content */}
         <div className="bg-[#103057] text-white p-8 md:p-10 rounded-3xl shadow-lg">
-          <p className="text-red-400 tracking-wider uppercase text-sm font-medium mb-2">
+          <p className="text-Secondary tracking-wider uppercase text-sm font-medium mb-2">
             Who we are
           </p>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
@@ -30,22 +30,22 @@ const WhoWeAre = () => {
 
         {/* Right: Grid Images */}
         <div className="grid grid-cols-2 gap-4">
-          <img
+          <img  loading="lazy"
             src="https://images.pexels.com/photos/3844917/pexels-photo-3844917.jpeg"
             alt="crew"
             className="rounded-xl h-44 w-full object-cover shadow-md"
           />
-          <img
+          <img  loading="lazy"
             src="https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg"
             alt="plane"
             className="rounded-xl h-44 w-full object-cover shadow-md"
           />
-          <img
+          <img  loading="lazy"
             src="https://images.pexels.com/photos/3274304/pexels-photo-3274304.jpeg"
             alt="attendant"
             className="rounded-xl h-44 w-full object-cover shadow-md"
           />
-          <img
+          <img  loading="lazy"
             src="https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg"
             alt="pilot"
             className="rounded-xl h-44 w-full object-cover shadow-md"

@@ -12,7 +12,10 @@ export default {
       },
       colors: {
         primary: {
-          DEFAULT: '#103057', // indigo-900 hex value
+          DEFAULT: '#103057', 
+        },
+        Secondary: {
+          DEFAULT: '#ecaa05', 
         },
       },
     },

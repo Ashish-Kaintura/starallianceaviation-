@@ -12,7 +12,7 @@ export default function AboutUs() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[550px] relative "
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative "
       >
         <div className="absolute inset-0 bg-black/25"></div>
 
@@ -22,10 +22,10 @@ export default function AboutUs() {
               About US
             </h1>
             <h2 className="mt-1  text-white text-sm font-heading">
-              <Link to="/"> Alliance Aviation /</Link> About Us
+              <Link to="/">Star Alliance Aviation /</Link> About Us
             </h2>
           </div>
-          {/* <img src="" alt="Cabin Crew" className="w-full max-w-md mt-8 lg:mt-0" /> */}
+          {/* <img  loading="lazy" src="" alt="Cabin Crew" className="w-full max-w-md mt-8 lg:mt-0" /> */}
         </div>
       </section>
       <WhoWeAre />
