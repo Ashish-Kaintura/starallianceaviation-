@@ -158,7 +158,7 @@ const ServiceDetail = () => {
       <div className="max-w-6xl mx-auto px-6 py-16">
         <div className="mt-10">
           <Link
-            to="/services"
+            to="/services-expertise"
             className="inline-block bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition"
           >
             Back to Services

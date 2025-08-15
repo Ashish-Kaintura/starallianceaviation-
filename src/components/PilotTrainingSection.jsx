@@ -10,13 +10,15 @@ const trainingData = [
   },
   {
     title: "ATPL Ground Classes",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/Atpl.jpg",
+    image:
+      "http://starallianceaviation.com/wp-content/uploads/2024/03/Atpl.jpg",
     desc: "Prepare for the Airline Transport Pilot License with advanced theory sessions and mock exams.",
     link: "/courses/atpl-ground-class",
   },
   {
     title: "ATPL Oral Viva",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/atpl2.jpg",
+    image:
+      "http://starallianceaviation.com/wp-content/uploads/2024/03/atpl2.jpg",
     desc: "Master the final stage of your pilot exam journey with one-on-one oral viva prep.",
     link: "/courses/atpl-oral-viva",
   },
@@ -47,7 +49,8 @@ const PilotTrainingSection = () => {
           Pilot Training
         </h2>
         <p className="max-w-3xl mx-auto text-base md:text-lg text-gray-200 mb-12 font-sans">
-          We are committed to being a good corporate citizen and to making a positive impact on the communities in which we operate.
+          We will always try to be the best corporate citizen we can be and to
+          be a positive force in the communities in which we operate.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -56,7 +59,8 @@ const PilotTrainingSection = () => {
               key={index}
               className="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition-all duration-300"
             >
-              <img  loading="lazy"
+              <img
+                loading="lazy"
                 src={item.image}
                 alt={item.title}
                 className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"

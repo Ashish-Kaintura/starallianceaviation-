@@ -5,46 +5,45 @@ import {
   FaLeaf,
   FaUsers,
   FaShieldAlt,
-
 } from "react-icons/fa";
 import Video1 from "../video/Airplan.mp4";
 const values = [
-    {
-        icon: <FaShieldAlt className="text-3xl text-white" />,
-        title: "Honesty",
-        description:
-            "We are honest and transparent in all of our business dealings and communications.",
-    },
-    {
-        icon: <FaBalanceScale className="text-3xl text-white" />,
-        title: "Fairness",
-        description:
-            "We treat all stakeholders fairly and with respect, creating a culture of inclusivity and diversity.",
-    },
-    {
-        icon: <FaHandsHelping className="text-3xl text-white" />,
-        title: "Responsibility",
-        description:
-            "We take responsibility for our actions and are accountable for the impact of our decisions.",
-    },
-    {
-        icon: <FaLeaf className="text-3xl text-white" />,
-        title: "Sustainability",
-        description:
-            "We operate sustainably and aim to be good stewards of the environment.",
-    },
-    {
-        icon: <FaUsers className="text-3xl text-white" />,
-        title: "Community",
-        description:
-            "We aim to positively impact the communities in which we operate through good corporate citizenship.",
-    },
-    {
-        icon: <FaShieldAlt className="text-3xl text-white" />,
-        title: "Company Ethics",
-        description:
-            "Company Ethics At Star Alliance Aviation, we believe that ethical business practices are the foundation of our success. ",
-    },
+  {
+    icon: <FaShieldAlt className="text-3xl text-white" />,
+    title: "Honesty",
+    description:
+      "We are honest and transparent in all of our business dealings and communications.",
+  },
+  {
+    icon: <FaBalanceScale className="text-3xl text-white" />,
+    title: "Fairness",
+    description:
+      " We treat all stakeholders fairly and with respect, and we strive to create a culture of inclusivity and respect for diversity.",
+  },
+  {
+    icon: <FaHandsHelping className="text-3xl text-white" />,
+    title: "Responsibility",
+    description:
+      "We take responsibility for our actions and are accountable for the impact of our decisions",
+  },
+  {
+    icon: <FaLeaf className="text-3xl text-white" />,
+    title: "Sustainability",
+    description:
+      "We are committed to good stewardship of our natural environment and to acting in a way that is sustainable over the long term.",
+  },
+  {
+    icon: <FaUsers className="text-3xl text-white" />,
+    title: "Community",
+    description:
+      "We aim to positively impact the communities in which we operate through good corporate citizenship.",
+  },
+  {
+    icon: <FaShieldAlt className="text-3xl text-white" />,
+    title: "Company Ethics",
+    description:
+      "Company Ethics At Star Alliance Aviation, we believe that ethical business practices are the foundation of our success. ",
+  },
 ];
 
 const WeAreCommitted = () => {

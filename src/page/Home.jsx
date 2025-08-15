@@ -22,27 +22,25 @@ export default function Home() {
               Star Alliance Aviation Private Limited
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify text-sm sm:text-base">
-              Star Alliance Aviation Academy is a team of passionate and
-              dedicated professionals who are committed to providing the highest
-              quality products and services to our customers.
+              Star Alliance Aviation Academy is a passionate team of people,
+              dedicated to delivering
               <br />
               <br />
-              Our Company was founded in 2022 with the global goal of filling a
-              need in the market for high-quality, innovative products. Since
-              then, we have grown significantly, but our commitment to
-              excellence has never wavered.
+              TOP service & products in the aviation industry. Our academy was
+              established in 2022 to meet the market demand for safe, reliable,
+              and innovative aviation training solutions. While we have been
+              expanding quite quickly, our commitment to quality and customer
+              experience has always come first.
               <br />
               <br />
-              With our team boasting some of the finest instructors in the
-              aviation industry, we offer instruction provided by a
-              distinguished team of renowned experts with a collective
-              experience of 25 years in the aviation industry. This team
-              comprises former Directors of the Directorate General of Civil
-              Aviation (DGCA), former Deputy Chief Flight Operations Inspectors
-              (CFOIs) of the DGCA, and the former CEO of a renowned Indian
-              airline. With three decades of unparalleled expertise, they excel
-              in providing superlative advisory and consultancy services,
-              ensuring the best preparation for the new generation of aviators.
+              We offer dedicated aviation management courses created and taught
+              by some of the most experienced experts in the field. Our
+              instructors include former Directors of the Directorate General of
+              Civil Aviation (DGCA) and previous Deputy Chief Flight Operations
+              Inspectors (CFOIs) of the DGCA, as well as a former CEO of a major
+              airline in India. Collectively they bring more than 30 years of
+              experience and will provide the very best advisory and consultancy
+              services to ensure the future leaders of aviation are ready!
             </p>
             <div className="mt-6 sm:mt-8">
               <div className="bg-primary w-56 sm:w-72 rounded-lg overflow-hidden shadow-md">

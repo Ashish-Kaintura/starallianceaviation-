@@ -4,19 +4,19 @@ import { FaCheckCircle } from "react-icons/fa";
 const values = [
   {
     title: "Honesty",
-    desc: "We are honest and transparent in all of our business dealings and communications.",
+    desc: "We are honest and forthright in all of our business dealings and communications. ",
   },
   {
     title: "Fairness",
-    desc: "We treat all stakeholders fairly and with respect, and we strive to create a culture of inclusivity and diversity.",
+    desc: "We treat all stakeholders fairly and respectfully, and we attempt to engender a culture of inclusivity and diversity. ",
   },
   {
     title: "Responsibility",
-    desc: "We take responsibility for our actions and are accountable for the impact of our decisions.",
+    desc: "We are accountable for our actions, and we accept the consequences of our decisions. ",
   },
   {
     title: "Sustainability",
-    desc: "We are committed to being good stewards of the environment and to operating in a way that is sustainable for the long-term.",
+    desc: "We are committed to being good stewards of the landscape and to operating in a sustainable manner in the long term.",
   },
 ];
 

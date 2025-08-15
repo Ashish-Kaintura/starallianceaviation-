@@ -13,39 +13,63 @@ const WhoWeAre = () => {
             Star Alliance Aviation <br /> Private Limited
           </h2>
           <p className="font-semibold mb-4">
-            Star Alliance Aviation Academy is a team of passionate and dedicated professionals who are committed to providing the highest quality products and services to our customers.
+            Star Alliance Aviation Academy is a premier aviation training
+            institute driven by a team of passionate and experienced
+            professionals dedicated to delivering top-tier training, products,
+            and services. We started the academy in 2022 in response to the need
+            for high-quality, innovative solutions and services to support the
+            industry's needs. We have continuously raised the bar in terms of
+            aviation solutions and services since then.
           </p>
           <div className="space-y-4 text-[15px] leading-relaxed text-gray-100">
             <p>
-              Our company was founded in 2022 with the goal of filling a need in the market for high-quality, innovative products. Since then, we have grown significantly, but our commitment to excellence has never wavered.
+              Although we have grown significantly over the years, our
+              commitment to delivering excellence in solutions and services has
+              remained the same. We have built strong client and partner
+              relationships based on confidence and trust. Our industry
+              partners, clients, and students will always receive the highest
+              quality service and delivery through our relationships. All of
+              these qualities bring value to our clients by helping them achieve
+              their respective goals.
             </p>
             <p>
-              We are proud of the strong relationships we have built with our customers and partners over the years, and we are dedicated to continuing to provide the best possible experience for all of our clients and associates.
-            </p>
-            <p>
-              Our team is made up of experts in a variety of fields, including engineering, quality, design, and customer service. We are constantly striving to improve and stay at the forefront of our industry, and we are always looking for new ways to exceed our customers’ expectations.
+              Our management team is made up of qualified professionals across
+              various disciplines, including engineering, regulatory and quality
+              assurance, design, and customer service. The management team
+              leaders have a distribution across the aviation industry but all
+              share a common vision to lead and innovate in the aviation space.
+              Change is a constant in our business practices, meaning we
+              continuously learn, identify weaknesses and improvement
+              opportunities, and even expand our service options, and most
+              importantly, keep delivery at the forefront of our capabilities.
+              We strive to be more than just purveyors of aviation training and
+              development.
             </p>
           </div>
         </div>
 
         {/* Right: Grid Images */}
         <div className="grid grid-cols-2 gap-4">
-          <img  loading="lazy"
+          <img
+            loading="lazy"
             src="https://images.pexels.com/photos/3844917/pexels-photo-3844917.jpeg"
             alt="crew"
             className="rounded-xl h-44 w-full object-cover shadow-md"
           />
-          <img  loading="lazy"
+          <img
+            loading="lazy"
             src="https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg"
             alt="plane"
             className="rounded-xl h-44 w-full object-cover shadow-md"
           />
-          <img  loading="lazy"
+          <img
+            loading="lazy"
             src="https://images.pexels.com/photos/3274304/pexels-photo-3274304.jpeg"
             alt="attendant"
             className="rounded-xl h-44 w-full object-cover shadow-md"
           />
-          <img  loading="lazy"
+          <img
+            loading="lazy"
             src="https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg"
             alt="pilot"
             className="rounded-xl h-44 w-full object-cover shadow-md"

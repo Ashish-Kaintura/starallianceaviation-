@@ -52,10 +52,10 @@ const Navbar = () => {
     services: [
       { name: "NSOP Management", path: "/nsop-management" },
       { name: "DGCA/MOCA Liaison", path: "/dgca-moca-liaison" },
-      { name: "eGCA Account Management", path: "/egca-account-managemen" },
+      { name: "eGCA Account Management", path: "egca-account-management" },
       { name: "JOB Placement Assistance", path: "/job-placement-assistance" },
       { name: "Legal Assistance/Guidance", path: "/legal-assistance-guidance" },
-      { name: "Strategic Counselling", path: "/strategic-counsellingt" },
+      { name: "Strategic Counselling", path: "/strategic-counselling" },
     ],
   };
 
