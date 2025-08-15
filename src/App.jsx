@@ -25,6 +25,10 @@ import JobOrientedCC from "./page/cabincrewtraning/JobOrientedCC";
 import ServicesAndExpertise from "./page/ServicesAndExpertise";
 import ServiceDetail from "./page/ServiceDetail";
 import SocialMedia from "./components/SocialMedia";
+import WhatsAppSticky from "./components/WhatsAppSticky";
+import PostDetail from "./page/PostDetail";
+import Blogs from "./page/Blogs";
+import MakeAppointment from "./page/MakeAppointment";
 // Dummy pages (you can create real ones later)
 
 const Contact = () => <div className="pt-[150px] p-6">Contact Page</div>;
@@ -67,10 +71,13 @@ const App = () => {
         <Route path="/job-oriented-cc-training" element={<JobOrientedCC />} />
         <Route path="/services-expertise" element={<ServicesAndExpertise />} />
         <Route path="/:slug" element={<ServiceDetail />} />
-
+        <Route path="/blog" element={<Blogs />} />
+        <Route path="/post/:id" element={<PostDetail />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/test" element={<Test />} />
+        <Route path="/make-appointment" element={<MakeAppointment />} />
       </Routes>
+      <SocialMedia />
+      <WhatsAppSticky />
       <FAQSection />
       <Footer />
     </>

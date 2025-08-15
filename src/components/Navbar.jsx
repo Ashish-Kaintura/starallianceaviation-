@@ -187,7 +187,7 @@ const Navbar = () => {
               <li className="hover:text-Secondary">Blog</li>
             </NavLink>
           </ul>
-          <button className="bg-white text-primary text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-indigo-800 transition">
+          <button className="bg-white text-primary hover:text-white text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-blue-800 transition">
             Contact Us
           </button>
         </nav>

@@ -36,10 +36,10 @@ body {
 .backdrop::before {
     content: "";
     position: absolute;
-    height: 10.5rem;
-    width: 10.5rem;
+    height: 22.5rem;
+    width: 22.5rem;
     border-radius: 9999px;
-    background: linear-gradient(144deg, #af40ff, #4f46e5);
+    background: linear-gradient(144deg, #103057, #4f46e5);
     animation: rotate 1.5s linear infinite;
 }
 
