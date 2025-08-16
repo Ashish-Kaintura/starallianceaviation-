@@ -4,14 +4,15 @@ import { Link } from "react-router-dom";
 const trainingData = [
   {
     title: "CPL Ground Classes",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/cpl.jpg",
+    image:
+      "https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/img/Homeimg/CPL%20CLASSES%20IMAGE.jpg",
     desc: "Comprehensive Commercial Pilot License (CPL) training with expert faculty and updated curriculum.",
     link: "/courses/cpl-ground-class",
   },
   {
     title: "ATPL Ground Classes",
     image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/Atpl.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Homeimg/ATPL%20CLASSES.jpg",
     desc: "Prepare for the Airline Transport Pilot License with advanced theory sessions and mock exams.",
     link: "/courses/atpl-ground-class",
   },
@@ -24,7 +25,8 @@ const trainingData = [
   },
   {
     title: "RTR (Radio Telephone Restricted)",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/Rtr.jpg",
+    image:
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Homeimg/RTR%20(Radio%20Telephone%20Restricted).jpg",
     desc: "Get RTR certified for aviation communication with detailed lessons and mock interviews.",
     link: "/courses/rtr-radio-telephone",
   },
