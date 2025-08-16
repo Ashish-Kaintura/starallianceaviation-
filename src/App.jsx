@@ -29,9 +29,7 @@ import WhatsAppSticky from "./components/WhatsAppSticky";
 import PostDetail from "./page/PostDetail";
 import Blogs from "./page/Blogs";
 import MakeAppointment from "./page/MakeAppointment";
-// Dummy pages (you can create real ones later)
-
-const Contact = () => <div className="pt-[150px] p-6">Contact Page</div>;
+import Contact from "./page/Contact";
 
 const App = () => {
   useEffect(() => {

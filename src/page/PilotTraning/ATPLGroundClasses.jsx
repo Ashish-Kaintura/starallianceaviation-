@@ -5,7 +5,7 @@ export default function ATPLGroundClasses() {
     <div>
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/ATPL-Ground-Classes.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL-Ground-Classesbanner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -29,7 +29,7 @@ export default function ATPLGroundClasses() {
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Atpl-2.png"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%201.jpg"
               alt="Pilot"
               className="rounded-xl w-[70%] object-cover shadow-lg rounded-tr-[100px] rounded-bl-[100px]"
             />
@@ -67,17 +67,17 @@ export default function ATPLGroundClasses() {
               {
                 title: "General Navigation",
                 desc: "As one of the critical parts of flight training associated with the Airline Transport Pilot License (ATPL), navigation is the basic knowledge and ability to operate and fly an aircraft from A to B safely and efficiently in the air. Navigation includes traditional methods of pilotage and dead reckoning before you get into the modern world of navigation systems, including GPS and inertial navigation. So the ATPL students will study these basic navigation principles, processes, and equipment thoroughly.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/General-Navigation.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%202.jpg",
               },
               {
                 title: "Meteorology",
                 desc: "Learning meteorology is a very important part of airline pilots earning their Airline Transport Pilot License (ATPL). Our short but rich meteorology course will give you the necessary tools and understanding to fly with the knowledge and skills to feel safe and confident in the skies. Let us help you understand weather phenomena and teach you how to make decisions and execute appropriate courses of action. Start improving your ATPL theoretical knowledge with us and explore the fascinating world of meteorology.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/meteorology-1.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%203.jpg",
               },
               {
                 title: "Radio Navigation",
                 desc: "One of the key training elements in Airline Transport Pilot License (ATPL) training and similarly with many other modern aviation operations. It contains a range of techniques and systems that allow pilots to navigate both safely and accurately, whether in difficult weather conditions or flying from one airport to another over a long distance. Pilots can navigate using traditional VOR (VHF Omnidirectional Range) or advanced GPS (Global Positioning System), using radio navigation technology to navigate precisely and with positional information and location or directional cues.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Radio-Navigation.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%204.jpg",
               },
             ].map((item, idx) => (
               <div

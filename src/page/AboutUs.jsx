@@ -8,7 +8,7 @@ export default function AboutUs() {
     <div>
       <section
         style={{
-          backgroundImage: `url(https://i.postimg.cc/y6gx2XrQ/About-us-banners-1.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/About%20us%20banners.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

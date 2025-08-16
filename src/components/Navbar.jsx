@@ -112,7 +112,7 @@ const Navbar = () => {
                   <FaPinterestP />
                 </Link>
                 <Link
-                  to=" https://www.youtube.com/@StarAllianceAviation"
+                  to="https://www.youtube.com/@StarAllianceAviation"
                   className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
                 >
                   <FaYoutube />
@@ -188,7 +188,7 @@ const Navbar = () => {
             </NavLink>
           </ul>
           <button className="bg-white text-primary hover:text-white text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-blue-800 transition">
-            Contact Us
+            <Link to="contact"> Contact Us </Link>
           </button>
         </nav>
       </div>

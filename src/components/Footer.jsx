@@ -10,7 +10,7 @@ import {
   FaTwitter,
   FaPinterestP,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -37,24 +37,39 @@ const Footer = () => {
           <h4 className="text-xl font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-gray-300 text-sm">
             <li>
-              <a href="/about" className="hover:text-white">
-                About Us
-              </a>
+              <NavLink to="/" className="hover:text-white">
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href="/programs" className="hover:text-white">
-                Our Programs
-              </a>
+              <NavLink to="/about-us" className="hover:text-white">
+                About US
+              </NavLink>
             </li>
             <li>
-              <a href="/admissions" className="hover:text-white">
-                Admissions
-              </a>
+              <NavLink to="/services-expertise" className="hover:text-white">
+                Services
+              </NavLink>
             </li>
             <li>
-              <a href="/contact" className="hover:text-white">
+              <NavLink to="/blog" className="hover:text-white">
+                Blog
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact-us" className="hover:text-white">
                 Contact
-              </a>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/privacy-policy" className="hover:text-white">
+                Privacy Policy
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/terms-and-condition" className="hover:text-white">
+                Terms And Conditions
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -64,24 +79,14 @@ const Footer = () => {
           <h4 className="text-xl font-semibold mb-4">Training</h4>
           <ul className="space-y-2 text-gray-300 text-sm">
             <li>
-              <a href="/programs/cpl" className="hover:text-white">
-                Commercial Pilot License (CPL)
-              </a>
+              <NavLink to="/pilot-training" className="hover:text-white">
+                Pilot Training
+              </NavLink>
             </li>
             <li>
-              <a href="/programs/atpl" className="hover:text-white">
-                ATPL Ground Classes
-              </a>
-            </li>
-            <li>
-              <a href="/programs/type-rating" className="hover:text-white">
-                Type Rating
-              </a>
-            </li>
-            <li>
-              <a href="/programs/foundation" className="hover:text-white">
-                Foundation Courses
-              </a>
+              <NavLink to="/cabin-crew-training" className="hover:text-white">
+                Cabin Crew Training
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -100,18 +105,18 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-green-400" />
-              <a href="tel:+911234567890" className="hover:text-white">
+              <NavLink to="tel:+911234567890" className="hover:text-white">
                 +91 12345 67890
-              </a>
+              </NavLink>
             </li>
             <li className="flex items-center gap-2">
               <FaEnvelope className="text-yellow-400" />
-              <a
-                href="mailto:info@starallianceaviation.com"
+              <NavLink
+                to="mailto:info@starallianceaviation.com"
                 className="hover:text-white"
               >
                 info@starallianceaviation.com
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

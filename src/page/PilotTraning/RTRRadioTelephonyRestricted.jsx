@@ -7,22 +7,30 @@ export default function RTRRadioTelephonyRestricted() {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/RTR.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/RTR/RTRbanner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
         className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative"
       >
         <div className="absolute inset-0 bg-black/25"></div>
-        <div className="relative z-10 w-[1300px] mt-8">
-          <div className="text-white p-5 max-w-lg">
-            <h1 className="text-4xl font-bold leading-tight font-heading">
+        <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
+          <div className="text-white p-4 sm:p-5 max-w-2xl">
+            <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
               RTR (Radio Telephony Restricted)
             </h1>
-            <h2 className="mt-1 text-white text-sm font-heading">
-              <Link to="/">Star Alliance Aviation /</Link>RTR (Radio Telephony
-              Restricted)
+            <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
+              <Link to="/" className="hover:underline text-blue-300">
+                Star Alliance Aviation
+              </Link>{" "}
+              RTR (Radio Telephony Restricted)
             </h2>
+            <Link
+              to="/contact"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+            >
+              Make an Appointment
+            </Link>
           </div>
         </div>
       </section>
@@ -33,7 +41,7 @@ export default function RTRRadioTelephonyRestricted() {
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Rtr.png"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/RTR/RTR%20(Radio%20Telephony%20Restricted).jpg"
               alt="Pilot"
               className="rounded-xl w-[70%] object-cover shadow-lg "
             />
@@ -72,22 +80,22 @@ export default function RTRRadioTelephonyRestricted() {
               {
                 title: "Compliance",
                 desc: "Compliance The regulations state that pilots require an RTR license even if they are flying in controlled airspace. By completing their RTR training, CPL students complete the requirement and display their commitment to complying with aviation regulations and standards.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Compliance01.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/RTR/RTR%20(Radio%20Telephony%20Restricted)%202.jpg",
               },
               {
                 title: "Efficiency",
                 desc: "Efficiency Effective communication supports smooth and efficient air traffic management operations that reduce delays and improve operational efficiency; pilots with strong RTR skills can confidently work in complex airspace to help promote the smooth flow of air traffic.  ",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/05/Efficiency02.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/RTR/RTR%20(Radio%20Telephony%20Restricted)%203.jpg",
               },
               {
                 title: "Safety",
                 desc: "Good communication between pilots and ATC is essential for safe aircraft operation, especially when flying in busy airspace or in poor weather. RTR training enables pilots to communicate and receive critical information and instruction to/from ATC and reduces the chance of miscommunication and risk.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/safety.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/RTR/RTR%20(Radio%20Telephony%20Restricted)%204.jpg",
               },
               {
                 title: "Professionalism",
                 desc: "Many pilots consider mastering RTR procedures to be a reflection of their professionalism and competence as a pilot in a cockpit. Employers appreciate candidates with great communication skills, so pursuing RTR training can be an important part of a pilot’s professional development and advancement.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Professionalism.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/RTR/RTR%20(Radio%20Telephony%20Restricted)%205.jpg",
               },
             ].map((item, idx) => (
               <div

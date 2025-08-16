@@ -52,27 +52,27 @@ const WhoWeAre = () => {
         <div className="grid grid-cols-2 gap-4">
           <img
             loading="lazy"
-            src="https://images.pexels.com/photos/3844917/pexels-photo-3844917.jpeg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/A1.jpg"
             alt="crew"
-            className="rounded-xl h-44 w-full object-cover shadow-md"
+            className="rounded-xl h-44 w-full object-contain shadow-md"
           />
           <img
             loading="lazy"
-            src="https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/A2.jpg"
             alt="plane"
-            className="rounded-xl h-44 w-full object-cover shadow-md"
+            className="rounded-xl h-44 w-full object-contain shadow-md"
           />
           <img
             loading="lazy"
-            src="https://images.pexels.com/photos/3274304/pexels-photo-3274304.jpeg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/A3.jpg"
             alt="attendant"
-            className="rounded-xl h-44 w-full object-cover shadow-md"
+            className="rounded-xl h-44 w-full object-contain shadow-md"
           />
           <img
             loading="lazy"
-            src="https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/A4.jpg"
             alt="pilot"
-            className="rounded-xl h-44 w-full object-cover shadow-md"
+            className="rounded-xl h-44 w-full object-contain shadow-md"
           />
         </div>
       </div>

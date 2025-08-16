@@ -7,7 +7,7 @@ export default function CPLGroundClasses() {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/CPL-Commercial-Pilot-License.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/cpl/CPL-Commercial-Pilot-Licensebanner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -32,7 +32,7 @@ export default function CPLGroundClasses() {
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2024/05/cpl.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/cpl/CPL%201.jpg"
               alt="Pilot"
               className="rounded-xl w-full object-cover shadow-lg rounded-tr-[100px] rounded-bl-[100px]"
             />
@@ -73,27 +73,27 @@ export default function CPLGroundClasses() {
               {
                 title: "Air Navigation",
                 desc: "Air Navigation This exam evaluates a candidate’s understanding of navigation principles, route planning, and air traffic management.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Air-Navigation.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/cpl/CPL2.jpg",
               },
               {
                 title: "Meteorology",
                 desc: "Aspiring pilots must demonstrate knowledge of meteorological concepts, weather patterns, and the impact of weather on flight operations.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/meteorology.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/cpl/CPL%203.jpg",
               },
               {
                 title: "Air Regulation",
                 desc: "This examination assesses candidates’ familiarity with aviation regulations, air law, and compliance with safety protocols.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Air-Regulation.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/cpl/CPL%204.jpg",
               },
               {
                 title: "Technical General",
                 desc: "Pilots are tested on their understanding of aircraft systems, engines, and general technical aspects related to aviation.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Air-Navigation.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/cpl/CPL%205.jpg",
               },
               {
                 title: "Radio Telephony",
                 desc: "This exam focuses on effective communication skills using radiotelephony, a crucial aspect of air traffic control and pilot coordination.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Radio-Telephony.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/cpl/CPL6.jpg",
               },
             ].map((item, idx) => (
               <div

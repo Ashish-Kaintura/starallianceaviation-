@@ -4,53 +4,56 @@ import { Link } from "react-router-dom";
 const trainingPrograms = [
   {
     name: "CPL Ground Classes",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/cpl.jpg",
+    image:
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P1.jpg",
     slug: "cpl-ground-classes",
   },
   {
     name: "ATPL Ground Classes",
     image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/Atpl.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P2.jpg",
     slug: "atpl-ground-classes",
   },
   {
     name: "ATPL Oral/Viva",
     image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/atpl2.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P3.jpg",
     slug: "atpl-oral-viva",
   },
   {
     name: "RTR (Radio Telephony Restricted)",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/Rtr.jpg",
+    image:
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P4.jpg",
     slug: "rtr-radio-telephony",
   },
   {
     name: "Cadet Pilot Program",
     image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/Cadet-Pilot.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P5.jpg",
     slug: "cadet-pilot-program",
   },
   {
     name: "Airlines Preparation Course",
     image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/Airlines2.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P6.jpg",
     slug: "airlines-preparation",
   },
   {
     name: "FLC & Recency Flying",
-    image: "http://starallianceaviation.com/wp-content/uploads/2024/03/flc.jpg",
+    image:
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P7.jpg",
     slug: "flc-recency-flying",
   },
   {
     name: "TR Including Endorsement",
     image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/services04.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P8.jpg",
     slug: "tr-including-endorsement",
   },
   {
     name: "Class-1,2 Medical",
     image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/class.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P9.jpg",
     slug: "class-1-2-medical",
   },
 ];
@@ -61,7 +64,7 @@ const PilotTraining = () => {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://i.postimg.cc/NMHxkR4P/Pilot-Training-Banner-1.jpg)`,
+          backgroundImage: `url(https://i.postimg.cc/NfY3ZrxP/Pilot-Training-Banner-1.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -125,7 +128,7 @@ const PilotTraining = () => {
             </div>
             <div className="flex-1 flex justify-center">
               <img
-                src="https://i.postimg.cc/8zQw8kFz/pilot-training-process.png"
+                src="http://starallianceaviation.com/wp-content/uploads/2024/03/services04.jpg"
                 alt="Pilot Training Process"
                 className="w-full max-w-xs md:max-w-sm rounded-xl shadow-lg object-cover"
               />

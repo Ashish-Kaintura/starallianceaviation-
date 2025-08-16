@@ -5,7 +5,7 @@ export default function ATPLOralViva() {
     <div>
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/ATPL-Oral-Viva-banner.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL-Oral-Viva-banner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -15,7 +15,7 @@ export default function ATPLOralViva() {
         <div className="relative z-10 w-[1300px] mt-8">
           <div className="text-white p-5 max-w-lg">
             <h1 className="text-4xl font-bold leading-tight font-heading">
-             ATPL Oral/Viva
+              ATPL Oral/Viva
             </h1>
             <h2 className="mt-1 text-white text-sm font-heading">
               <Link to="/">Star Alliance Aviation /</Link> ATPL Oral/Viva
@@ -28,7 +28,7 @@ export default function ATPLOralViva() {
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/oraal.png"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%20Oral%20%2C%20Viva.jpg"
               alt="Pilot"
               className="w-[70%] object-cover shadow-lg rounded-full"
             />
