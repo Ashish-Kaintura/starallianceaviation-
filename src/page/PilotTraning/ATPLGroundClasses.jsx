@@ -36,23 +36,23 @@ export default function ATPLGroundClasses() {
           </div>
           <div className="flex flex-col justify-start w-full lg:w-1/2">
             <h2 className="text-primary text-3xl font-bold mt-2">
-              ATPL Ground Classes
+              ATPL Ground Training Classes
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
-              Our exceptional team of instructors, renowned for their
-              unparalleled expertise and excellence in providing Airline
-              Transport Pilot License (ATPL) ground classes.
+              Our outstanding team of instructors is distinguished for their
+              unparalleled experience and outstanding standard of deliverance of
+              Airline Transport Pilot License (ATPL) ground classes. At our
+              institute, our aim is to provide the highest level of aviation
+              education, and our team of ATPL instructors illustrate this
+              willingness and capability
               <br />
               <br />
-              At the heart of our institute lies a commitment to delivering the
-              highest standard of aviation education, and our team of ATPL
-              instructors epitomizes this dedication. With a wealth of
-              experience and a deep understanding of the complexities of ATPL
-              training, they possess the unique ability to impart knowledge with
-              clarity, precision, and passion. Choosing the right training
-              provider for your ATPL ground classes is crucial, and with our
-              team of exceptional instructors, you can be confident that you are
-              receiving the best possible education.
+              Each instructor has considerable experience and understands the
+              complex process of ATPL training, and they are able to pass on
+              their knowledge succinctly, accurately, and with enthusiasm. It is
+              paramount that you choose rightly in selecting a training provider
+              for your ATPL ground classes. With our extraordinary teachers, you
+              can be assured that you are signing on for the best.
             </p>
           </div>
         </div>
@@ -66,17 +66,17 @@ export default function ATPLGroundClasses() {
             {[
               {
                 title: "General Navigation",
-                desc: "Is a cornerstone of Airline Transport Pilot License (ATPL) training, encompassing the fundamental principles and techniques used to navigate aircraft safely and efficiently across the skies. From traditional methods such as pilotage and dead reckoning to modern navigation systems like GPS and inertial navigation, ATPL students delve into a comprehensive study of navigation theory, procedures, and equipment.",
+                desc: "As one of the critical parts of flight training associated with the Airline Transport Pilot License (ATPL), navigation is the basic knowledge and ability to operate and fly an aircraft from A to B safely and efficiently in the air. Navigation includes traditional methods of pilotage and dead reckoning before you get into the modern world of navigation systems, including GPS and inertial navigation. So the ATPL students will study these basic navigation principles, processes, and equipment thoroughly.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/General-Navigation.jpg",
               },
               {
                 title: "Meteorology",
-                desc: "Mastering meteorology is essential for aspiring pilots pursuing their Airline Transport Pilot License (ATPL). Our concise and comprehensive meteorology course provides the vital knowledge and skills needed to navigate the skies safely and confidently. Join us as we demystify weather phenomena and equip you with the tools to make informed decisions in the cockpit. Elevate your ATPL training with our expert-led meteorology course.",
+                desc: "Learning meteorology is a very important part of airline pilots earning their Airline Transport Pilot License (ATPL). Our short but rich meteorology course will give you the necessary tools and understanding to fly with the knowledge and skills to feel safe and confident in the skies. Let us help you understand weather phenomena and teach you how to make decisions and execute appropriate courses of action. Start improving your ATPL theoretical knowledge with us and explore the fascinating world of meteorology.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/meteorology-1.jpg",
               },
               {
                 title: "Radio Navigation",
-                desc: "Is a fundamental component of Airline Transport Pilot License (ATPL) training, essential for modern aviation operations. It encompasses a range of techniques and systems that enable pilots to navigate accurately and safely, even in adverse weather conditions or over vast distances. From the venerable VOR (VHF Omnidirectional Range) to the advanced GPS (Global Positioning System), radio navigation technologies provide pilots with precise positional information and guidance cues to navigate through the skies with confidence.",
+                desc: "One of the key training elements in Airline Transport Pilot License (ATPL) training and similarly with many other modern aviation operations. It contains a range of techniques and systems that allow pilots to navigate both safely and accurately, whether in difficult weather conditions or flying from one airport to another over a long distance. Pilots can navigate using traditional VOR (VHF Omnidirectional Range) or advanced GPS (Global Positioning System), using radio navigation technology to navigate precisely and with positional information and location or directional cues.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Radio-Navigation.jpg",
               },
             ].map((item, idx) => (

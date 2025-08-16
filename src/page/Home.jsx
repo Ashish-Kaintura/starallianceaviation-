@@ -7,6 +7,7 @@ import PilotTrainingSection from "../components/PilotTrainingSection";
 import Testimonials from "../components/Testimonials";
 import AppointmentForm from "../components/AppointmentForm";
 import FAQSection from "../components/FAQSection";
+import video from "../video/part_1.mp4";
 export default function Home() {
   return (
     <>
@@ -83,11 +84,23 @@ export default function Home() {
         </div>
       </section>
       <CommitmentSection />
+
       <PilotTrainingSection />
       <Testimonials />
       <AppointmentForm />
       {/* <FAQSection/> */}
-      <section className="p-4 "></section>
+      <div className="w-full ">
+        <video
+          className=" w-full h-96 object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </>
   );
 }

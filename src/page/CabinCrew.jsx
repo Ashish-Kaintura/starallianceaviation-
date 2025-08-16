@@ -42,29 +42,40 @@ const CabinCrew = () => {
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />
           <div>
-            <h2 className="text-4xl font-bold mb-5 text-blue-800">
+            <h2 className="text-4xl font-bold mb-5 text-blue-800 font-heading">
               Why Choose Our Cabin Crew Training?
             </h2>
-            <p className="mb-6 text-lg">
-              Our program empowers aspiring flight attendants with the
-              knowledge, confidence, and professionalism needed to succeed.
-              Designed by aviation experts and former professionals, we prepare
-              students for international and domestic careers.
+            <p className="mb-6 text-lg font-sans">
+              Our team of experts has extensive experience & knowledge in the
+              field and is known to be one of India's leading aviation training
+              institutes, where you will gain an exceptional and practical
+              exposure unlike anything you have ever learned (period).
+              World-class training modules designed by industry experts and
+              ex-aviation professionals from leading airlines are accepted
+              across the globe. Our program focuses on:
             </p>
-            <ul className="list-disc ml-6 space-y-3 text-gray-700 text-base">
+            <ul className="list-disc ml-6 space-y-3 text-gray-700 text-base font-sans">
               <li>In-flight Safety Procedures</li>
               <li>Grooming and Personality Development</li>
               <li>Customer Service Excellence</li>
               <li>Communication & Language Training</li>
               <li>Emergency Situations & First Aid</li>
-              <li>Mock Drills and Simulations</li>
+              {/* <li>Mock Drills and Simulations</li> */}
             </ul>
+            <p className="mt-6 font-sans">
+              Mode of Recognition: We make sure that our students are job-ready
+              and well-prepared in all the dimensions, from an airline interview
+              to practical experience in the skies.
+            </p>
           </div>
         </div>
       </section>
 
       {/* Section: Counseling */}
-      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6" data-aos="zoom-in">
+      <section
+        className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6"
+        data-aos="zoom-in"
+      >
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-5 text-blue-800">
@@ -119,7 +130,10 @@ const CabinCrew = () => {
       </section>
 
       {/* Course Highlights */}
-      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6" data-aos="fade-up">
+      <section
+        className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6"
+        data-aos="fade-up"
+      >
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8 text-blue-800">
             Course Highlights

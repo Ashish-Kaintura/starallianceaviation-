@@ -6,7 +6,7 @@ import {
   FaLaptopCode,
   FaBuilding,
 } from "react-icons/fa";
- import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 const steps = [
   "Technical Written Exam",
   "Technical Oral Interview",
@@ -65,10 +65,11 @@ const AirlinesPreparation = () => {
         <div className="relative z-10 w-[1300px] mt-8">
           <div className="text-white p-5 max-w-lg">
             <h1 className="text-4xl font-bold leading-tight font-heading">
-             eGCA Account Management
+              eGCA Account Management
             </h1>
             <h2 className="mt-1 text-white text-sm font-heading">
-              <Link to="/">Star Alliance Aviation /</Link>eGCA Account Management
+              <Link to="/">Star Alliance Aviation /</Link>eGCA Account
+              Management
             </h2>
           </div>
         </div>
@@ -76,16 +77,24 @@ const AirlinesPreparation = () => {
       <section className="bg-gray-50 text-gray-800 px-6 py-12 md:px-20">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6 text-center font-heading">
-            Airlines Preparation Course
+            Airlines Preparation Course: Kickstart Your Career in Aviation with
+            Expert Training
           </h1>
 
           <p className=" mb-10 text-center max-w-7xl mx-auto leading-relaxed font-sans">
-            At Star Alliance Aviation Academy, we pride ourselves on being the
-            premier destination for airlines seeking top-tier preparation
-            training for their pilots. With a team comprised of the industry’s
-            best instructors—each a seasoned veteran with years of experience in
-            various sectors of aviation—we provide unparalleled expertise and
-            guidance to ensure the success of every pilot we train.
+            Star Alliance Aviation Academy's focus is on full airline pilot
+            training, ultimately resulting in people having successful careers
+            in aviation. As a top aviation academy, we are proud to offer the
+            best quality pilot preparation programs developed by veteran pilots
+            and instructors who are passionate about aviation. We have a
+            rational team of experts in the aviation industry with real-world
+            experience in many areas of aviation. From commercial pilot license
+            to type rating training to flight training, we create the skills and
+            discipline and confidence needed to have a successful career in
+            aviation; therefore, no matter your level of pilot training, the
+            students will receive practical hands-on experiential learning! Come
+            and join us, and begin your journey toward an exciting and rewarding
+            career in aviation and take the first step!
           </p>
 
           <div className="bg-primary p-6 md:p-10 rounded-xl shadow-lg text-white">
@@ -110,10 +119,12 @@ const AirlinesPreparation = () => {
                 className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition"
               >
                 <div>
-                  <img  src={reason.img} alt={reason.title} />
+                  <img src={reason.img} alt={reason.title} />
                 </div>
                 {/* <div className="mb-4">{reason.icon}</div> */}
-                <h3 className="text-xl font-semibold mb-2 mt-2 text-primary">{reason.title}</h3>
+                <h3 className="text-xl font-semibold mb-2 mt-2 text-primary">
+                  {reason.title}
+                </h3>
                 <p className="text-gray-600">{reason.description}</p>
               </div>
             ))}

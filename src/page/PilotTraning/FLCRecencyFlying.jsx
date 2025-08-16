@@ -44,32 +44,71 @@ export default function FLCRecencyFlying() {
           </div>
           <div className="flex flex-col justify-start w-full lg:w-1/2">
             <h2 className="text-primary text-3xl font-bold mt-2 font-heading">
-              Flc & Recency Flying
+              Flight License Currency (FLC) & Recency Flying Programs
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
-              At Star Alliance Aviation Academy, we are dedicated to providing
-              unparalleled training solutions tailored to meet the unique needs
-              of pilots worldwide. With a focus on foreign license conversion
-              and recency flying, our academy offers comprehensive programs
-              designed to ensure that pilots maintain proficiency and confidence
-              in the cockpit. Our experienced instructors, state-of-the-art
-              facilities, and flexible training solutions make Star Alliance
-              Aviation Academy the preferred choice for pilots seeking to
-              advance their careers and achieve excellence in aviation. <br />{" "}
-              <br /> we take pride in our strategic partnerships with renowned
-              Indian flying schools. Through these collaborations, we offer
-              unparalleled opportunities for recency flying and foreign license
-              conversion, allowing our students to gain valuable practical
-              experience and expand their horizons in the global aviation
-              industry. At Star Alliance, we are committed to providing
-              comprehensive training programs that empower our students to
-              achieve their dreams of becoming skilled and proficient aviators.
-              Join us and let us help you soar to new heights of success in the
-              skies.
+              Star Alliance Aviation Academy is determined to offer world-class
+              training solutions that are customized to the requirements of
+              pilots around the globe. Our seasoned professionals, teacher
+              training methodology, and internationally trained pilots help us
+              stay at the top of foreign license conversion and recency flying
+              with programs that may include primary training followed by
+              refresher courses to ensure high levels of proficiency paired with
+              peace of mind when you take to the skies again. With experienced
+              instructors, a strong squadron of aircraft and simulator
+              infrastructure, and training programs that are convenient and easy
+              to follow, the initiative Star Alliance Aviation Academy is the
+              choice for pilots looking to take their career to greater heights
+              with excellence in aviation.
+              <br /> <br /> We boast of our strategic tie-ups with some of the
+              best flying schools in India. These affiliations have come with
+              some of the best recent flying and foreign license conversion
+              opportunities for our students, where they get to experience
+              industry-specific exposure and enhance their prospects in the
+              global aviation sector. Star Alliance delivers full training and
+              support to our students, and we all receive the necessary
+              knowledge that aviators require to fulfill their dreams. Come fly
+              with us and allow us to take you to magnitudes of success in the
+              clear blue sky.
             </p>
           </div>
         </div>
       </section>
+      <div className="flex justify-center">
+        <div className=" max-w-6xl">
+          <h2 className="text-primary text-5xl font-bold mt-2 py-7 font-heading">
+            Flight License Currency (FLC) & Recency Flying Programs
+          </h2>
+          <ul className=" list-disc font-sans text-xl">
+            <li className="space-y-3 ">
+              Star Alliance Aviation executes recency flying programs approved
+              by DGCA to keep pilots current and compliant.{" "}
+              <li className="space-y-3 ">
+                {" "}
+                Our high-time instructors guide you through your personal flight
+                training plan using our brand-new fleet of aircraft and
+                simulators.
+              </li>{" "}
+              <li className="space-y-3 ">
+                {" "}
+                Pilots get minimal downtime and the ability to keep an active
+                status or return to work.
+              </li>{" "}
+              <li className="space-y-3 ">
+                {" "}
+                In every session we emphasize safety, accuracy, and regulatory
+                readiness.
+              </li>{" "}
+              <li className="space-y-3 ">
+                {" "}
+                Come and fly with Star Alliance Aviation—where you can quickly,
+                easily, and cost-effectively keep your pilot license in top
+                condition.
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

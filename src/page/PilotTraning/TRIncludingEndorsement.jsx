@@ -15,10 +15,11 @@ export default function TRIncludingEndorsement() {
         <div className="relative z-10 w-[1300px] mt-8">
           <div className="text-white p-5 max-w-lg">
             <h1 className="text-4xl font-bold leading-tight font-heading">
-              FLC & Recency Flying
+              TR Including Endorsement
             </h1>
             <h2 className="mt-1 text-white text-sm font-heading">
-              <Link to="/">Star Alliance Aviation /</Link>FLC & Recency Flying
+              <Link to="/">Star Alliance Aviation /</Link>TR Including
+              Endorsement
             </h2>
           </div>
         </div>
@@ -35,29 +36,103 @@ export default function TRIncludingEndorsement() {
           </div>
           <div className="flex flex-col justify-start w-full lg:w-1/2">
             <h2 className="text-primary text-3xl font-bold mt-2 font-heading">
-              Flc & Recency Flying
+              Empower Your Pilot Career with Expert Type Rating Training
             </h2>
-            <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
-              At Star Alliance Aviation Academy, we are dedicated to providing
-              unparalleled training solutions tailored to meet the unique needs
-              of pilots worldwide. With a focus on foreign license conversion
-              and recency flying, our academy offers comprehensive programs
-              designed to ensure that pilots maintain proficiency and confidence
-              in the cockpit. Our experienced instructors, state-of-the-art
-              facilities, and flexible training solutions make Star Alliance
-              Aviation Academy the preferred choice for pilots seeking to
-              advance their careers and achieve excellence in aviation. <br />{" "}
-              <br /> we take pride in our strategic partnerships with renowned
-              Indian flying schools. Through these collaborations, we offer
-              unparalleled opportunities for recency flying and foreign license
-              conversion, allowing our students to gain valuable practical
-              experience and expand their horizons in the global aviation
-              industry. At Star Alliance, we are committed to providing
-              comprehensive training programs that empower our students to
-              achieve their dreams of becoming skilled and proficient aviators.
-              Join us and let us help you soar to new heights of success in the
-              skies.
+            <p className="text-gray-700 font-sans m2-6 leading-relaxed text-justify">
+              At Star Alliance Aviation, we specialize in providing
+              comprehensive Type Rating (TR) programs coupled with official
+              endorsement on your Commercial Pilot License (CPL). Partnering
+              with top-tier Indian and international aviation institutions, we
+              deliver training that's recognized, rigorous, and
+              career-transformative.
             </p>
+          </div>
+        </div>
+      </section>
+      <section className="px-6 py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          {/* Header */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-primary font-heading">
+              What Is a Type Rating (TR)?
+            </h2>
+            <p className="mt-4 text-gray-700 text2lg leading-relaxed max-w-3xl mx-auto">
+              A Type Rating (TR) is an essential certification that qualifies
+              you to fly advanced, multi-crew aircraft—such as the Airbus A320,
+              Boeing 737, or ATR series—under global aviation regulations like
+              DGCA, FAA, or EASA. It’s a crucial step beyond your CPL, granting
+              access to complex commercial operations.
+            </p>
+          </div>
+
+          {/* Why TR Matters */}
+          <div className="grid md:grid-cols-2 gap-10 mb-16">
+            <div className="bg-primary shadow-md rounded-xl p-8 hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-white font-heading mb-4">
+                Mandatory for Commercial Operations
+              </h3>
+              <p className="text-gray-200 leading-relaxed">
+                A valid TR endorsement isn’t optional—it’s a regulatory must for
+                airline line training and employment in India and across the
+                globe.
+              </p>
+            </div>
+            <div className="bg-primary shadow-md rounded-xl p-8 hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-white font-heading mb-4">
+                Enhances Your Professional Marketability
+              </h3>
+              <p className="text-gray-200 leading-relaxed">
+                TR-certified pilots are highly sought after by airlines; having
+                the endorsement directly on your CPL gives you an edge in
+                recruitment processes worldwide.
+              </p>
+            </div>
+          </div>
+
+          {/* Program Includes */}
+          <div className="text-center mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-primary font-heading">
+              What Our Program Includes
+            </h2>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+            <div className="bg-primary p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg text-white font-heading mb-2">
+                Ground School Training
+              </h4>
+              <p className="text-gray-200 leading-relaxed">
+                Deep dive into aircraft systems, performance metrics,
+                operational procedures, and emergency handling techniques.
+              </p>
+            </div>
+            <div className="bg-primary p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg text-white font-heading mb-2">
+                Simulator-Based Training
+              </h4>
+              <p className="text-gray-200 leading-relaxed">
+                Realistic, hands-on practice in Level D full-flight simulators
+                covering operations, abnormal, and emergency scenarios.
+              </p>
+            </div>
+            <div className="bg-primary p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg text-white font-heading mb-2">
+                Skill Test & Certification
+              </h4>
+              <p className="text-gray-200 leading-relaxed">
+                Final assessment conducted by a DGCA-approved examiner.
+                Successful completion earns your CPL endorsement.
+              </p>
+            </div>
+            <div className="bg-primary p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h4 className="font-semibold text-lg text-white font-heading mb-2">
+                Partnered Excellence
+              </h4>
+              <p className="text-gray-200 leading-relaxed">
+                We leverage our partnerships with premier training centers to
+                provide world-class infrastructure and global-standard
+                instruction.
+              </p>
+            </div>
           </div>
         </div>
       </section>

@@ -40,24 +40,22 @@ export default function RTRRadioTelephonyRestricted() {
           </div>
           <div className="flex flex-col justify-start w-full lg:w-1/2">
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
-              Our exceptional team of instructors who are widely regarded as the
-              foremost experts in providing Radio Telephony Restricted (RTR)
-              classes. With a proven track record of excellence and a deep
-              commitment to advancing aviation education, our team sets the
-              standard for RTR instruction.
+              Our amazing team of instructors are considered some of the best
+              Australian instructors providing Radio Telephony Restricted (RTR)
+              classes. Our team has a history of high standards of delivery and
+              an ongoing commitment towards improving aviation training. Our
+              team is the best in the RTR delivery space.
               <br />
               <br />
-              In the world of aviation, effective communication is paramount to
-              ensuring safety and efficiency in flight operations. This is where
-              RTR training plays a critical role. RTR training equips pilots
-              with the necessary skills and knowledge to communicate effectively
-              with air traffic control (ATC) and other aircraft while adhering
-              to established protocols and procedures.
+              In aviation, effective communication is essential to ensure safety
+              and efficiency while flying. RTR training allows pilots to
+              communicate with air traffic control (ATC) and other aircraft
+              safely and effectively while following protocols and procedures.
               <br /> <br />
-              At our institute, we recognize the pivotal role that RTR training
-              plays in the journey towards obtaining a Commercial Pilot License
-              (CPL) and beyond. Here are some key reasons why RTR training is of
-              utmost importance in CPL education:
+              Our institution believes that RTR training is very important in
+              completing a Commercial Pilot License (CPL) and beyond. Here are
+              some great examples of why RTR training is important in CPL
+              education:
             </p>
           </div>
         </div>
@@ -67,29 +65,28 @@ export default function RTRRadioTelephonyRestricted() {
       <section className="bg-primary py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-white mb-12">
-           RTR (Radio Telephony
-              Restricted)
+            RTR (Radio Telephony Restricted)
           </h2>
           <div className="grid md:grid-cols-2 gap-10">
             {[
               {
                 title: "Compliance",
-                desc: "Regulations mandate that pilots operating in controlled airspace must hold a valid RTR license. By undergoing comprehensive RTR training, CPL students fulfill this requirement and demonstrate their commitment to regulatory compliance and adherence to aviation standards.",
+                desc: "Compliance The regulations state that pilots require an RTR license even if they are flying in controlled airspace. By completing their RTR training, CPL students complete the requirement and display their commitment to complying with aviation regulations and standards.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Compliance01.jpg",
               },
               {
                 title: "Efficiency",
-                desc: "Efficient communication facilitates smooth and seamless air traffic management, minimizing delays and enhancing overall operational efficiency. Pilots equipped with strong RTR skills can navigate complex airspace with confidence, contributing to the smooth flow of air traffic.",
+                desc: "Efficiency Effective communication supports smooth and efficient air traffic management operations that reduce delays and improve operational efficiency; pilots with strong RTR skills can confidently work in complex airspace to help promote the smooth flow of air traffic.  ",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/05/Efficiency02.jpg",
               },
               {
                 title: "Safety",
-                desc: "Clear and concise communication between pilots and ATC is essential for safe flight operations, especially in busy airspace or adverse weather conditions. RTR training ensures that pilots can effectively convey and receive vital information to and from ATC, reducing the risk of miscommunication and potential hazards.",
+                desc: "Good communication between pilots and ATC is essential for safe aircraft operation, especially when flying in busy airspace or in poor weather. RTR training enables pilots to communicate and receive critical information and instruction to/from ATC and reduces the chance of miscommunication and risk.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/safety.jpg",
               },
               {
                 title: "Professionalism",
-                desc: "Mastery of RTR procedures reflects a pilot’s professionalism and competency in the cockpit. Employers value candidates who possess strong communication skills, making RTR training an essential component of a pilot’s professional development and career advancement.",
+                desc: "Many pilots consider mastering RTR procedures to be a reflection of their professionalism and competence as a pilot in a cockpit. Employers appreciate candidates with great communication skills, so pursuing RTR training can be an important part of a pilot’s professional development and advancement.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Professionalism.jpg",
               },
             ].map((item, idx) => (
@@ -115,13 +112,16 @@ export default function RTRRadioTelephonyRestricted() {
         </div>
       </section>
 
-      <div className="max-w-7xl mx-auto py-12 font-sans text-gray-700 sm:px-0 px-4">
+      <div className="max-w-7xl mx-auto py-12  text-gray-700 sm:px-0 px-4 font-sans">
         <p>
-          Whether you are embarking on your journey towards a CPL or seeking to
-          enhance your aviation knowledge and skills, our team is dedicated to
-          providing you with the guidance and support you need to succeed. We
-          invite you to join us and experience the difference that our
-          professional and experienced team can make in your aviation education.
+          Our team of professional RTR instructors are passionate about
+          delivering a full and engaging aviation training so that students can
+          learn the knowledge, skills, and confidence to be successful at RTR
+          communications. Our instruction, service, and support include
+          interactive classroom training, hands-on practice, and one-on-one
+          coaching, tailoring instruction to our students so that we enable them
+          to fly safely and efficiently and learn the tools for success in
+          aviation.
         </p>
       </div>
     </div>

@@ -30,7 +30,8 @@ export default function CPLGroundClasses() {
       <section className="flex justify-center px-4 py-12 border-b-2">
         <div className="flex flex-col lg:flex-row max-w-7xl w-full gap-10 items-center">
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
-            <img  loading="lazy"
+            <img
+              loading="lazy"
               src="https://starallianceaviation.com/wp-content/uploads/2024/05/cpl.jpg"
               alt="Pilot"
               className="rounded-xl w-full object-cover shadow-lg rounded-tr-[100px] rounded-bl-[100px]"
@@ -38,22 +39,24 @@ export default function CPLGroundClasses() {
           </div>
           <div className="flex flex-col justify-start w-full lg:w-1/2">
             <h2 className="text-primary text-3xl font-bold mt-2 font-heading">
-              Introduction to CPL (Commercial Pilot License) by DGCA:
+              CPL (Commercial Pilot License)—DGCA Guidelines & Process
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
-              The Commercial Pilot License (CPL) issued by the Directorate
-              General of Civil Aviation (DGCA) is a prestigious and
-              comprehensive certification that marks a significant milestone in
-              the aviation industry. Aspiring pilots undergo a rigorous training
-              and examination process to obtain this license, ensuring they meet
-              the highest standards of competency and safety.
+              The Commercial Pilot License (CPL), issued by the Directorate
+              General of Civil Aviation (DGCA), is an invaluable credential that
+              signifies a professional pathway in aviation. The path to
+              obtaining your CPL requires substantial flight training as well as
+              substantial theoretical training during the CPL ground classes.
               <br />
               <br />
-              The DGCA, as the regulatory body overseeing civil aviation in
-              India, administers a series of examinations that aspiring
-              commercial pilots must successfully navigate. These examinations
-              are designed to assess a candidate’s theoretical knowledge,
-              practical skills, and understanding of aviation regulations.
+              The CPL ground classes are valuable and essential because they
+              provide the candidates with the knowledge needed to perform well
+              on Engel's DGCA examinations on air regulations, meteorology,
+              navigation, and more. Star Alliance Aviation Academy provides
+              student-oriented CPL ground classes with experienced instructors,
+              and the goal is to give students a solid foundation on aviation
+              theory, improve confidence, and pass the examinations
+              successfully.
             </p>
           </div>
         </div>
@@ -69,7 +72,7 @@ export default function CPLGroundClasses() {
             {[
               {
                 title: "Air Navigation",
-                desc: "This exam evaluates a candidate’s understanding of navigation principles, route planning, and air traffic management.",
+                desc: "Air Navigation This exam evaluates a candidate’s understanding of navigation principles, route planning, and air traffic management.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Air-Navigation.jpg",
               },
               {
@@ -89,7 +92,7 @@ export default function CPLGroundClasses() {
               },
               {
                 title: "Radio Telephony",
-                desc: "This exam focuses on effective communication skills using radio telephony, a crucial aspect of air traffic control and pilot coordination.",
+                desc: "This exam focuses on effective communication skills using radiotelephony, a crucial aspect of air traffic control and pilot coordination.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Radio-Telephony.jpg",
               },
             ].map((item, idx) => (
@@ -97,7 +100,8 @@ export default function CPLGroundClasses() {
                 key={idx}
                 className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
-                <img  loading="lazy"
+                <img
+                  loading="lazy"
                   src={item.img}
                   alt={item.title}
                   className="w-full h-64 object-cover"
@@ -118,34 +122,35 @@ export default function CPLGroundClasses() {
         <div className="flex flex-col lg:flex-row max-w-7xl w-full gap-10 items-center">
           <div className="flex flex-col justify-start w-full lg:w-1/2">
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
-              Our distinguished team of aviation professionals, whose collective
-              expertise and experience are unparalleled in the field. Comprised
-              of seasoned instructors, including a retired Director from the
-              Directorate General of Civil Aviation (DGCA), our team boasts an
-              impressive track record of delivering comprehensive and effective
-              Commercial Pilot License (CPL) ground classes tailored
-              specifically for DGCA examinations.
+              Our esteemed group of aviation experts, whose combined knowledge
+              and experience are unmatched in the industry. With a team of
+              seasoned instructors, including a retired director from the
+              Directorate General of Civil Aviation (DGCA), we have a proven
+              track record of providing thorough and efficient ground classes
+              for the Commercial Pilot License (CPL) that are specifically
+              designed to prepare students for DGCA exams.
               <br />
               <br />
-              With decades of combined experience in the aviation industry, our
-              instructors bring a wealth of knowledge and practical insights to
-              every classroom session. Their deep understanding of DGCA
-              regulations, procedures, and standards ensures that aspiring
-              pilots receive the highest quality instruction, preparing them
-              thoroughly for the challenges they will encounter in their
+              Across all of our classroom deliveries, our instructors have a
+              wealth of knowledge and experience to share with every aspiring
+              pilot, as many of them have spent decades in the aviation world.
+              Our instructors know every nuance of DGCA rules, practices, and
+              standards, which benefits our students with the best training to
+              prepare them for the challenges they will encounter during their
               aviation careers.
               <br />
               <br />
-              Our commitment to excellence is evident in our approach to
-              training, which emphasizes not only theoretical knowledge but also
-              practical application and real-world scenarios. Through
-              interactive teaching methods and hands-on exercises, we empower
-              our students to not only pass their examinations with confidence
-              but also to excel in their future roles as professional aviators.
+              Our approach to training shows our dedication to quality, as we
+              provide our students with not only the theory but also the reality
+              and application of being a professional commercial pilot. We not
+              only help students successfully pass their exams, but we also use
+              interactive learning and practical exercises to assure that they
+              are successful in their futures as professional pilots.
             </p>
           </div>
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
-            <img  loading="lazy"
+            <img
+              loading="lazy"
               src="https://starallianceaviation.com/wp-content/uploads/2024/03/pilot01.jpg"
               alt="Pilot"
               className="rounded-xl w-full object-cover shadow-lg rounded-tr-[100px] rounded-bl-[100px]"

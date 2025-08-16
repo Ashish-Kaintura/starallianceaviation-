@@ -39,24 +39,24 @@ export default function CadetPilotProgram() {
           </div>
           <div className="flex flex-col justify-start w-full lg:w-1/2">
             <h2 className="text-primary text-3xl font-bold mt-2">
-              Cadet Pilot Program
+              Cadet Pilot Program Institute
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
-              Cadet Pilot Program Introducing our esteemed team of instructors,
-              distinguished for their excellence in delivering unparalleled
-              training for cadet pilot programs. With a collective wealth of
-              experience and a commitment to nurturing aviation talent, our
-              instructors are renowned for their comprehensive approach and
-              dedication to excellence. Drawing upon a diverse range of
-              backgrounds in civil aviation our team offers cadet pilots the
-              highest standard of instruction, equipping them with the
-              knowledge, skills, and confidence needed to embark on successful
-              aviation careers. Through personalized guidance and rigorous
-              training methodologies, our instructors ensure that cadet pilots
-              receive the finest preparation, empowering them to navigate the
-              complexities of modern aviation with precision and proficiency.
-              Trust in our esteemed team to elevate your cadet pilot program
-              experience to new heights of success.
+              Meet our team of respected educators, known for providing the best
+              flight training in Delhi , india for cadet pilot programs. Our
+              instructors are highly experienced and passionate about training
+              the next generation of aviators, and they ensure their students
+              develop into sharp-minded, safe pilots. Backed by years of
+              experience with our diverse civil aviation background, the Intl
+              Tech Academy team provides the cadet pilot with first-class
+              training that prepares them with the knowledge and confidence
+              required for a successful career in aviation. Our instructors
+              provide the best training to our cadet pilots by personalized
+              guidance and tough training methodologies, preparing them with
+              precision to handle all the challenges that come across in
+              modernized aviation. Have confidence in our highly qualified
+              training staff to bring your cadet pilot program experience to
+              even higher levels of success.
             </p>
           </div>
         </div>
@@ -72,17 +72,17 @@ export default function CadetPilotProgram() {
             {[
               {
                 title: "Unrivaled Expertise",
-                desc: "At the heart of our team lies an unparalleled depth of expertise. Each instructor brings a rich tapestry of aviation backgrounds, boasting extensive flight experience, instructional acumen, and regulatory insights garnered from years of service in the industry.",
+                desc: "We have a department that has the most depth of knowledge on our team. Every instructor has a unique aviation background, and with that comes thousands of hours of flight experience, exceptionally strong instructional skills, and knowledge fresh from years of working in the industry.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Unrivaled.jpg",
               },
               {
                 title: "Tailored Training Approach",
-                desc: "Recognizing the unique journey of every aspiring pilot, our team adopts a tailored training approach designed to nurture individual strengths, address weaknesses, and cultivate well-rounded aviation professionals.",
+                desc: "Valuing each student's learning curve, our team uses a personalized methodology to form students into comprehensive aviators. View More",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Tailored.jpg",
               },
               {
                 title: "Commitment to Excellence",
-                desc: "Excellence is not just a standard; it’s our guiding principle. Our instructors exemplify unwavering dedication to fostering excellence in every facet of Cadet Pilot Program training.",
+                desc: "To us, perfection is not just a benchmark: it's the north star of our entire operation. Our instructors take on this commitment hundreds of times over their careers, ensuring that they live and breathe leveling up every aspect of Cadet Pilot Program training.",
                 img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Commitment.jpg",
               },
             ].map((item, idx) => (
@@ -115,15 +115,14 @@ export default function CadetPilotProgram() {
               Innovation and Adaptability
             </h1>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
-              Innovation and Adaptability In an ever-evolving industry,
-              innovation and adaptability are paramount. Our instructors remain
-              at the forefront of aviation education, constantly refining and
-              enhancing our training curriculum to align with emerging
-              technologies, regulatory developments, and industry best
-              practices. By embracing innovation and fostering a culture of
-              continuous improvement, our team ensures that cadets receive the
-              most relevant, up-to-date training that equips them for success in
-              the dynamic aviation landscape of tomorrow
+              The industry is changing so quickly that innovating and being
+              flexible has never been as important. Our instructors remain
+              leaders in aviation education, continually revising and updating
+              our training curriculum to keep pace with new technologies,
+              regulations, and industry-leading innovations. Embrace innovation
+              and create a culture of continuous improvement to ensure cadets
+              are trained for a future in aviation that we shape together, not
+              the one defined by the industry.
             </p>
           </div>
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
