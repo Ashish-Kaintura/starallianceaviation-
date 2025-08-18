@@ -8,7 +8,7 @@ const CabinCrew = () => {
         className="relative bg-cover bg-center h-[70vh] flex items-center justify-center"
         style={{
           backgroundImage:
-            "url('https://starallianceaviation.com/wp-content/uploads/2025/07/Cabin-crew-training-banner-half-varient.jpg')",
+            "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-crew-training-banner.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/25"></div>
@@ -37,7 +37,7 @@ const CabinCrew = () => {
       <section className="px-6 py-20 max-w-7xl mx-auto" data-aos="fade-up">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src="https://starallianceaviation.com/wp-content/uploads/2025/07/Cabin-crew-training-image.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/1.jpg"
             alt="Cabin Class"
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />
@@ -87,15 +87,15 @@ const CabinCrew = () => {
               their mental well-being and performance during training and
               beyond.
             </p>
-            <a
-              href="#"
+            <Link
+              to="/counselling-for-reappearance"
               className="inline-block mt-6 text-blue-700 font-semibold underline hover:text-blue-900 transition"
             >
               Read More
-            </a>
+            </Link>
           </div>
           <img
-            src="https://starallianceaviation.com/wp-content/uploads/2024/05/nsop3.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/2.jpg"
             alt="Counselling"
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />
@@ -106,7 +106,7 @@ const CabinCrew = () => {
       <section className="px-6 py-20 max-w-7xl mx-auto" data-aos="zoom-out">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src="https://starallianceaviation.com/wp-content/uploads/2024/03/Commitment.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/3.jpg"
             alt="Job Oriented"
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />
@@ -119,12 +119,12 @@ const CabinCrew = () => {
               excellence, industry relevance, and personalized support to help
               you join top airlines as a cabin crew professional.
             </p>
-            <a
-              href="#"
+            <Link
+              to="/job-oriented-cc-training"
               className="inline-block mt-6 text-blue-700 font-semibold underline hover:text-blue-900 transition"
             >
               Read More
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -168,7 +168,7 @@ const CabinCrew = () => {
             </ul>
           </div>
           <img
-            src="https://starallianceaviation.com/wp-content/uploads/2024/05/conseling4.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/4.jpg"
             alt="Apply Cabin Crew"
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />
@@ -201,7 +201,7 @@ const CabinCrew = () => {
           representing the airline with professionalism.
         </p>
         <img
-          src="https://starallianceaviation.com/wp-content/uploads/2024/05/nsop3.jpg"
+          src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/5.jpg"
           alt="Cabin Team"
           className="rounded-2xl shadow-2xl mx-auto border-4 border-blue-100"
         />
@@ -218,7 +218,7 @@ const CabinCrew = () => {
           career begins here.
         </p>
         <button className="bg-white text-blue-800 px-8 py-4 rounded-full font-bold shadow-lg hover:bg-blue-100 transition text-lg">
-          Enroll Now
+          <Link to="/contact-us"> Enroll Now </Link>
         </button>
       </section>
     </div>
