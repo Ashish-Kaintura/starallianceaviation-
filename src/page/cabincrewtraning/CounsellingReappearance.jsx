@@ -6,7 +6,7 @@ const CounsellingReappearance = () => {
     <div className="bg-white text-gray-800">
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/Counselling-For-Reappearance.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/Servicesbannner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -94,7 +94,7 @@ const CounsellingReappearance = () => {
             </p>
           </div>
           <img
-            src="https://starallianceaviation.com/wp-content/uploads/2024/03/Proven-Success.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/2.jpg"
             alt="Expert Counselling Team"
             className="rounded-xl shadow-lg"
           />
@@ -109,7 +109,7 @@ const CounsellingReappearance = () => {
         <div className="grid md:grid-cols-4 gap-8 text-center">
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
             <img
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Expert-Guidance.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/3.jpg"
               alt="Expert Guidance"
               className="rounded-lg mb-4"
             />
@@ -123,7 +123,7 @@ const CounsellingReappearance = () => {
           </div>
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
             <img
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/TailoredSolutions.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/4.jpg"
               alt="Tailored Solutions"
               className="rounded-lg mb-4"
             />
@@ -137,7 +137,7 @@ const CounsellingReappearance = () => {
           </div>
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
             <img
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Cutting-Edge.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/5.jpg"
               alt="Cutting-Edge Technology"
               className="rounded-lg mb-4"
             />
@@ -153,7 +153,7 @@ const CounsellingReappearance = () => {
           </div>
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
             <img
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Counselling-2.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/6.jpg"
               alt="Proven Success"
               className="rounded-lg mb-4"
             />
@@ -178,7 +178,7 @@ const CounsellingReappearance = () => {
           skill.
         </p>
         <button className="bg-white text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
-          Book Your Counselling Session
+          <Link to="/contact-us"> Book Your Counselling Session</Link>
         </button>
       </section>
     </div>

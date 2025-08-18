@@ -7,6 +7,7 @@ import {
   FaBars,
   FaYoutube,
 } from "react-icons/fa";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
@@ -15,7 +16,11 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [openDropdown, setOpenDropdown] = useState(null);
 
+  const toggleDropdown = (key) => {
+    setOpenDropdown(openDropdown === key ? null : key);
+  };
   useEffect(() => {
     const handleScroll = () => {
       setScrolling(window.scrollY > 10);
@@ -194,7 +199,8 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="w-full md:hidden bg-white shadow  px-4 py-2">
+      <div className="w-full md:hidden bg-white shadow px-4 py-2">
+        {/* Logo & Menu Button */}
         <div className="flex items-center justify-between">
           <img
             loading="lazy"
@@ -203,78 +209,132 @@ const Navbar = () => {
             className="h-14"
           />
           <FaBars
-            size={24}
+            size={26}
             className="cursor-pointer text-indigo-900"
             onClick={() => setMenuOpen(!menuOpen)}
           />
         </div>
 
+        {/* Menu Items */}
         {menuOpen && (
-          <div className="mt-4">
-            <ul className="flex flex-col gap-3 text-sm font-medium">
+          <div className="mt-4 animate-slideDown">
+            <ul className="flex flex-col gap-3 text-base font-medium">
+              {/* About */}
+              <NavLink to="/">
+                <li className="px-3 py-2 rounded hover:bg-gray-100">Home</li>
+              </NavLink>
+              {/* About */}
               <NavLink to="/about-us">
-                <li>About Us</li>
+                <li className="px-3 py-2 rounded hover:bg-gray-100">
+                  About Us
+                </li>
               </NavLink>
 
-              {/* Pilot Dropdown */}
+              {/* Pilot Training */}
               <li>
-                <details className="group">
-                  <summary className="flex justify-between cursor-pointer">
-                    Pilot Training
-                  </summary>
-                  <ul className="pl-4 mt-2 space-y-1">
+                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100">
+                  <NavLink to="/pilot-training">
+                    <span>Pilot Training</span>{" "}
+                  </NavLink>
+                  {openDropdown === "pilot" ? (
+                    <FaChevronUp
+                      onClick={() => toggleDropdown("pilot")}
+                      size={14}
+                    />
+                  ) : (
+                    <FaChevronDown
+                      onClick={() => toggleDropdown("pilot")}
+                      size={14}
+                    />
+                  )}
+                </button>
+                {openDropdown === "pilot" && (
+                  <ul className="ml-4 mt-2 space-y-2 border-l-2 border-indigo-200 pl-3">
                     {dropdowns.pilot.map((item) => (
                       <NavLink key={item.name} to={item.path}>
-                        <li className="hover:text-Secondaryindigo-600">
+                        <li className="px-2 py-1 rounded hover:bg-indigo-50 hover:text-indigo-700">
                           {item.name}
                         </li>
                       </NavLink>
                     ))}
                   </ul>
-                </details>
+                )}
               </li>
 
-              {/* Cabin Crew Dropdown */}
+              {/* Cabin Crew */}
               <li>
-                <details className="group">
-                  <summary className="flex justify-between cursor-pointer">
-                    Cabin Crew Training
-                  </summary>
-                  <ul className="pl-4 mt-2 space-y-1">
+                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100">
+                  <NavLink to="">
+                    {" "}
+                    <span>Cabin Crew Training</span>{" "}
+                  </NavLink>
+                  {openDropdown === "cabin" ? (
+                    <FaChevronUp
+                      onClick={() => toggleDropdown("cabin")}
+                      size={14}
+                    />
+                  ) : (
+                    <FaChevronDown
+                      onClick={() => toggleDropdown("cabin")}
+                      size={14}
+                    />
+                  )}
+                </button>
+                {openDropdown === "cabin" && (
+                  <ul className="ml-4 mt-2 space-y-2 border-l-2 border-indigo-200 pl-3">
                     {dropdowns.cabin.map((item) => (
                       <NavLink key={item.name} to={item.path}>
-                        <li className="hover:text-Secondaryindigo-600">
+                        <li className="px-2 py-1 rounded hover:bg-indigo-50 hover:text-indigo-700">
                           {item.name}
                         </li>
                       </NavLink>
                     ))}
                   </ul>
-                </details>
+                )}
               </li>
 
-              {/* Services Dropdown */}
+              {/* Services */}
               <li>
-                <details className="group">
-                  <summary className="flex justify-between cursor-pointer">
-                    Services & Expertise
-                  </summary>
-                  <ul className="pl-4 mt-2 space-y-1">
+                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100">
+                  <NavLink to="">
+                    {" "}
+                    <span>Services & Expertise</span>{" "}
+                  </NavLink>
+                  {openDropdown === "services" ? (
+                    <FaChevronUp
+                      onClick={() => toggleDropdown("services")}
+                      size={14}
+                    />
+                  ) : (
+                    <FaChevronDown
+                      onClick={() => toggleDropdown("services")}
+                      size={14}
+                    />
+                  )}
+                </button>
+                {openDropdown === "services" && (
+                  <ul className="ml-4 mt-2 space-y-2 border-l-2 border-indigo-200 pl-3">
                     {dropdowns.services.map((item) => (
                       <NavLink key={item.name} to={item.path}>
-                        <li className="hover:text-Secondaryindigo-600">
+                        <li className="px-2 py-1 rounded hover:bg-indigo-50 hover:text-indigo-700">
                           {item.name}
                         </li>
                       </NavLink>
                     ))}
                   </ul>
-                </details>
+                )}
               </li>
 
+              {/* Contact */}
               <NavLink to="/contact-us">
-                <li>Contact Us</li>
+                <li className="px-3 py-2 rounded hover:bg-gray-100">
+                  Contact Us
+                </li>
               </NavLink>
             </ul>
-            <button className="mt-4 w-full bg-indigo-900 text-white px-4 py-2 rounded">
+
+            {/* CTA Button */}
+            <button className="mt-6 w-full bg-indigo-900 text-white font-semibold px-4 py-3 rounded-lg shadow hover:bg-indigo-800 transition">
               Make Appointment
             </button>
           </div>

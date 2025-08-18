@@ -9,7 +9,7 @@ const SocialMedia = () => {
   const [open, setOpen] = useState(true);
 
   return (
-    <section className="fixed z-10 bottom-20 left-4">
+    <section className="fixed z-40 bottom-20 left-4">
       <div className="relative flex flex-col items-center space-y-3">
         {/* Toggle Button */}
         <button
