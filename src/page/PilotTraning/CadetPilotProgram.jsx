@@ -7,7 +7,7 @@ export default function CadetPilotProgram() {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/Cadet-Pilot-Program-panner.final_.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CadetPilot/Cadet-Pilot-Program-banner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -41,7 +41,7 @@ export default function CadetPilotProgram() {
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Cadet-Pilot-1.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CadetPilot/c1.jpg"
               alt="Pilot"
               className="rounded-xl w-full object-cover shadow-lg rounded-tr-[100px] rounded-bl-[100px]"
             />
@@ -82,17 +82,17 @@ export default function CadetPilotProgram() {
               {
                 title: "Unrivaled Expertise",
                 desc: "We have a department that has the most depth of knowledge on our team. Every instructor has a unique aviation background, and with that comes thousands of hours of flight experience, exceptionally strong instructional skills, and knowledge fresh from years of working in the industry.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Unrivaled.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CadetPilot/c2.jpg",
               },
               {
                 title: "Tailored Training Approach",
                 desc: "Valuing each student's learning curve, our team uses a personalized methodology to form students into comprehensive aviators. View More",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Tailored.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CadetPilot/c3.jpg",
               },
               {
                 title: "Commitment to Excellence",
                 desc: "To us, perfection is not just a benchmark: it's the north star of our entire operation. Our instructors take on this commitment hundreds of times over their careers, ensuring that they live and breathe leveling up every aspect of Cadet Pilot Program training.",
-                img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Commitment.jpg",
+                img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CadetPilot/c4.jpg",
               },
             ].map((item, idx) => (
               <div
@@ -137,7 +137,7 @@ export default function CadetPilotProgram() {
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Innovation.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CadetPilot/c5.jpg"
               alt="Pilot"
               className="rounded-xl w-full object-cover shadow-lg rounded-tr-[100px] rounded-bl-[100px]"
             />

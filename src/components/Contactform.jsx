@@ -87,7 +87,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center py-10 bg-gradient-to-br from-gray-900 to-gray-800">
+    <div className="flex items-center justify-center py-10 ">
       <div className="w-full max-w-xl bg-primary backdrop-blur-lg shadow-xl rounded-2xl p-8 ">
         <h2 className="text-3xl font-extrabold mb-8 text-center text-white">
           Get in Touch
