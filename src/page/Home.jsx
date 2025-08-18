@@ -98,6 +98,17 @@ export default function Home() {
           />
           Your browser does not support the video tag.
         </video>
+
+        <div className="flex sm:hidden">
+          <video
+            className="pt-20 w-full object-contain"
+            autoPlay
+            loop
+            muted
+            playsInline
+            src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/video/Home%20Page%20Mobile%202nd%20Video.mp4"
+          />
+        </div>
       </div>
 
       <CommitmentSection />
