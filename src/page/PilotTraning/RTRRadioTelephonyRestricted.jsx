@@ -11,7 +11,7 @@ export default function RTRRadioTelephonyRestricted() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative"
+        className=" text-white flex items-center justify-center p-8 h-[600px] relative"
       >
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">

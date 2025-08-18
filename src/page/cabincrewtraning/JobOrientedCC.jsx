@@ -28,7 +28,7 @@ const JobOrientedCC = () => {
             to="/contact"
             className="inline-block mt-6 px-6 py-3 bg-white text-blue-900 font-semibold rounded-full shadow hover:bg-gray-100 transition"
           >
-          Make an Appointment
+            Make an Appointment
           </Link>
         </div>
       </section>
@@ -43,20 +43,15 @@ const JobOrientedCC = () => {
           />
           <div>
             <h2 className="text-primary text-3xl font-bold mb-4 font-heading">
-              Star Alliance Aviation Academy
+              Job-Oriented Cabin Crew Training for Airline
             </h2>
             <p className="text-lg leading-relaxed mb-4">
-              Star Alliance Aviation Academy is a renowned institution focused
-              on providing exceptional training for individuals aspiring to join
-              the esteemed ranks of cabin crew professionals. Our academy stands
-              apart in the aviation education landscape due to our unwavering
-              dedication to excellence, industry relevance, and personalized
+              Star Alliance Aviation Academy is one of the most distinguished
+              institutes offering advanced training programs for those
+              interested in becoming airline cabin crew. The path of our academy
+              is distinctive in the field of aviation education because we are
+              committed to excellence, industry relevance, and individual
               student support.
-            </p>
-            <p className="text-lg leading-relaxed">
-              We blend theoretical learning with practical simulations and
-              hands-on experiences to ensure graduates are ready for the
-              challenges of real-world aviation operations.
             </p>
           </div>
         </div>
@@ -68,16 +63,13 @@ const JobOrientedCC = () => {
           <div>
             <h2 className="text-3xl font-semibold mb-4">Our Approach</h2>
             <p className="text-lg leading-relaxed mb-4">
-              At Star Alliance Aviation Academy, we understand the dynamic and
-              demanding nature of the aviation industry. Therefore, our training
-              programs are meticulously crafted to equip students with the
-              skills, knowledge, and confidence required to excel in their
-              careers.
-            </p>
-            <p className="text-lg leading-relaxed">
-              From emergency procedures to customer service techniques, we
-              provide immersive simulations and practical exercises that
-              replicate real-life scenarios.
+              We at Star Alliance Aviation Academy realize the dynamic and
+              demanding nature of the aviation industry. Consequently, we
+              formulate our training programs so that students develop the
+              skills, knowledge, and confidence to succeed in their respective
+              professions. We integrate theory studies with simulations and
+              practical exercises to make our graduates equipped to work in
+              everyday aviation practice.
             </p>
           </div>
           <img
@@ -102,8 +94,10 @@ const JobOrientedCC = () => {
             />
             <h3 className="font-semibold text-xl mb-2">Expert Faculty</h3>
             <p className="text-gray-600 text-sm">
-              Learn from seasoned aviation professionals with real-world
-              experience.
+              Expert Faculty: We hire professional pilots that have been in the
+              industry for a long time. They bring unique perspectives and
+              hands-on experience to the classroom, which adds a new layer of
+              dimension to our student learning
             </p>
           </div>
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
@@ -116,7 +110,11 @@ const JobOrientedCC = () => {
               Industry-Relevant Curriculum
             </h3>
             <p className="text-gray-600 text-sm">
-              Continuously updated to meet the latest airline requirements.
+              Industry-Relevant Curriculum: Our curriculum is also updated with
+              the recent technologies and compliance standards. We put the
+              specific needs of our students first, making sure that we prepare
+              them to be best trained for when they join airlines across the
+              globe.
             </p>
           </div>
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
@@ -127,7 +125,10 @@ const JobOrientedCC = () => {
             />
             <h3 className="font-semibold text-xl mb-2">Hands-On Training</h3>
             <p className="text-gray-600 text-sm">
-              Practice real-life scenarios in a controlled environment.
+              Hands-On Training: Training from procedure to customer service is
+              focused on interactive simulations and practical exercises where
+              we recreate real situations so that students can be better
+              prepared in their training plans.
             </p>
           </div>
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
@@ -140,7 +141,11 @@ const JobOrientedCC = () => {
               Job Placement Assistance
             </h3>
             <p className="text-gray-600 text-sm">
-              Dedicated career services to help you launch your aviation career.
+              Job Placement Assistance: Here at Star Alliance, we are dedicated
+              to our students long after they graduate. Through our expert
+              career services team, we offer job support and matchmaking, as
+              well as advising to help students secure their first job in the
+              aviation sector.
             </p>
           </div>
         </div>
