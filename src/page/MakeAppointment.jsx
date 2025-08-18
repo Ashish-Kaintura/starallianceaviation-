@@ -44,10 +44,10 @@ export default function MakeAppointment() {
         <div className="relative z-10 w-[1300px] mt-8">
           <div className="text-white p-5 max-w-lg">
             <h1 className="text-4xl font-bold leading-tight font-heading">
-              CPL Ground Classes
+              Make Apppointment
             </h1>
             <h2 className="mt-1 text-white text-sm font-heading">
-              <Link to="/">Star Alliance Aviation /</Link> CPL Ground Classes
+              <Link to="/">Star Alliance Aviation /</Link>Make Apppointment
             </h2>
           </div>
         </div>

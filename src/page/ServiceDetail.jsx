@@ -38,7 +38,7 @@ const ServiceDetail = () => {
             </h1>
             <h2 className="mt-2 text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation
+                Star Alliance Aviation /
               </Link>{" "}
               {service.name}
             </h2>

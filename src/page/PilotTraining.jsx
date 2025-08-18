@@ -72,17 +72,23 @@ const PilotTraining = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent"></div>
 
-        <div className="relative z-10 w-full max-w-5xl mx-auto text-left">
-          <div className="text-white px-5">
-            <h1 className="text-4xl md:text-5xl font-bold font-heading mb-3">
-              Pilot Training
+        <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
+          <div className="text-white p-4 sm:p-5 max-w-2xl">
+            <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
+              Pilot Training Program
             </h1>
-            <h2 className="text-sm font-heading text-gray-300">
-              <Link to="/" className="hover:underline text-white">
-                Alliance Aviation
+            <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
+              <Link to="/" className="hover:underline text-blue-300">
+                Star Alliance Aviation /
               </Link>{" "}
-              / Pilot Training
+              Pilot Training Program
             </h2>
+            <Link
+              to="/make-appointment"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+            >
+              Make an Appointment
+            </Link>
           </div>
         </div>
       </section>

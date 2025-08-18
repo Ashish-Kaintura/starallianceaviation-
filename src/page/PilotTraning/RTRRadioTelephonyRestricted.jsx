@@ -7,7 +7,7 @@ export default function RTRRadioTelephonyRestricted() {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/RTR/RTRbanner.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/RTR/RTRBanner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -21,12 +21,12 @@ export default function RTRRadioTelephonyRestricted() {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation
+                Star Alliance Aviation /
               </Link>{" "}
               RTR (Radio Telephony Restricted)
             </h2>
             <Link
-              to="/contact"
+              to="/make-appointment"
               className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment
