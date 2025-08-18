@@ -7,7 +7,7 @@ import PilotTrainingSection from "../components/PilotTrainingSection";
 import Testimonials from "../components/Testimonials";
 import AppointmentForm from "../components/AppointmentForm";
 import FAQSection from "../components/FAQSection";
-import video from "../video/Home Page 2nd Video.mp4";
+
 export default function Home() {
   return (
     <>
@@ -92,7 +92,10 @@ export default function Home() {
           loop
           playsInline
         >
-          <source src={video} type="video/mp4" />
+          <source
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/video/Home%20Page%202nd%20Video.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
       </div>

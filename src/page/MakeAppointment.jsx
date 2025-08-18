@@ -32,38 +32,26 @@ export default function MakeAppointment() {
   return (
     <>
       {/* Hero Section */}
-      <section
+
+      <div
+        className="flex items-center justify-center min-h-screen  px-4 py-12 bg-neutral-700  relative bg-fixed bg-center bg-cover"
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/CPL-Commercial-Pilot-License.jpg)`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundImage:
+            "url('https://www.aerotime.aero/images/Biman-Bangladesh-Airlines-Boeing-787-landing-at-London-Heathrow-Airport-LHR-800x500.jpg')",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative"
       >
-        <div className="absolute inset-0 bg-black/25"></div>
-        <div className="relative z-10 w-[1300px] mt-8">
-          <div className="text-white p-5 max-w-lg">
-            <h1 className="text-4xl font-bold leading-tight font-heading">
-              Make Apppointment
-            </h1>
-            <h2 className="mt-1 text-white text-sm font-heading">
-              <Link to="/">Star Alliance Aviation /</Link>Make Apppointment
-            </h2>
-          </div>
-        </div>
-      </section>
-      <div className="flex items-center justify-center min-h-screen  px-4 py-12">
-        <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-lg border border-gray-200 ">
-          <h2 className="text-3xl font-heading text-center text-gray-900 mb-2 tracking-tight">
+        <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
+        <div className="bg-primary p-8 rounded-xl shadow-lg w-full max-w-lg border border-gray-200 relative mt-32 ">
+          <h2 className="text-3xl font-heading text-center text-yellow-500 mb-2 tracking-tight">
             Book Your Appointment
           </h2>
-          <p className="text-sans text-center text-gray-500 mb-6">
+          <p className="text-sans text-center text-yellow-400 mb-6">
             Fill in your details and we’ll get in touch soon.
           </p>
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
               <label
-                className="block text-sans text-gray-700 mb-1"
+                className="block text-sans text-yellow-500 mb-1"
                 htmlFor="name"
               >
                 Name<span className="text-red-500">*</span>
@@ -79,7 +67,7 @@ export default function MakeAppointment() {
             </div>
             <div>
               <label
-                className="block text-sans text-gray-700 mb-1"
+                className="block text-sans text-yellow-500 mb-1"
                 htmlFor="email"
               >
                 Email<span className="text-red-500">*</span>
@@ -95,7 +83,7 @@ export default function MakeAppointment() {
             </div>
             <div>
               <label
-                className="block text-sans text-gray-700 mb-1"
+                className="block text-sans text-yellow-500 mb-1"
                 htmlFor="phone"
               >
                 Mobile Number<span className="text-red-500">*</span>
@@ -111,7 +99,7 @@ export default function MakeAppointment() {
             </div>
             <div>
               <label
-                className="block text-sans text-gray-700 mb-1"
+                className="block text-sans text-yellow-500 mb-1"
                 htmlFor="comment"
               >
                 Comment
@@ -127,7 +115,7 @@ export default function MakeAppointment() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-2 bg-primary rounded-md text-white font-heading text-lg tracking-wide hover:bg-blue-700 transition-all disabled:opacity-60"
+              className="w-full py-2 bg-yellow-600 rounded-md text-white font-heading text-lg tracking-wide hover:bg-yellow-700 transition-all disabled:opacity-60"
             >
               {loading ? "Sending..." : "Submit"}
             </button>

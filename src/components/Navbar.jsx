@@ -188,7 +188,7 @@ const Navbar = () => {
             </NavLink>
           </ul>
           <button className="bg-white text-primary hover:text-white text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-blue-800 transition">
-            <Link to="contact"> Contact Us </Link>
+            <Link to="/contact-us"> Contact Us </Link>
           </button>
         </nav>
       </div>
@@ -270,7 +270,7 @@ const Navbar = () => {
                 </details>
               </li>
 
-              <NavLink to="/contact">
+              <NavLink to="/contact-us">
                 <li>Contact Us</li>
               </NavLink>
             </ul>

@@ -84,12 +84,12 @@ const PilotTrainingSection = () => {
         </div>
 
         <div className="mt-12">
-          <a
-            href="/contact"
+          <Link
+            to="/contact-us"
             className="inline-block bg-indigo-800 hover:bg-indigo-900 text-white px-6 py-3 rounded-full text-lg transition"
           >
             Contact Training Advisor
-          </a>
+          </Link>
         </div>
       </div>
     </section>
