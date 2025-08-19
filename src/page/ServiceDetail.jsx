@@ -27,7 +27,7 @@ const ServiceDetail = () => {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(${service.image})`,
+          backgroundImage: `url(${service.coverImag})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -77,7 +77,7 @@ const ServiceDetail = () => {
             <div className="overflow-hidden rounded-xl shadow-lg">
               <img
                 loading="lazy"
-                src={service.image}
+                src={service.image1}
                 alt={service.name}
                 className="w-full object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -93,7 +93,7 @@ const ServiceDetail = () => {
             <div className="overflow-hidden rounded-xl shadow-lg">
               <img
                 loading="lazy"
-                src={service.image}
+                src={service.image2}
                 alt={service.name}
                 className="w-full object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -129,7 +129,7 @@ const ServiceDetail = () => {
             <div className="overflow-hidden rounded-xl shadow-lg">
               <img
                 loading="lazy"
-                src={service.image}
+                src={service.image3}
                 alt={service.name}
                 className="w-full object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -150,7 +150,7 @@ const ServiceDetail = () => {
           <div className="w-full lg:w-3/3 flex justify-center">
             <img
               loading="lazy"
-              src={service.image}
+              src={service.image4}
               alt="Medical Exam"
               className="rounded-xl w-[90%] max-w-md object-cover shadow-xl rounded-tr-[100px] rounded-bl-[100px] transition-transform duration-300 hover:scale-105"
             />

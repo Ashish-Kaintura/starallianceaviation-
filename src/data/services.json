@@ -2,11 +2,11 @@
     {
         "name": "NSOP Management",
         "image": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/1.jpg",
-        "coverImag": "",
-        "image1": "",
-        "image2": "",
-        "imgae3": "",
-        "image4": "",
+        "coverImag": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/nsop/NSOP-MANAGEMNTbanner.jpg",
+        "image1": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/1.jpg",
+        "image2": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/2.jpg",
+        "image3": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/3.jpg",
+        "image4": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/4.jpg",
         "slug": "/nsop-management",
         "content": {
             "title": "Welcome To NSOP Management",
@@ -38,7 +38,7 @@
         "coverImag": "",
         "image1": "",
         "image2": "",
-        "imgae3": "",
+        "image3": "",
         "image4": "",
         "slug": "/dgca-moca-liaison",
         "content": {
@@ -69,7 +69,7 @@
         "coverImag": "",
         "image1": "",
         "image2": "",
-        "imgae3": "",
+        "image3": "",
         "image4": "",
         "slug": "/egca-account-management",
         "content": {
@@ -101,7 +101,7 @@
         "coverImag": "",
         "image1": "",
         "image2": "",
-        "imgae3": "",
+        "image3": "",
         "image4": "",
         "slug": "/job-placement-assistance",
         "content": {
@@ -131,7 +131,7 @@
         "coverImag": "",
         "image1": "",
         "image2": "",
-        "imgae3": "",
+        "image3": "",
         "image4": "",
         "slug": "/legal-assistance-guidance",
         "content": {
@@ -164,7 +164,7 @@
         "coverImag": "",
         "image1": "",
         "image2": "",
-        "imgae3": "",
+        "image3": "",
         "image4": "",
         "slug": "/strategic-counselling",
         "content": {
