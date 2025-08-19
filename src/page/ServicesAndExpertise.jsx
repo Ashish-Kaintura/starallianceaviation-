@@ -10,6 +10,9 @@ const ServicesAndExpertise = () => {
   useEffect(() => {
     setServices(data); // data is already an array
   }, []);
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <>
       {/* Hero Section */}

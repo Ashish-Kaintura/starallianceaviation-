@@ -9,7 +9,7 @@ const CounsellingReappearance = () => {
     <div className="bg-white text-gray-800">
       <section
         style={{
-          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/Servicesbannner.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/Counselling-For-Reappearancebanner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
