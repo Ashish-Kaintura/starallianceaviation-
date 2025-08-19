@@ -98,11 +98,11 @@
     {
         "name": "Job Placement Assistance",
         "image": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/4.jpg",
-        "coverImag": "",
-        "image1": "",
-        "image2": "",
-        "image3": "",
-        "image4": "",
+        "coverImag": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/job/Job-Placement.jpg",
+        "image1": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/job/1.jpg",
+        "image2": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/job/2.jpg",
+        "image3": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/job/3.jpg",
+        "image4": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/job/4.jpg",
         "slug": "/job-placement-assistance",
         "content": {
             "title": "Welcome to Our Aviation Job Placement Assistance Program",
