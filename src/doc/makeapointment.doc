@@ -1,0 +1,104 @@
+<style>
+  .custom-form-wrapper {
+    background-color: #192136;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /*border: 2px solid white;*/
+  }
+
+  .custom-form-wrapper h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .custom-form-wrapper input,
+  .custom-form-wrapper textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .custom-form-wrapper input::placeholder,
+  .custom-form-wrapper textarea::placeholder {
+    color: #888;
+  }
+
+  .custom-form-wrapper button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1c2e80;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+  }
+
+  .custom-form-wrapper button:hover {
+    background-color: #2d3ea0;
+  }
+
+  #custom-form-status {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+</style>
+
+<!-- ✅ UPDATED FORM HTML -->
+<div class="custom-form-wrapper">
+  <h2>Make An Appointment</h2>
+  <form id="custom-appointment-form" name="appointmentForm">
+    <input type="text" name="name" placeholder="Your Name *" required />
+    <input type="email" name="email" placeholder="Your Email *" required />
+    <input type="tel" name="phone" placeholder="Your Mobile Number *" required />
+    <textarea name="comment" rows="4" placeholder="Comment"></textarea>
+    <button type="submit">Submit Now</button>
+    <div id="custom-form-status"></div>
+  </form>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+
+
+  document
+    .getElementById("custom-appointment-form")
+    .addEventListener("submit", function (e) {
+      e.preventDefault();
+      const form = this;
+      const status = document.getElementById("custom-form-status");
+      status.innerHTML = "Sending...";
+
+      emailjs
+            .sendForm(
+              "service_gf71s76",
+              "template_lu8oytv",
+              form,
+              "QDc0P3ycKPetLpC3W" 
+            ).then(() => {
+              status.textContent = "✅ Message sent successfully!";
+              status.style.color = "lightgreen";
+              form.reset();
+         
+        })
+        .catch((error) => {
+              console.error("EmailJS Error:", error);
+              status.textContent =
+                "❌ Failed to send. " + (error?.text || "Please try again.");
+              status.style.color = "red";
+            });
+    });
+</script>

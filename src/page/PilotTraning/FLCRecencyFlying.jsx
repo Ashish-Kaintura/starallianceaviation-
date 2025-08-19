@@ -9,7 +9,7 @@ export default function FLCRecencyFlying() {
     <div>
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/FLC.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/flc/FLCbanner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -41,7 +41,7 @@ export default function FLCRecencyFlying() {
           <div className="flex flex-col items-center w-[70%] lg:w-1/2 relative">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/flc2.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/flc/1.jpg"
               alt="Pilot"
               className="rounded-xl w-[70%] object-cover shadow-lg rounded-tr-[100px] rounded-bl-[100px]"
             />

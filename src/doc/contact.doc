@@ -1,0 +1,127 @@
+  <style>
+
+      .contact-form-submission {
+        border-radius: 10px;
+        padding: 30px;
+        max-width: 800px;
+        width: 100%;
+        /*box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);*/
+      }
+
+      .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .form-group {
+        flex: 1;
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .form-group input,
+      .form-group textarea {
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background-color: #f5f5f5;
+        font-size: 16px;
+      }
+
+      .form-group textarea {
+        resize: vertical;
+        min-height: 120px;
+      }
+
+      .form-submit {
+        margin-top: 20px;
+      }
+
+      .form-submit button {
+        padding: 14px 30px;
+        background-color: #0b1c49;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      .form-submit button:hover {
+        background-color: #1a2e68;
+      }
+
+      #custom-contact-form-status {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 14px;
+      }
+    </style>
+
+
+ <form
+      id="contact-form-submission"
+      class="contact-form-submission"
+      name="contact submission"
+    >
+      <div class="form-row">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+      </div>
+      <br />
+      <div class="form-row">
+        <div class="form-group">
+          <input type="text" name="phone" placeholder="Phone" required />
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" placeholder="Subject" required />
+        </div>
+      </div>
+      <br />
+      <div class="form-group">
+        <textarea name="message" placeholder="Message" required></textarea>
+      </div>
+      <div class="form-submit">
+        <button type="submit">SEND MESSAGE</button>
+      </div>
+      <div id="custom-contact-form-status"></div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+      document
+        .getElementById("contact-form-submission")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const form = this;
+          const status = document.getElementById("custom-contact-form-status");
+          status.innerHTML = "Sending...";
+
+          emailjs
+            .sendForm(
+              "service_kmzk5e6",
+              "template_o8h1bfm",
+              form,
+              "UvBtke7LSWuoHG9LL"
+            )
+            .then(() => {
+              status.textContent = "✅ Message sent successfully!";
+              status.style.color = "lightgreen";
+              form.reset();
+            })
+            .catch((error) => {
+              console.error("EmailJS Error:", error);
+              status.textContent =
+                "❌ Failed to send. " + (error?.text || "Please try again.");
+              status.style.color = "red";
+            });
+        });
+    </script>

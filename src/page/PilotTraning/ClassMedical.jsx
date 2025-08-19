@@ -11,7 +11,7 @@ export default function ClassMedical() {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/Medical-1.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/classmedical/Medical-1banner.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -62,7 +62,7 @@ export default function ClassMedical() {
           <div className="w-full lg:w-1/2 flex justify-center">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/class.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/classmedical/Medical%20Program.jpg"
               alt="Medical Exam"
               className="rounded-xl w-[90%] max-w-md object-cover shadow-xl rounded-tr-[80px] rounded-bl-[80px] transition-transform duration-300 hover:scale-105"
             />
