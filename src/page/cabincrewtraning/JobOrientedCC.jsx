@@ -10,7 +10,7 @@ const JobOrientedCC = () => {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/Job-Oriented-CC-Training.jpg)`,
+          backgroundImage: `url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/job/Job-Oriented-CC-Training.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -42,7 +42,7 @@ const JobOrientedCC = () => {
       <section className="px-6 py-16 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <img
-            src="https://starallianceaviation.com/wp-content/uploads/2024/03/Job-Oriented.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/job/Job-Oriented%20Cabin%20Crew%20Training%20for%20Airline.jpg"
             alt="Cabin Crew Training"
             className="rounded-xl shadow-lg"
           />
@@ -78,7 +78,7 @@ const JobOrientedCC = () => {
             </p>
           </div>
           <img
-            src="https://starallianceaviation.com/wp-content/uploads/2024/03/Job-Oriented2.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/job/1.jpg"
             alt="Our Approach"
             className="rounded-xl shadow-lg"
           />
@@ -93,7 +93,7 @@ const JobOrientedCC = () => {
         <div className="grid md:grid-cols-4 gap-8 text-center">
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
             <img
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Expert-Faculty.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/job/2.jpg"
               alt="Expert Faculty"
               className="rounded-lg mb-4"
             />
@@ -107,7 +107,7 @@ const JobOrientedCC = () => {
           </div>
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
             <img
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Industry-Relevant.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/job/3.jpg"
               alt="Industry Relevant Curriculum"
               className="rounded-lg mb-4"
             />
@@ -124,7 +124,7 @@ const JobOrientedCC = () => {
           </div>
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
             <img
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Hands-on-Training-Feature.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/job/4.jpg"
               alt="Hands-On Training"
               className="rounded-lg mb-4"
             />
@@ -138,7 +138,7 @@ const JobOrientedCC = () => {
           </div>
           <div className="p-6 bg-white shadow-lg rounded-xl hover:shadow-xl transition">
             <img
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/Job-Placement.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/job/5.jpg"
               alt="Job Placement Assistance"
               className="rounded-lg mb-4"
             />
@@ -166,7 +166,7 @@ const JobOrientedCC = () => {
           begin your journey to becoming a world-class cabin crew professional.
         </p>
         <button className="bg-white text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
-          Apply Now
+          <Link to="/contact-us">Apply Now</Link>
         </button>
       </section>
     </div>
