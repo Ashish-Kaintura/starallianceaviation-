@@ -1,6 +1,7 @@
 // src/App.jsx
 import { Routes, Route } from "react-router-dom";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import Loader from "./components/Loader"; // import loader
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
@@ -35,6 +36,20 @@ const App = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time (2s)
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
   return (
     <>
       <Navbar />

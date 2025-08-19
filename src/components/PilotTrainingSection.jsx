@@ -19,7 +19,7 @@ const trainingData = [
   {
     title: "ATPL Oral Viva",
     image:
-      "http://starallianceaviation.com/wp-content/uploads/2024/03/atpl2.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%20Oral%20%2C%20Viva.jpg",
     desc: "Master the final stage of your pilot exam journey with one-on-one oral viva prep.",
     link: "/courses/atpl-oral-viva",
   },

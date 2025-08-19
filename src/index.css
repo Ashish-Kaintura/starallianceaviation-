@@ -4,6 +4,7 @@
 
 body {
     @apply font-sans;
+    cursor: url("public/airplane-cursor.png") 16 16, auto;
 }
 
 .active {
@@ -180,4 +181,48 @@ body {
 
 .action:hover .action-content::before {
     transform: translateX(0px);
+}
+
+
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #0b1b2b; */
+    /* dark sky color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999;
+    color: blue;
+}
+
+.plane {
+    font-size: 3rem;
+    animation: fly 2s infinite linear;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(-100px) rotate(-10deg);
+    }
+
+    50% {
+        transform: translateX(100px) rotate(10deg);
+    }
+
+    100% {
+        transform: translateX(-100px) rotate(-10deg);
+    }
+}
+
+.loading-text {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
 }

@@ -130,14 +130,14 @@ const PilotTraining = () => {
                 <li>Expert instructors</li>
               </ul>
               <div className="mt-6">
-                <span className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-blue-700 transition">
+                {/* <span className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-blue-700 transition">
                   To the skies!
-                </span>
+                </span> */}
               </div>
             </div>
             <div className="flex-1 flex justify-center">
               <img
-                src="http://starallianceaviation.com/wp-content/uploads/2024/03/services04.jpg"
+                src="https://www.fstcfto.in/storage/images/FSTC%20FLying%20School%20Complete%20Pilot%20Program%20best%20FTO%20in%20India.png"
                 alt="Pilot Training Process"
                 className="w-full max-w-xs md:max-w-sm rounded-xl shadow-lg object-cover"
               />

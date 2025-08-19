@@ -8,7 +8,7 @@ export const blogPosts = [
     author: "Star Alliance Aviation Academy",
     readTime: "8 min read",
     image:
-      "https://starallianceaviation.com/wp-content/uploads/2025/08/Why-Star-Alliance-Aviation-Academy-Is-the-Right-Choice-for-Aspiring-Pilots-768x768.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/blog/Why%20Star%20Alliance%20Aviation%20Academy%20Is%20the%20Right%20Choice%20for%20Aspiring%20Pilots%20(1).jpg",
     excerpt:
       "Discover why Star Alliance Aviation Academy is one of India’s most trusted pilot training institutes, offering DGCA-compliant courses, world-class facilities, and unmatched career support.",
     content: `
@@ -19,7 +19,7 @@ export const blogPosts = [
 
         <h2 class="text-3xl font-heading font-bold mt-10">Why Star Alliance Aviation Academy Is the Right Choice for Aspiring Pilots</h2>
         <img
-          src="https://starallianceaviation.com/wp-content/uploads/2025/08/Why-Star-Alliance-Aviation-Academy-Is-the-Right-Choice-for-Aspiring-Pilots-768x768.jpg"
+          src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/blog/Why%20Star%20Alliance%20Aviation%20Academy%20Is%20the%20Right%20Choice%20for%20Aspiring%20Pilots%20(1).jpg"
           alt="Star Alliance Aviation Academy"
           class="w-full rounded-xl shadow-lg object-cover my-6 max-h-[500px]"
         />
