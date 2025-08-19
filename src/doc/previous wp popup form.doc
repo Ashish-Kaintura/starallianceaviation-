@@ -100,3 +100,68 @@
       opacity: 1;
     }
   }
+
+
+
+<div id="popup-overlay" style="display: none;">
+  <div class="popup-box">
+    <span class="close-btn" onclick="closePopup()">×</span>
+    <h2>Contact Us</h2>
+    <form id="popup-form"> <!-- ✅ Matching form ID -->
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+	  <input type="tel" name="phone" placeholder="Your Phone Number" required />
+      <button type="submit">Send Message</button>
+      <p id="form-status"></p>
+    </form>
+  </div>
+</div>
+<!-- ✅ Show Popup after 8s + EmailJS Script -->
+<!-- ✅ EmailJS v4 Script -->
+<!-- ✅ Show Popup + EmailJS Script -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  // Show popup after 8s
+  setTimeout(() => {
+    document.getElementById("popup-overlay").style.display = "flex";
+  }, 8000);
+
+  // Close popup
+  function closePopup() {
+    document.getElementById("popup-overlay").style.display = "none";
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(() => {
+      const form = document.getElementById("popup-form");
+      const status = document.getElementById("form-status");
+
+      if (!form) return;
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        status.textContent = "⏳ Sending...";
+        status.style.color = "#333";
+
+        emailjs
+          .sendForm(
+            "service_gf71s76",
+            "template_22a4owy",
+            form,
+            "QDc0P3ycKPetLpC3W" // ✅ v4 needs 'public_' prefix
+          )
+          .then(() => {
+            status.textContent = "✅ Message sent successfully!";
+            status.style.color = "green";
+            form.reset();
+          })
+          .catch((error) => {
+            console.error("EmailJS Error:", error);
+            status.textContent =
+              "❌ Failed to send. " + (error?.text || "Please try again.");
+            status.style.color = "red";
+          });
+      });
+    }, 2000); // Wait extra time to make sure form loads in popup
+  });
+</script>

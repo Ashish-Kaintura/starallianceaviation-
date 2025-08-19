@@ -29,10 +29,10 @@ const PopupForm = () => {
     // Send email via EmailJS
     emailjs
       .send(
-        "YOUR_SERVICE_ID", // Replace with EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with EmailJS template ID
+        "service_gf71s76",
+        "template_22a4owy", // Replace with EmailJS template ID
         formData,
-        "YOUR_PUBLIC_KEY" // Replace with EmailJS public key
+        "QDc0P3ycKPetLpC3W" // Replace with EmailJS public key
       )
       .then(
         () => {
