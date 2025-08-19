@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FaChalkboardTeacher,
   FaGraduationCap,
@@ -50,6 +50,9 @@ const reasons = [
 ];
 
 const AirlinesPreparation = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <>
       {" "}

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const JobOrientedCC = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <div className="bg-white text-gray-800">
       {/* Hero Section */}

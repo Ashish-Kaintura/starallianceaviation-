@@ -2,8 +2,11 @@ import React from "react";
 import WhoWeAre from "../components/WhoWeAre";
 import { Link } from "react-router-dom";
 import WeAreCommitted from "../components/WeAreCommitted";
-
+import { useEffect } from "react";
 export default function AboutUs() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <div>
       <section

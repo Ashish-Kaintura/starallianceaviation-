@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 export default function TRIncludingEndorsement() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <div>
       <section

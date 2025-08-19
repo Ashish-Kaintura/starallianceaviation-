@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { blogPosts } from "../data/blogData";
 import BlogCard from "../components/BlogCard";
-
+import { useEffect } from "react";
 export default function Blogs() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   const [searchTerm, setSearchTerm] = useState("");
   const [category, setCategory] = useState("All");
 

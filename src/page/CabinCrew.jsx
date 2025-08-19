@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 const CabinCrew = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <div className="bg-white text-gray-800 font-sans">
       {/* Hero Section */}

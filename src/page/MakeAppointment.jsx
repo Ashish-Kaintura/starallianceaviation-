@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 export default function MakeAppointment() {
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
@@ -28,6 +29,9 @@ export default function MakeAppointment() {
         setLoading(false);
       });
   };
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
 
   return (
     <>

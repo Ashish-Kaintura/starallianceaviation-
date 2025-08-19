@@ -7,8 +7,12 @@ import PilotTrainingSection from "../components/PilotTrainingSection";
 import Testimonials from "../components/Testimonials";
 import AppointmentForm from "../components/AppointmentForm";
 import FAQSection from "../components/FAQSection";
-
+import PopupForm from "../components/PopupForm";
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <>
       <HeroSection />
@@ -83,7 +87,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="w-full relative">
+      <div className="md:flex hidden w-full relative">
         {/* Background video */}
         <video
           className="w-full h-96 object-cover"
@@ -98,7 +102,9 @@ export default function Home() {
           />
           Your browser does not support the video tag.
         </video>
-
+      </div>
+      <div className="flex md:hidden w-full relative">
+        {/* Background video */}
         <div className="flex sm:hidden">
           <video
             className="pt-20 w-full object-contain"
@@ -110,7 +116,7 @@ export default function Home() {
           />
         </div>
       </div>
-
+      <PopupForm />
       <CommitmentSection />
 
       <PilotTrainingSection />

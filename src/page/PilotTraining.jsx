@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { useEffect } from "react";
 const trainingPrograms = [
   {
     name: "CPL Ground Classes",
@@ -59,6 +59,9 @@ const trainingPrograms = [
 ];
 import Img1 from "../img/coolbackgrounds-particles-stellar.png";
 const PilotTraining = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <>
       {/* Hero Section */}

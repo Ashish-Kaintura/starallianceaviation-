@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Search } from "lucide-react";
 import { Link } from "react-router-dom";
 const CounsellingReappearance = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <div className="bg-white text-gray-800">
       <section

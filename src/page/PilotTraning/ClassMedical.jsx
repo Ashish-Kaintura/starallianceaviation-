@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Video from "../../video/Airplan.mp4";
+import { useEffect } from "react";
 export default function ClassMedical() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <div>
       {/* Hero Section */}

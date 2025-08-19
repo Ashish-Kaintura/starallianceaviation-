@@ -9,7 +9,11 @@ import {
 } from "lucide-react";
 import ContactForm from "../components/Contactform";
 import { Toaster } from "react-hot-toast";
+import { useEffect } from "react";
 const ContactPage = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
   return (
     <div className="bg-gray-50 min-h-screen">
       <Toaster position="top-center" reverseOrder={false} />
