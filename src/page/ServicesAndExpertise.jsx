@@ -18,7 +18,7 @@ const ServicesAndExpertise = () => {
       {/* Hero Section */}
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/Pilot-training.jpg)`,
+          backgroundImage: `url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/Servicesbanner.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

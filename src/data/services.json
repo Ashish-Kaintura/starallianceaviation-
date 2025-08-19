@@ -1,7 +1,12 @@
 [
     {
         "name": "NSOP Management",
-        "image": "http://starallianceaviation.com/wp-content/uploads/2024/03/cpl.jpg",
+        "image": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/1.jpg",
+        "coverImag": "",
+        "image1": "",
+        "image2": "",
+        "imgae3": "",
+        "image4": "",
         "slug": "/nsop-management",
         "content": {
             "title": "Welcome To NSOP Management",
@@ -29,7 +34,12 @@
     },
     {
         "name": "DGCA/MOCA Liaison",
-        "image": "http://starallianceaviation.com/wp-content/uploads/2024/03/Atpl.jpg",
+        "image": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/2.jpg",
+        "coverImag": "",
+        "image1": "",
+        "image2": "",
+        "imgae3": "",
+        "image4": "",
         "slug": "/dgca-moca-liaison",
         "content": {
             "title": "Welcome To DGCA/MOCA Liaison Services",
@@ -55,7 +65,12 @@
     },
     {
         "name": "eGCA Account Management",
-        "image": "http://starallianceaviation.com/wp-content/uploads/2024/03/atpl2.jpg",
+        "image": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/3.jpg",
+        "coverImag": "",
+        "image1": "",
+        "image2": "",
+        "imgae3": "",
+        "image4": "",
         "slug": "/egca-account-management",
         "content": {
             "title": "Welcome to Star Alliance Aviation eGCA Account Management",
@@ -82,7 +97,12 @@
     },
     {
         "name": "Job Placement Assistance",
-        "image": "http://starallianceaviation.com/wp-content/uploads/2024/03/Rtr.jpg",
+        "image": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/4.jpg",
+        "coverImag": "",
+        "image1": "",
+        "image2": "",
+        "imgae3": "",
+        "image4": "",
         "slug": "/job-placement-assistance",
         "content": {
             "title": "Welcome to Our Aviation Job Placement Assistance Program",
@@ -107,7 +127,12 @@
     },
     {
         "name": "Legal Assistance/Guidance",
-        "image": "http://starallianceaviation.com/wp-content/uploads/2024/03/Cadet-Pilot.jpg",
+        "image": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/5.jpg",
+        "coverImag": "",
+        "image1": "",
+        "image2": "",
+        "imgae3": "",
+        "image4": "",
         "slug": "/legal-assistance-guidance",
         "content": {
             "title": "Legal Assistance Guidance",
@@ -135,7 +160,12 @@
     },
     {
         "name": "Strategic Counselling",
-        "image": "http://starallianceaviation.com/wp-content/uploads/2024/03/Airlines2.jpg",
+        "image": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/6.jpg",
+        "coverImag": "",
+        "image1": "",
+        "image2": "",
+        "imgae3": "",
+        "image4": "",
         "slug": "/strategic-counselling",
         "content": {
             "title": "Welcome to Star Alliance Aviation Strategic Counselling for Pilots, Cabin Crew, and Operators",
