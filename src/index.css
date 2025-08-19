@@ -58,7 +58,7 @@ body {
     --rd-light-hover: 9999px;
     --l-light-hover: 14px;
     --cl-light: #0000;
-    --cr-light: #af40ff;
+    --cr-light: yellow;
     position: relative;
     display: flex;
     align-items: center;
@@ -90,7 +90,7 @@ body {
     --rd-light-hover: 6px;
     --l-light-hover: 0px;
     --cl-light: #fff;
-    --cr-light: #af40ff;
+    --cr-light: yellow;
     transition: transform, 400ms ease;
     opacity: 0;
     font-size: 1.25rem;

@@ -11,12 +11,18 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [openDropdown, setOpenDropdown] = useState(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
 
   const toggleDropdown = (key) => {
     setOpenDropdown(openDropdown === key ? null : key);
@@ -80,7 +86,7 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 right-0 z-50 flex flex-col items-center w-full font-sans">
       {/* Top Bar */}
       {!scrolling && (
-        <div className="text-white text-sm w-full sm:flex hidden justify-center py-2 bg-white/20">
+        <div className="text-white text-sm w-full md:flex hidden justify-center py-2 bg-white/20">
           <div className="w-full max-w-[1320px] flex justify-between items-center px-6 flex-wrap gap-2">
             <span>Book Online • You can request appointment 24 hours</span>
             <div className="flex items-center gap-4">
@@ -264,7 +270,7 @@ const Navbar = () => {
               {/* Cabin Crew */}
               <li>
                 <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100">
-                  <NavLink to="">
+                  <NavLink to="/cabin-crew-training">
                     {" "}
                     <span>Cabin Crew Training</span>{" "}
                   </NavLink>
@@ -296,7 +302,7 @@ const Navbar = () => {
               {/* Services */}
               <li>
                 <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100">
-                  <NavLink to="">
+                  <NavLink to="/services-expertise">
                     {" "}
                     <span>Services & Expertise</span>{" "}
                   </NavLink>

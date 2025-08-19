@@ -160,7 +160,7 @@ export default function CPLGroundClasses() {
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
-              src="https://starallianceaviation.com/wp-content/uploads/2024/03/pilot01.jpg"
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/cpl/CPL%207.jpg"
               alt="Pilot"
               className="rounded-xl w-full object-cover shadow-lg rounded-tr-[100px] rounded-bl-[100px]"
             />

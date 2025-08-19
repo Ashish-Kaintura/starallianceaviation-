@@ -18,31 +18,31 @@ const steps = [
 
 const reasons = [
   {
-    img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Airlines-Preparation-Course.jpg",
+    img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/AirlinePrep/2.jpg",
     title: "World-Class Instructors",
     description:
       "Our instructors come from commercial airlines, military aviation, and regulatory bodies, delivering expert mentorship.",
   },
   {
-    img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Airlines-Preparation.jpg",
+    img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/AirlinePrep/3.jpg",
     title: "Interactive Learning Experience",
     description:
       "We go beyond books by incorporating case studies, real-world scenarios, and engaging classroom discussions.",
   },
   {
-    img: "https://starallianceaviation.com/wp-content/uploads/2024/03/AirlinesPreparation02.jpg",
+    img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/AirlinePrep/4.jpg",
     title: "Comprehensive Curriculum",
     description:
       "Covering everything from flight theory to CRM and emergency procedures, our curriculum is all-encompassing.",
   },
   {
-    img: "https://starallianceaviation.com/wp-content/uploads/2024/03/Airlines-Preparation.jpg",
+    img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/AirlinePrep/5.jpg",
     title: "Tailored Training Solutions",
     description:
       "We customize training based on airline requirements to meet diverse operational goals.",
   },
   {
-    img: "https://starallianceaviation.com/wp-content/uploads/2024/03/AirlinesPreparation02.jpg",
+    img: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/AirlinePrep/6.jpg",
     title: "State-of-the-Art Facilities",
     description:
       "Our advanced simulators and multimedia classrooms foster immersive and high-tech training.",
@@ -55,7 +55,7 @@ const AirlinesPreparation = () => {
       {" "}
       <section
         style={{
-          backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/2025/07/eGCA-Account-Management.jpg)`,
+          backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/AirlinePrep/1.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
