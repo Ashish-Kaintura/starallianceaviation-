@@ -210,7 +210,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <img
             loading="lazy"
-            src="http://starallianceaviation.com/wp-content/uploads/2025/07/PNG-1-e1751434504963.png"
+            src="https://i.postimg.cc/qq7R0CjT/PNG-1.png"
             alt="Star Alliance Aviation"
             className="h-14"
           />
