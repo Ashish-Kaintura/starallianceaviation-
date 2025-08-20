@@ -37,9 +37,9 @@ const MaintenancePage = () => {
           <span>Estimated downtime: a few hours</span>
         </div>
 
-        <footer className="mt-8 text-gray-500 text-xs">
+        {/* <footer className="mt-8 text-gray-500 text-xs">
           &copy; {new Date().getFullYear()} AI Risezonic. All rights reserved.
-        </footer>
+        </footer> */}
       </motion.div>
     </div>
   );
