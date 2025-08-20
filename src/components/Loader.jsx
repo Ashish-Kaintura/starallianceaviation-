@@ -5,7 +5,7 @@ const Loader = () => {
   return (
     <div className="loader-container">
       <div className="plane">✈️</div>
-      <p className="loading-text">Preparing your Content</p>
+      <p className="loading-text">.......</p>
     </div>
   );
 };

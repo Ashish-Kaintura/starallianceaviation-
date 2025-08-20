@@ -11,7 +11,7 @@ const ServicesAndExpertise = () => {
     setServices(data); // data is already an array
   }, []);
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scrollTo(0, 0);
   });
   return (
     <>
@@ -33,7 +33,7 @@ const ServicesAndExpertise = () => {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               Services & Expertise
             </h2>

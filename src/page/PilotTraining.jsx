@@ -24,7 +24,7 @@ const trainingPrograms = [
     name: "RTR (Radio Telephony Restricted)",
     image:
       "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P4.jpg",
-    slug: "rtr-radio-telephony",
+    slug: "rtr-radio-telephony-restricted",
   },
   {
     name: "Cadet Pilot Program",
@@ -36,7 +36,7 @@ const trainingPrograms = [
     name: "Airlines Preparation Course",
     image:
       "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P6.jpg",
-    slug: "airlines-preparation",
+    slug: "airlines-preparation-course",
   },
   {
     name: "FLC & Recency Flying",
@@ -54,13 +54,13 @@ const trainingPrograms = [
     name: "Class-1,2 Medical",
     image:
       "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/P9.jpg",
-    slug: "class-1-2-medical",
+    slug: "class-12-medical",
   },
 ];
 import Img1 from "../img/coolbackgrounds-particles-stellar.png";
 const PilotTraining = () => {
   useEffect(() => {
-    window.scroll(0, 0);
+   window.scrollTo(0, 0);
   });
   return (
     <>
@@ -82,7 +82,7 @@ const PilotTraining = () => {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               Pilot Training Program
             </h2>

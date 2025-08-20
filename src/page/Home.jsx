@@ -11,7 +11,7 @@ import PopupForm from "../components/PopupForm";
 import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scrollTo(0, 0);
   });
   return (
     <>
@@ -24,9 +24,9 @@ export default function Home() {
             data-aos="zoom-out"
             data-aos-delay="200"
           >
-            <span className="text-red-600 text-xs sm:text-sm uppercase tracking-wider font-semibold">
+            {/* <span className="text-red-600 text-xs sm:text-sm uppercase tracking-wider font-semibold">
               Who We Are
-            </span>
+            </span> */}
             <h2 className="text-primary text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 leading-snug">
               Star Alliance Aviation Private Limited
             </h2>

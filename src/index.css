@@ -4,11 +4,11 @@
 
 body {
     @apply font-sans;
-    cursor: url("public/airplane-cursor.png") 16 16, auto;
+    cursor: url("https://i.postimg.cc/FKC3Y954/airplane-cursor.png") 16 16, auto;
 }
 
 .active {
-    color: yellow;
+    color: #ecaa05;
     font-weight: 600;
 
 }
@@ -59,7 +59,7 @@ body {
     --rd-light-hover: 9999px;
     --l-light-hover: 14px;
     --cl-light: #0000;
-    --cr-light: yellow;
+    --cr-light: #ecaa05;
     position: relative;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ body {
     --rd-light-hover: 6px;
     --l-light-hover: 0px;
     --cl-light: #fff;
-    --cr-light: yellow;
+    --cr-light: #ecaa05;
     transition: transform, 400ms ease;
     opacity: 0;
     font-size: 1.25rem;

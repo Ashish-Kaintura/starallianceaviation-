@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const JobOrientedCC = () => {
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scrollTo(0, 0);
   });
   return (
     <div className="bg-white text-gray-800">
@@ -24,7 +24,7 @@ const JobOrientedCC = () => {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               Job Oriented CC Training
             </h2>

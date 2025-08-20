@@ -30,7 +30,7 @@ export default function MakeAppointment() {
       });
   };
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scrollTo(0, 0);
   });
 
   return (

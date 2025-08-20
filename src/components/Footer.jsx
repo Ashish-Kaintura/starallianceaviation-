@@ -11,8 +11,37 @@ import {
   FaPinterestP,
 } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
-
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { Toaster } from "react-hot-toast";
+import { toast } from "react-hot-toast";
 const Footer = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_kmzk5e6", // Replace with your EmailJS service ID
+        "template_rqr2zfd", // Replace with your EmailJS template ID
+        form.current,
+        "UvBtke7LSWuoHG9LL" // Replace with your EmailJS public key
+      )
+      .then(
+        () => {
+          // alert("✅ ");
+          toast.success("Subscribed successfully!");
+          form.current.reset();
+        },
+        (error) => {
+          toast.error("❌ Error:", error);
+          // console.error("❌ Error:", error);
+          alert("Something went wrong. Please try again.");
+        }
+      );
+  };
+
   return (
     <footer className="bg-primary text-white font-lato">
       {/* Top Section */}
@@ -130,10 +159,16 @@ const Footer = () => {
             <h5 className="text-lg font-medium mb-2">
               Subscribe to our Newsletter
             </h5>
-            <form className="flex flex-col sm:flex-row items-center gap-3">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="flex flex-col sm:flex-row items-center gap-3"
+            >
               <input
                 type="email"
+                name="user_email"
                 placeholder="Enter your email"
+                required
                 className="w-full sm:w-auto px-4 py-2 rounded-md text-gray-800"
               />
               <button
@@ -178,7 +213,7 @@ const Footer = () => {
               <FaPinterestP />
             </Link>
             <Link
-              to=" https://www.youtube.com/@StarAllianceAviation"
+              to="https://www.youtube.com/@StarAllianceAviation"
               className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
             >
               <FaYoutube />

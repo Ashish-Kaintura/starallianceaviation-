@@ -31,7 +31,11 @@ import PostDetail from "./page/PostDetail";
 import Blogs from "./page/Blogs";
 import MakeAppointment from "./page/MakeAppointment";
 import Contact from "./page/Contact";
-
+import { Toaster } from "react-hot-toast";
+import PrivacyPolicy from "./page/PrivacyPolicy";
+import TermsAndConditions from "./page/TermsAndConditions";
+import NotFoundPage from "./page/404Page";
+import MaintenancePage from "./page/MaintenancePage";
 const App = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -52,10 +56,11 @@ const App = () => {
   }
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Toaster position="top-center" reverseOrder={false} />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/" element={<MaintenancePage />} />
+        {/* <Route path="/about-us" element={<AboutUs />} />
         <Route path="/pilot-training" element={<PilotTraining />} />
         <Route path="/cpl-ground-classes" element={<CPLGroundClasses />} />
         <Route path="/atpl-ground-classes" element={<ATPLGroundClasses />} />
@@ -85,14 +90,17 @@ const App = () => {
         <Route path="/services-expertise" element={<ServicesAndExpertise />} />
         <Route path="/:slug" element={<ServiceDetail />} />
         <Route path="/blog" element={<Blogs />} />
-        <Route path="/post/:id" element={<PostDetail />} />
+        <Route path="/blog/:slug" element={<PostDetail />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/make-appointment" element={<MakeAppointment />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-and-condition" element={<TermsAndConditions />} />
+        <Route path="*" element={<NotFoundPage />} />
+        <Route path="/make-appointment" element={<MakeAppointment />} /> */}
       </Routes>
-      <SocialMedia />
+      {/* <SocialMedia />
       <WhatsAppSticky />
-      <FAQSection />
-      <Footer />
+      <FAQSection /> */}
+      {/* <Footer /> */}
     </>
   );
 };

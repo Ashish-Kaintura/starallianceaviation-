@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 export default function TRIncludingEndorsement() {
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scrollTo(0, 0);
   });
   return (
     <div>
@@ -23,7 +23,7 @@ export default function TRIncludingEndorsement() {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               TR Including Endorsement
             </h2>

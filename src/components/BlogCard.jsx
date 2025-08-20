@@ -20,7 +20,7 @@ export default function BlogCard({ post }) {
         </p>
         <p className="text-gray-700 dark:text-gray-300 mt-2">{post.excerpt}</p>
         <Link
-          to={`/post/${post.id}`}
+          to={`/blog/${post.slug}`}
           className="text-indigo-500 mt-3 inline-block"
         >
           Read More →

@@ -7,28 +7,28 @@ const trainingData = [
     image:
       "https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/img/Homeimg/CPL%20CLASSES%20IMAGE.jpg",
     desc: "Comprehensive Commercial Pilot License (CPL) training with expert faculty and updated curriculum.",
-    link: "/courses/cpl-ground-class",
+    link: "/cpl-ground-classes",
   },
   {
     title: "ATPL Ground Classes",
     image:
       "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Homeimg/ATPL%20CLASSES.jpg",
     desc: "Prepare for the Airline Transport Pilot License with advanced theory sessions and mock exams.",
-    link: "/courses/atpl-ground-class",
+    link: "/atpl-ground-classes",
   },
   {
     title: "ATPL Oral Viva",
     image:
       "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%20Oral%20%2C%20Viva.jpg",
     desc: "Master the final stage of your pilot exam journey with one-on-one oral viva prep.",
-    link: "/courses/atpl-oral-viva",
+    link: "/atpl-oral-viva",
   },
   {
     title: "RTR (Radio Telephone Restricted)",
     image:
       "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Homeimg/RTR%20(Radio%20Telephone%20Restricted).jpg",
     desc: "Get RTR certified for aviation communication with detailed lessons and mock interviews.",
-    link: "/courses/rtr-radio-telephone",
+    link: "/rtr-radio-telephony-restricted",
   },
 ];
 

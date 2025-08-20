@@ -9,10 +9,10 @@ import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { useEffect } from "react";
 export default function PostDetail() {
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scrollTo(0, 0);
   });
-  const { id } = useParams();
-  const post = blogPosts.find((p) => p.id === parseInt(id));
+  const { slug } = useParams();
+  const post = blogPosts.find((s) => s.slug === slug);
 
   if (!post) {
     return (

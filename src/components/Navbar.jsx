@@ -205,40 +205,46 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="w-full md:hidden bg-white shadow px-4 py-2">
+      <div className="w-full md:hidden bg-primary text-white  shadow px-4 py-2">
         {/* Logo & Menu Button */}
         <div className="flex items-center justify-between">
-          <img
-            loading="lazy"
-            src="https://i.postimg.cc/qq7R0CjT/PNG-1.png"
-            alt="Star Alliance Aviation"
-            className="h-14"
-          />
+          <NavLink to="/">
+            <img
+              loading="lazy"
+              src="https://i.postimg.cc/hvBpty6H/white-logo.png"
+              // src="https://i.postimg.cc/qq7R0CjT/PNG-1.png"
+
+              alt="Star Alliance Aviation"
+              className="h-14"
+            />
+          </NavLink>
           <FaBars
             size={26}
-            className="cursor-pointer text-indigo-900"
+            className="cursor-pointer text-white"
             onClick={() => setMenuOpen(!menuOpen)}
           />
         </div>
 
         {/* Menu Items */}
         {menuOpen && (
-          <div className="mt-4 animate-slideDown">
+          <div className="mt-4 animate-slideDown ">
             <ul className="flex flex-col gap-3 text-base font-medium">
               {/* About */}
               <NavLink to="/">
-                <li className="px-3 py-2 rounded hover:bg-gray-100">Home</li>
+                <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
+                  Home
+                </li>
               </NavLink>
               {/* About */}
               <NavLink to="/about-us">
-                <li className="px-3 py-2 rounded hover:bg-gray-100">
+                <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   About Us
                 </li>
               </NavLink>
 
               {/* Pilot Training */}
               <li>
-                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100">
+                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   <NavLink to="/pilot-training">
                     <span>Pilot Training</span>{" "}
                   </NavLink>
@@ -269,7 +275,7 @@ const Navbar = () => {
 
               {/* Cabin Crew */}
               <li>
-                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100">
+                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   <NavLink to="/cabin-crew-training">
                     {" "}
                     <span>Cabin Crew Training</span>{" "}
@@ -301,7 +307,7 @@ const Navbar = () => {
 
               {/* Services */}
               <li>
-                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100">
+                <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   <NavLink to="/services-expertise">
                     {" "}
                     <span>Services & Expertise</span>{" "}
@@ -333,14 +339,14 @@ const Navbar = () => {
 
               {/* Contact */}
               <NavLink to="/contact-us">
-                <li className="px-3 py-2 rounded hover:bg-gray-100">
+                <li className="px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   Contact Us
                 </li>
               </NavLink>
             </ul>
 
             {/* CTA Button */}
-            <button className="mt-6 w-full bg-indigo-900 text-white font-semibold px-4 py-3 rounded-lg shadow hover:bg-indigo-800 transition">
+            <button className="mt-6 w-full bg-white text-primary font-semibold px-4 py-3 rounded-lg shadow hover:bg-gray-200 transition">
               Make Appointment
             </button>
           </div>

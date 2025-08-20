@@ -2,21 +2,27 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import servicesData from "../data/services.json";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 const ServiceDetail = () => {
+  const navigate = useNavigate();
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scrollTo(0, 0);
   });
   const { slug } = useParams();
   const service = servicesData.find((s) => s.slug === `/${slug}`);
 
   if (!service) {
     return (
-      <div className="max-w-5xl mx-auto py-20 text-center">
-        <h1 className="text-3xl font-bold mb-4">Service Not Found</h1>
+      <div className="max-w-5xl mx-auto py-20 text-center pt-48">
+        <h1 className="text-3xl font-bold mb-4">404 Service Not Found</h1>
         <p className="mb-6">The service you are looking for does not exist.</p>
-        <Link to="/services" className="text-blue-500 underline">
-          Back to Services
-        </Link>
+
+        <button
+          onClick={() => navigate(-1)}
+          className="mb-4 px-4 py-2 text-blue-500 underline rounded hover:bg-primary transition"
+        >
+          ← Back
+        </button>
       </div>
     );
   }
@@ -41,12 +47,12 @@ const ServiceDetail = () => {
             </h1>
             <h2 className="mt-2 text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               {service.name}
             </h2>
             <Link
-              to="/contact"
+              to="/make-appointment"
               className="inline-block mt-6 px-6 py-3 bg-white text-primary font-heading font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment

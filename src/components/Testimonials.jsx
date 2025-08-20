@@ -10,28 +10,28 @@ const testimonials = [
   {
     name: "Captain Maanya",
     position: "Happy Student",
-    image: "https://starallianceaviation.com/wp-content/uploads/2019/06/Manaya.jpg",
+    image: "https://i.postimg.cc/BbQrMc7D/Manaya.jpg",
     quote:
       "Star Alliance Aviation has been instrumental in shaping my career. The instructors are top-notch, and the environment is so supportive.",
   },
   {
     name: "Captain Karan Nayak",
     position: "Happy Student",
-    image: "https://starallianceaviation.com/wp-content/uploads/2020/08/KaranNayak.jpg",
+    image: "https://i.postimg.cc/zB5ZR1nx/Karan-Nayak.jpg",
     quote:
       "I loved the detailed training modules and the personal attention I received during my CPL training.",
   },
   {
     name: "Harshita",
     position: "Cabin Crew in Air India",
-    image: "https://starallianceaviation.com/wp-content/uploads/2019/06/Harshita.jpg",
+    image: "https://i.postimg.cc/0QfgYHnP/Harshita.jpg",
     quote:
       "Their RTR preparation is unmatched. I cleared my exam in the first attempt. Highly recommended!",
   },
   {
     name: "Captain Vishal Jakhar",
     position: "Happy Student",
-    image: "https://starallianceaviation.com/wp-content/uploads/2020/08/Karan-Nayak.jpg",
+    image: "https://i.postimg.cc/J069gDSF/Karan-Nayak.jpg",
     quote:
       "The cabin crew training was exceptional—practical, relevant, and engaging.",
   },
@@ -77,7 +77,8 @@ const Testimonials = () => {
                   </p>
                 </div>
                 <div className="mt-6 flex items-center gap-4">
-                  <img  loading="lazy"
+                  <img
+                    loading="lazy"
                     src={t.image}
                     alt={t.name}
                     className="w-16 h-16 rounded-full object-cover border-4 border-indigo-200"

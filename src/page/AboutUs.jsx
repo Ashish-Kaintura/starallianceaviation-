@@ -5,7 +5,7 @@ import WeAreCommitted from "../components/WeAreCommitted";
 import { useEffect } from "react";
 export default function AboutUs() {
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scrollTo(0, 0);
   });
   return (
     <div>
@@ -26,12 +26,12 @@ export default function AboutUs() {
             </h1>
             <h2 className="mt-2 text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               AboutUs
             </h2>
             <Link
-              to="/contact"
+              to="/make-appointment"
               className="inline-block mt-6 px-6 py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment

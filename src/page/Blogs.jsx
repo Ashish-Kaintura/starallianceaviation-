@@ -4,7 +4,7 @@ import BlogCard from "../components/BlogCard";
 import { useEffect } from "react";
 export default function Blogs() {
   useEffect(() => {
-    window.scroll(0, 0);
+    window.scrollTo(0, 0);
   });
   const [searchTerm, setSearchTerm] = useState("");
   const [category, setCategory] = useState("All");
@@ -47,7 +47,7 @@ export default function Blogs() {
       {/* Blog Grid */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredPosts.length > 0 ? (
-          filteredPosts.map((post) => <BlogCard key={post.id} post={post} />)
+          filteredPosts.map((post) => <BlogCard key={post.slug} post={post} />)
         ) : (
           <p className="text-gray-500 dark:text-gray-400">No articles found.</p>
         )}

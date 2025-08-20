@@ -1,6 +1,7 @@
 export const blogPosts = [
   {
     id: 1,
+    slug: "24",
     title:
       "Why Star Alliance Aviation Academy Is the Right Choice for Aspiring Pilots",
     category: "Aviation Training",
