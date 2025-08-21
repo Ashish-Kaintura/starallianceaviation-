@@ -110,7 +110,7 @@ const PilotTraining = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
                 Pilot Training
               </h2>
-              <h3 className="text-xl font-semibold text-blue-700 mb-3">
+              <h3 className="text-xl font-semibold text-Secondary mb-3">
                 Become a Skilled Pilot with Star Alliance Aviation Academy
               </h3>
               <p className="text-gray-700 text-lg mb-4">
@@ -146,10 +146,10 @@ const PilotTraining = () => {
         </section>
 
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
             Explore Our Training Programs
           </h2>
-          <p className="text-lg text-gray-600 mb-12">
+          <p className="text-lg text-Secondary mb-12">
             From beginners to advanced, our comprehensive pilot training courses
             prepare you for excellence in aviation.
           </p>
@@ -173,7 +173,7 @@ const PilotTraining = () => {
                   <h3 className="text-lg font-semibold text-gray-800">
                     {program.name}
                   </h3>
-                  <span className="text-sm mt-2 text-blue-500 underline inline-block">
+                  <span className="text-sm mt-2 text-Secondary underline inline-block">
                     Read More →
                   </span>
                 </div>
