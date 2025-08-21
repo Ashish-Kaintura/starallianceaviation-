@@ -29,7 +29,7 @@ export default function ATPLOralViva() {
             </h2>
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment
             </Link>
@@ -37,7 +37,7 @@ export default function ATPLOralViva() {
         </div>
       </section>
       <section className="flex justify-center px-4 py-12 border-b-2">
-        <div className="flex flex-col lg:flex-row max-w-7xl w-full gap-10 items-center">
+        <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
@@ -70,7 +70,7 @@ export default function ATPLOralViva() {
           </div>
         </div>
       </section>
-      <div className="max-w-7xl mx-auto py-12 font-sans text-gray-700 sm:px-0 px-4">
+      <div className="max-w-6xl mx-auto py-12 font-sans text-gray-700 sm:px-0 px-4">
         <p>
           With personalized coaching, comprehensive mock interviews, and
           invaluable insights gleaned from years of industry experience, our

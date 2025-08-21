@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
     <div className="mx-auto px-4 py-10 text-gray-800">
       <Helmet></Helmet>
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6 pt-32">
-        <div className="max-w-7xl mx-auto bg-white shadow-xl rounded-2xl p-10 relative overflow-hidden">
+        <div className="max-w-6xl mx-auto bg-white shadow-xl rounded-2xl p-10 relative overflow-hidden">
           {/* Background accent */}
           <div className="absolute top-0 left-0 w-40 h-40 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
           <div className="absolute bottom-0 right-0 w-60 h-60 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>

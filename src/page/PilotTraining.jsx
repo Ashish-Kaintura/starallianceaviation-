@@ -60,7 +60,7 @@ const trainingPrograms = [
 import Img1 from "../img/coolbackgrounds-particles-stellar.png";
 const PilotTraining = () => {
   useEffect(() => {
-   window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   });
   return (
     <>
@@ -88,7 +88,7 @@ const PilotTraining = () => {
             </h2>
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment
             </Link>
@@ -104,7 +104,7 @@ const PilotTraining = () => {
           backgroundSize: "cover",
         }}
       >
-        <section className="max-w-7xl mx-auto mb-16 bg-white/90 rounded-3xl shadow-lg p-8 md:p-14 relative z-10 ">
+        <section className="max-w-6xl mx-auto mb-16 bg-white/90 rounded-3xl shadow-lg p-8 md:p-14 relative z-10 ">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-1">
               <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
@@ -145,7 +145,7 @@ const PilotTraining = () => {
           </div>
         </section>
 
-        <div className="max-w-7xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Explore Our Training Programs
           </h2>

@@ -30,7 +30,7 @@ export default function CPLGroundClasses() {
             </h2>
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment
             </Link>
@@ -40,7 +40,7 @@ export default function CPLGroundClasses() {
 
       {/* About CPL Section */}
       <section className="flex justify-center px-4 py-12 border-b-2">
-        <div className="flex flex-col lg:flex-row max-w-7xl w-full gap-10 items-center">
+        <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
@@ -76,7 +76,7 @@ export default function CPLGroundClasses() {
 
       {/* DGCA Exam Details */}
       <section className="bg-primary py-16 px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-white mb-12">
             DGCA Exam Details
           </h2>
@@ -131,7 +131,7 @@ export default function CPLGroundClasses() {
       </section>
 
       <section className="flex justify-center px-4 py-12">
-        <div className="flex flex-col lg:flex-row max-w-7xl w-full gap-10 items-center">
+        <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
           <div className="flex flex-col justify-start w-full lg:w-1/2">
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
               Our esteemed group of aviation experts, whose combined knowledge
@@ -170,7 +170,7 @@ export default function CPLGroundClasses() {
           </div>
         </div>
       </section>
-      <div className="max-w-7xl mx-auto py-12 font-sans text-gray-700 sm:px-0 px-4">
+      <div className="max-w-6xl mx-auto py-12 font-sans text-gray-700 sm:px-0 px-4">
         <p>
           Whether you are embarking on your journey towards a CPL or seeking to
           enhance your aviation knowledge and skills, our team is dedicated to

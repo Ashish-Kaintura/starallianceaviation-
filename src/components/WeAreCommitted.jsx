@@ -66,7 +66,7 @@ const WeAreCommitted = () => {
 
       {/* Content */}
       <div className="relative z-20 px-4 md:px-10 py-20">
-        <div className="max-w-7xl mx-auto text-white">
+        <div className="max-w-6xl mx-auto text-white">
           {/* Header */}
           <div className="text-center mb-14">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
@@ -86,7 +86,7 @@ const WeAreCommitted = () => {
                 className="bg-white/10 backdrop-blur-md text-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-[1.02]"
               >
                 <div className="flex items-center justify-center mb-4">
-                  <div className="bg-primary p-4 rounded-full shadow-md">
+                  <div className="bg-Secondary p-4 rounded-full shadow-md">
                     {item.icon}
                   </div>
                 </div>

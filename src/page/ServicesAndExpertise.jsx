@@ -39,7 +39,7 @@ const ServicesAndExpertise = () => {
             </h2>
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment
             </Link>
@@ -55,7 +55,7 @@ const ServicesAndExpertise = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="max-w-7xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Explore Our Training Programs
           </h2>

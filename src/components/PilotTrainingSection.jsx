@@ -43,10 +43,7 @@ const PilotTrainingSection = () => {
     >
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto text-center text-white">
-        {/* <h4 className="uppercase text-sm tracking-wider text-white mb-2">
-          _We are committed to_
-        </h4> */}
+      <div className="relative z-10 max-w-6xl mx-auto text-center text-Secondary">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
           Pilot Training
         </h2>
@@ -74,7 +71,7 @@ const PilotTrainingSection = () => {
                 <p className="text-gray-600 mb-4 line-clamp-3">{item.desc}</p>
                 <Link
                   to={item.link}
-                  className="text-indigo-700 font-medium hover:underline font-sans"
+                  className="text-Secondary font-medium hover:underline font-sans"
                 >
                   Read More →
                 </Link>
@@ -86,7 +83,7 @@ const PilotTrainingSection = () => {
         <div className="mt-12">
           <Link
             to="/contact-us"
-            className="inline-block bg-indigo-800 hover:bg-indigo-900 text-white px-6 py-3 rounded-full text-lg transition"
+            className="inline-block bg-Secondary hover:bg-Lightcolor text-white px-6 py-3 rounded-full text-lg transition"
           >
             Contact Training Advisor
           </Link>

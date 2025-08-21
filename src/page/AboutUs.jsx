@@ -19,7 +19,7 @@ export default function AboutUs() {
       >
         <div className="absolute inset-0 bg-black/20"></div>
 
-        <div className="relative z-10 w-[1300px] mt-8">
+        <div className="relative z-10 w-[1150px] mt-8">
           <div className="text-white p-5 max-w-lg">
             <h1 className="text-4xl md:text-5xl font-bold text-white font-heading animate-fade-in-down">
               AboutUs
@@ -32,7 +32,7 @@ export default function AboutUs() {
             </h2>
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-6 py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-6 py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment
             </Link>

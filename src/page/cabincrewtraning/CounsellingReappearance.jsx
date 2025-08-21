@@ -29,7 +29,7 @@ const CounsellingReappearance = () => {
             </h2>
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment
             </Link>
@@ -105,7 +105,7 @@ const CounsellingReappearance = () => {
       </section>
 
       {/* Key Features */}
-      <section className="px-6 py-16 max-w-7xl mx-auto">
+      <section className="px-6 py-16 max-w-6xl mx-auto">
         <h2 className="text-3xl font-semibold text-center mb-10">
           Why Choose Our Counselling?
         </h2>

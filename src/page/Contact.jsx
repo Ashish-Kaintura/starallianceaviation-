@@ -52,9 +52,7 @@ const ContactPage = () => {
               <div className="flex items-center justify-center bg-blue-100 rounded-full w-12 h-12">
                 <Phone className="w-6 h-6 text-blue-700" />
               </div>
-              <p className="text-gray-700 text-base">
-                +91 9289595558 <br />+ 011-45517009
-              </p>
+              <p className="text-gray-700 text-base">+91 9289595558</p>
             </div>
 
             <div className="flex items-center gap-4 bg-white/80 shadow-sm rounded-xl p-4 hover:shadow-md transition">
@@ -62,8 +60,7 @@ const ContactPage = () => {
                 <Mail className="w-6 h-6 text-blue-700" />
               </div>
               <p className="text-gray-700 text-base">
-                info@starallianceaviation.com <br />{" "}
-                starallianceaviationacacademy55 @gmail.com
+                info@starallianceaviation.com <br />
               </p>
             </div>
 
@@ -72,9 +69,8 @@ const ContactPage = () => {
                 <MapPin className="w-6 h-6 text-blue-700" />
               </div>
               <p className="text-gray-700 text-base">
-                Star Alliance Aviation Pvt Ltd E-551, 2nd, 3rd, and 4th Floors,
-                Manyavar Showroom Building, Ramphal Chowk, Dwarka Sector – 7,
-                New Delhi-110075
+                E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector –
+                7, Manyavar Showroom Building New Delhi-110075
               </p>
             </div>
           </div>

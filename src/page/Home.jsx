@@ -111,7 +111,7 @@ export default function Home() {
       <div className="md:flex hidden w-full relative">
         {/* Background video */}
         <video
-          className="w-full h-96 object-cover"
+          className="w-full h-96 object-contain"
           autoPlay
           muted
           loop
@@ -137,7 +137,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <PopupForm />
+      {/* <PopupForm /> */}
       <CommitmentSection />
 
       <PilotTrainingSection />

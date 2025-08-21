@@ -78,7 +78,7 @@ const AirlinesPreparation = () => {
             </h2>
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment
             </Link>
@@ -86,13 +86,13 @@ const AirlinesPreparation = () => {
         </div>
       </section>
       <section className="bg-gray-50 text-gray-800 px-6 py-12 md:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6 text-center font-heading">
             Airlines Preparation Course: Kickstart Your Career in Aviation with
             Expert Training
           </h1>
 
-          <p className=" mb-10 text-center max-w-7xl mx-auto leading-relaxed font-sans">
+          <p className=" mb-10 text-center max-w-6xl mx-auto leading-relaxed font-sans">
             Star Alliance Aviation Academy's focus is on full airline pilot
             training, ultimately resulting in people having successful careers
             in aviation. As a top aviation academy, we are proud to offer the

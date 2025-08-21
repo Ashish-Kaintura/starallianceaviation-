@@ -137,7 +137,7 @@ const Navbar = () => {
       {/* Desktop Navbar */}
       <div
         className={`hidden md:flex ${
-          scrolling ? "w-full" : "w-[1300px]"
+          scrolling ? "w-full" : "w-[1180px]"
         } rounded-lg justify-center bg-gradient-to-r from-primary via-[#013066]   to-[#00163d]  text-white shadow transition-all duration-300 uppercase`}
       >
         <nav className="flex items-center justify-between w-full max-w-[1320px] px-4 py-2 relative">
@@ -146,7 +146,7 @@ const Navbar = () => {
               loading="lazy"
               src="https://i.postimg.cc/hvBpty6H/white-logo.png"
               alt="Star Alliance Aviation"
-              className="h-[5rem]"
+              className="h-[4rem]"
             />
           </Link>
           <ul className="flex gap-6 text-sm font-medium relative">
@@ -198,7 +198,7 @@ const Navbar = () => {
               <li className="hover:text-Secondary">Blog</li>
             </NavLink>
           </ul>
-          <button className="bg-white text-primary hover:text-white text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-blue-800 transition">
+          <button className="bg-Secondary text-white hover:text-white text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-Lightcolor transition">
             <Link to="/contact-us"> Contact Us </Link>
           </button>
         </nav>

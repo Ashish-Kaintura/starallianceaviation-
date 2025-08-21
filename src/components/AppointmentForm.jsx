@@ -33,10 +33,10 @@ const AppointmentForm = () => {
           "url('https://drawdown.org/sites/default/files/solutions/airplanes-web.jpg')",
       }}
     >
-        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
       <div className=" relative z-10 w-full max-w-6xl sm:justify-start">
         <div className="w-full max-w-md bg-[#111c44] text-white p-8 rounded-xl border-2shadow-lg mr-8">
-          <h2 className="text-center text-xl font-semibold mb-6">
+          <h2 className="text-center text-xl font-semibold mb-6 text-Secondary">
             Make An Appointment
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -69,7 +69,7 @@ const AppointmentForm = () => {
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-[#1c2e80] hover:bg-[#2d3ea0] text-white font-semibold uppercase text-sm py-3 rounded-md transition"
+              className="w-full bg-Secondary hover:bg-Lightcolor text-white font-semibold uppercase text-sm py-3 rounded-md transition"
             >
               Submit Now
             </button>

@@ -29,7 +29,7 @@ const CabinCrew = () => {
             </h2>
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-white text-[#2c3756] font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
             >
               Make an Appointment
             </Link>
@@ -38,7 +38,7 @@ const CabinCrew = () => {
       </div>
 
       {/* Section: Program Overview */}
-      <section className="px-6 py-20 max-w-7xl mx-auto" data-aos="fade-up">
+      <section className="px-6 py-20 max-w-6xl mx-auto" data-aos="fade-up">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
             src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/1.jpg"
@@ -80,7 +80,7 @@ const CabinCrew = () => {
         className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6"
         data-aos="zoom-in"
       >
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-5 text-blue-800">
               Counselling for Reappearance
@@ -107,7 +107,7 @@ const CabinCrew = () => {
       </section>
 
       {/* Section: Job-Oriented Training */}
-      <section className="px-6 py-20 max-w-7xl mx-auto" data-aos="zoom-out">
+      <section className="px-6 py-20 max-w-6xl mx-auto" data-aos="zoom-out">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
             src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/3.jpg"
@@ -158,7 +158,7 @@ const CabinCrew = () => {
       </section>
 
       {/* Who Can Apply */}
-      <section className="py-20 px-6 max-w-7xl mx-auto" data-aos="fade-down">
+      <section className="py-20 px-6 max-w-6xl mx-auto" data-aos="fade-down">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-5 text-blue-800">

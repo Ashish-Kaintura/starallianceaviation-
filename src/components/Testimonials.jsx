@@ -46,7 +46,7 @@ const Testimonials = () => {
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1571019613578-2b5de7c0fe49?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center opacity-10"></div>
 
       <div className="relative max-w-6xl mx-auto text-center">
-        <h2 className=" text-red-400 mb-12 max-w-2xl mx-auto">
+        <h2 className=" text-Secondary mb-12 max-w-2xl mx-auto">
           _ Student Testimonials _
         </h2>
         <p className=" text-4xl md:text-5xl font-extrabold text-indigo-900 mb-8">
@@ -71,7 +71,7 @@ const Testimonials = () => {
             <SwiperSlide key={i}>
               <div className="backdrop-blur-lg bg-white/80 rounded-2xl p-8 shadow-xl h-full flex flex-col justify-between hover:shadow-2xl transition duration-300">
                 <div className="text-left">
-                  <FaQuoteLeft className="text-indigo-400 text-3xl mb-4 animate-pulse" />
+                  <FaQuoteLeft className="text-Secondary text-3xl mb-4 animate-pulse" />
                   <p className="text-gray-800 font-medium leading-relaxed">
                     {t.quote}
                   </p>
@@ -84,7 +84,7 @@ const Testimonials = () => {
                     className="w-16 h-16 rounded-full object-cover border-4 border-indigo-200"
                   />
                   <div className="text-left">
-                    <h4 className="text-lg font-bold text-indigo-800">
+                    <h4 className="text-lg font-bold text-Secondary">
                       {t.name}
                     </h4>
                     <p className="text-sm text-gray-500">{t.position}</p>

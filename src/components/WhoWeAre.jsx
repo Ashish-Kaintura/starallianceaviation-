@@ -3,7 +3,7 @@ import React from "react";
 const WhoWeAre = () => {
   return (
     <section className="bg-gradient-to-br from-[#e9efff] to-white py-16 px-4 md:px-10">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Text Content */}
         <div className="bg-[#103057] text-white p-8 md:p-10 rounded-3xl shadow-lg">
           <p className="text-Secondary tracking-wider uppercase text-sm font-medium mb-2">

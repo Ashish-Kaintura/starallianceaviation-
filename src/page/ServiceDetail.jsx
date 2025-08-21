@@ -63,7 +63,7 @@ const ServiceDetail = () => {
 
       {/* Intro Section */}
       <section className="py-14 bg-white px-4 sm:px-6 lg:px-12">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10">
+        <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-10">
           <div className="w-full lg:w-1/2">
             <h2 className="text-2xl md:text-4xl font-bold text-primary font-heading mb-5">
               {service.content.title}
@@ -94,7 +94,7 @@ const ServiceDetail = () => {
 
       {/* What We Offer */}
       <section className="py-14 bg-gray-50 px-4 sm:px-6 lg:px-12">
-        <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-10">
+        <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-10">
           <div className="w-full lg:w-1/2">
             <div className="overflow-hidden rounded-xl shadow-lg">
               <img
@@ -120,7 +120,7 @@ const ServiceDetail = () => {
 
       {/* Why Choose Us */}
       <section className="py-14 bg-white px-4 sm:px-6 lg:px-12">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10">
+        <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-10">
           <div className="w-full lg:w-1/2">
             <h3 className="text-xl md:text-3xl font-bold text-primary font-heading mb-4">
               Why Choose Us
@@ -145,7 +145,7 @@ const ServiceDetail = () => {
       </section>
 
       <section className="flex justify-center px-4 py-16 border-b-2 bg-white">
-        <div className="flex flex-col-reverse lg:flex-row max-w-7xl w-full gap-12 items-center">
+        <div className="flex flex-col-reverse lg:flex-row max-w-6xl w-full gap-12 items-center">
           <div className="list-disc pl-5 text-gray-700 font-sans max-w-1/2">
             <h3 className="text-2xl font-bold mt-8 py-4">
               {service.content.title3}

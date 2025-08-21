@@ -45,7 +45,7 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-white font-lato">
       {/* Top Section */}
-      <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+      <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
           <img
@@ -127,15 +127,14 @@ const Footer = () => {
             <li className="flex items-start gap-2">
               <FaMapMarkerAlt size={55} className="mt-1 text-red-400" />
               <span>
-                Our Address Star Alliance Aviation Pvt Ltd E-551, 2nd, 3rd, and
-                4th Floors, Manyavar Showroom Building, Ramphal Chowk, Dwarka
-                Sector – 7, New Delhi-110075
+                E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector –
+                7, Manyavar Showroom Building New Delhi-110075
               </span>
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-green-400" />
               <NavLink to="tel:+911234567890" className="hover:text-white">
-                +91 12345 67890
+                092895 95558
               </NavLink>
             </li>
             <li className="flex items-center gap-2">
@@ -153,7 +152,7 @@ const Footer = () => {
 
       {/* Newsletter + Social */}
       <div className="px-6 py-8">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Newsletter */}
           <div className="w-full md:w-2/3">
             <h5 className="text-lg font-medium mb-2">

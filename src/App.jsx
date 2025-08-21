@@ -56,11 +56,11 @@ const App = () => {
   }
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Toaster position="top-center" reverseOrder={false} />
       <Routes>
-        <Route path="/" element={<MaintenancePage />} />
-        {/* <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/pilot-training" element={<PilotTraining />} />
         <Route path="/cpl-ground-classes" element={<CPLGroundClasses />} />
         <Route path="/atpl-ground-classes" element={<ATPLGroundClasses />} />
@@ -95,12 +95,12 @@ const App = () => {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-condition" element={<TermsAndConditions />} />
         <Route path="*" element={<NotFoundPage />} />
-        <Route path="/make-appointment" element={<MakeAppointment />} /> */}
+        <Route path="/make-appointment" element={<MakeAppointment />} />
       </Routes>
-      {/* <SocialMedia />
+      <SocialMedia />
       <WhatsAppSticky />
-      <FAQSection /> */}
-      {/* <Footer /> */}
+      <FAQSection />
+      <Footer />
     </>
   );
 };
