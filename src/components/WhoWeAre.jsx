@@ -9,8 +9,8 @@ const WhoWeAre = () => {
           <p className="text-Secondary tracking-wider uppercase text-sm font-medium mb-2">
             Who we are
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-            Star Alliance Aviation <br /> Private Limited
+          <h2 className="text-3xl md:text-3xl font-bold mb-4 leading-tight">
+            Star Alliance Aviation Academy <br /> Private Limited
           </h2>
           <p className="font-semibold mb-4">
             Star Alliance Aviation Academy is a premier aviation training

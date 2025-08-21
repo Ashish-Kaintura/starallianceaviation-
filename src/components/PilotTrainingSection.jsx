@@ -38,7 +38,7 @@ const PilotTrainingSection = () => {
       className="relative bg-fixed bg-center bg-cover py-24 px-4"
       style={{
         backgroundImage:
-          "url('https://www.aerotime.aero/images/Biman-Bangladesh-Airlines-Boeing-787-landing-at-London-Heathrow-Airport-LHR-800x500.jpg')",
+          "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/bg/starallianceaviationpilottraning.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>

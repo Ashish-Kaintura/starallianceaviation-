@@ -32,7 +32,7 @@ const ContactPage = () => {
       <div
         className="grid grid-cols-1 md:grid-cols-2 gap-12 px-6 md:px-16 lg:px-24 py-20 bg-blue-600  relative bg-fixed bg-center bg-cover"
         style={{
-          backgroundImage: `url('https://www.aerotime.aero/images/Biman-Bangladesh-Airlines-Boeing-787-landing-at-London-Heathrow-Airport-LHR-800x500.jpg')`,
+          backgroundImage: `url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/bg/starallianceaviationpilottraning.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
