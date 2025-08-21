@@ -37,17 +37,17 @@ const ServiceDetail = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative"
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px]"
       >
         <div className="absolute inset-0 bg-black/25"></div>
-        <div className="relative z-10 w-[1300px] mt-8">
+        <div className="relative z-10 w-[1160px] mt-8">
           <div className="text-white p-5 max-w-lg">
             <h1 className="text-4xl md:text-5xl font-bold text-white font-heading animate-fade-in-down">
               {service.name}
             </h1>
             <h2 className="mt-2 text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy /
+                Star Alliance Aviation Academy Academy /
               </Link>{" "}
               {service.name}
             </h2>
@@ -168,7 +168,7 @@ const ServiceDetail = () => {
         <div className="mt-10">
           <Link
             to="/services-expertise"
-            className="inline-block bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition"
+            className="inline-block bg-Secondary text-white py-3 px-6 rounded-lg hover:bg-Lightcolor transition"
           >
             Back to Services
           </Link>

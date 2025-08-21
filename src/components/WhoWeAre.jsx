@@ -10,11 +10,11 @@ const WhoWeAre = () => {
             Who we are
           </p>
           <h2 className="text-3xl md:text-3xl font-bold mb-4 leading-tight">
-            Star Alliance Aviation Academy <br /> Private Limited
+            Star Alliance Aviation Academy Academy <br /> Private Limited
           </h2>
           <p className="font-semibold mb-4">
-            Star Alliance Aviation Academy is a premier aviation training
-            institute driven by a team of passionate and experienced
+            Star Alliance Aviation Academy Academy is a premier aviation
+            training institute driven by a team of passionate and experienced
             professionals dedicated to delivering top-tier training, products,
             and services. We started the academy in 2022 in response to the need
             for high-quality, innovative solutions and services to support the

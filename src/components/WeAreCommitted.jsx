@@ -6,7 +6,7 @@ import {
   FaUsers,
   FaShieldAlt,
 } from "react-icons/fa";
-import Video1 from "../video/Airplan.mp4";
+
 const values = [
   {
     icon: <FaShieldAlt className="text-3xl text-white" />,
@@ -42,7 +42,7 @@ const values = [
     icon: <FaShieldAlt className="text-3xl text-white" />,
     title: "Company Ethics",
     description:
-      "Company Ethics At Star Alliance Aviation Academy, we believe that ethical business practices are the foundation of our success. ",
+      "Company Ethics At Star Alliance Aviation Academy Academy, we believe that ethical business practices are the foundation of our success. ",
   },
 ];
 
@@ -57,7 +57,10 @@ const WeAreCommitted = () => {
         loop
         playsInline
       >
-        <source src={Video1} type="video/mp4" />
+        <source
+          src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/video/Airplan.mp4"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
 

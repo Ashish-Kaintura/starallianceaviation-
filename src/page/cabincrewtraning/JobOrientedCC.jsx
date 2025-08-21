@@ -24,7 +24,7 @@ const JobOrientedCC = () => {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy /
+                Star Alliance Aviation Academy Academy /
               </Link>{" "}
               Job Oriented CC Training
             </h2>
@@ -51,11 +51,11 @@ const JobOrientedCC = () => {
               Job-Oriented Cabin Crew Training for Airline
             </h2>
             <p className="text-lg leading-relaxed mb-4">
-              Star Alliance Aviation Academy is one of the most distinguished
-              institutes offering advanced training programs for those
-              interested in becoming airline cabin crew. The path of our academy
-              is distinctive in the field of aviation education because we are
-              committed to excellence, industry relevance, and individual
+              Star Alliance Aviation Academy Academy is one of the most
+              distinguished institutes offering advanced training programs for
+              those interested in becoming airline cabin crew. The path of our
+              academy is distinctive in the field of aviation education because
+              we are committed to excellence, industry relevance, and individual
               student support.
             </p>
           </div>
@@ -66,10 +66,12 @@ const JobOrientedCC = () => {
       <section className="bg-gray-50 py-16 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-3xl font-semibold mb-4">Our Approach</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-Secondary">
+              Our Approach
+            </h2>
             <p className="text-lg leading-relaxed mb-4">
-              We at Star Alliance Aviation Academy realize the dynamic and
-              demanding nature of the aviation industry. Consequently, we
+              We at Star Alliance Aviation Academy Academy realize the dynamic
+              and demanding nature of the aviation industry. Consequently, we
               formulate our training programs so that students develop the
               skills, knowledge, and confidence to succeed in their respective
               professions. We integrate theory studies with simulations and
@@ -97,7 +99,9 @@ const JobOrientedCC = () => {
               alt="Expert Faculty"
               className="rounded-lg mb-4"
             />
-            <h3 className="font-semibold text-xl mb-2">Expert Faculty</h3>
+            <h3 className="font-semibold text-xl mb-2 text-Secondary">
+              Expert Faculty
+            </h3>
             <p className="text-gray-600 text-sm">
               Expert Faculty: We hire professional pilots that have been in the
               industry for a long time. They bring unique perspectives and
@@ -111,7 +115,7 @@ const JobOrientedCC = () => {
               alt="Industry Relevant Curriculum"
               className="rounded-lg mb-4"
             />
-            <h3 className="font-semibold text-xl mb-2">
+            <h3 className="font-semibold text-xl mb-2 text-Secondary">
               Industry-Relevant Curriculum
             </h3>
             <p className="text-gray-600 text-sm">
@@ -128,7 +132,9 @@ const JobOrientedCC = () => {
               alt="Hands-On Training"
               className="rounded-lg mb-4"
             />
-            <h3 className="font-semibold text-xl mb-2">Hands-On Training</h3>
+            <h3 className="font-semibold text-xl mb-2 text-Secondary">
+              Hands-On Training
+            </h3>
             <p className="text-gray-600 text-sm">
               Hands-On Training: Training from procedure to customer service is
               focused on interactive simulations and practical exercises where
@@ -142,7 +148,7 @@ const JobOrientedCC = () => {
               alt="Job Placement Assistance"
               className="rounded-lg mb-4"
             />
-            <h3 className="font-semibold text-xl mb-2">
+            <h3 className="font-semibold text-xl mb-2 text-Secondary">
               Job Placement Assistance
             </h3>
             <p className="text-gray-600 text-sm">
@@ -162,10 +168,11 @@ const JobOrientedCC = () => {
           Ready to Take Off Your Career?
         </h2>
         <p className="max-w-2xl mx-auto mb-6">
-          Join Star Alliance Aviation Academy’s Job Oriented CC Training and
-          begin your journey to becoming a world-class cabin crew professional.
+          Join Star Alliance Aviation Academy Academy’s Job Oriented CC Training
+          and begin your journey to becoming a world-class cabin crew
+          professional.
         </p>
-        <button className="bg-white text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
+        <button className="bg-Secondary text-white px-6 py-3 rounded-full font-semibold hover:bg-Lightcolor transition">
           <Link to="/contact-us">Apply Now</Link>
         </button>
       </section>

@@ -23,7 +23,7 @@ const CounsellingReappearance = () => {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy /
+                Star Alliance Aviation Academy Academy /
               </Link>{" "}
               Counselling (For Reappearance)
             </h2>
@@ -70,7 +70,7 @@ const CounsellingReappearance = () => {
       <section className="bg-gray-50 py-16 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-3xl font-semibold mb-4">
+            <h2 className="text-3xl font-semibold mb-4 text-Secondary">
               Introducing Our Expert Aviation Counselling Team:
             </h2>
             <p className="text-lg leading-relaxed mb-4">
@@ -116,7 +116,9 @@ const CounsellingReappearance = () => {
               alt="Expert Guidance"
               className="rounded-lg mb-4"
             />
-            <h3 className="font-semibold text-xl mb-2">Expert Guidance</h3>
+            <h3 className="font-semibold text-xl mb-2 text-Secondary">
+              Expert Guidance
+            </h3>
             <p className="text-gray-600 text-sm">
               The vast majority of our team members are seasoned professionals
               with years of experience in the aviation recruitment and selection
@@ -130,7 +132,9 @@ const CounsellingReappearance = () => {
               alt="Tailored Solutions"
               className="rounded-lg mb-4"
             />
-            <h3 className="font-semibold text-xl mb-2">Tailored Solutions</h3>
+            <h3 className="font-semibold text-xl mb-2 text-Secondary">
+              Tailored Solutions
+            </h3>
             <p className="text-gray-600 text-sm">
               We are well aware that candidates are not all the same. This is
               why we customize counseling and technical analysis services for
@@ -144,7 +148,7 @@ const CounsellingReappearance = () => {
               alt="Cutting-Edge Technology"
               className="rounded-lg mb-4"
             />
-            <h3 className="font-semibold text-xl mb-2">
+            <h3 className="font-semibold text-xl mb-2 text-Secondary">
               Cutting-Edge Technology
             </h3>
             <p className="text-gray-600 text-sm">
@@ -160,7 +164,9 @@ const CounsellingReappearance = () => {
               alt="Proven Success"
               className="rounded-lg mb-4"
             />
-            <h3 className="font-semibold text-xl mb-2">Proven Success</h3>
+            <h3 className="font-semibold text-xl mb-2 text-Secondary">
+              Proven Success
+            </h3>
             <p className="text-gray-600 text-sm">
               Our success speaks for itself in the variety of positions our
               candidates have secured through leading airlines globally. Our

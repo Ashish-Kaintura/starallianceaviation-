@@ -30,7 +30,7 @@ const AppointmentForm = () => {
       className="relative bg-fixed bg-center bg-cover py-24 px-4 flex justify-center"
       style={{
         backgroundImage:
-          "url('https://drawdown.org/sites/default/files/solutions/airplanes-web.jpg')",
+          "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/bg/starallianceaviationpilottraning.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>

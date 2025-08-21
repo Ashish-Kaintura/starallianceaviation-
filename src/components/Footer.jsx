@@ -55,9 +55,9 @@ const Footer = () => {
             className="h-28 mb-4"
           />
           <p className="text-sm text-gray-300">
-            Star Alliance Aviation Academy is committed to shaping the next
-            generation of aviation professionals with passion, integrity, and
-            excellence.
+            Star Alliance Aviation Academy Academy is committed to shaping the
+            next generation of aviation professionals with passion, integrity,
+            and excellence.
           </p>
         </div>
 
@@ -172,7 +172,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="bg-red-500 hover:bg-red-600 text-white px-5 py-2 rounded-md transition"
+                className="bg-Secondary hover:bg-Lightcolor text-white px-5 py-2 rounded-md transition"
               >
                 Subscribe
               </button>
@@ -223,7 +223,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="text-center text-sm text-primary py-4  bg-white">
-        © {new Date().getFullYear()} Star Alliance Aviation. All rights
+        © {new Date().getFullYear()} Star Alliance Aviation Academy. All rights
         reserved.
       </div>
     </footer>

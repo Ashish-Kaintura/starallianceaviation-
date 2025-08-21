@@ -15,7 +15,7 @@ export default function AboutUs() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative "
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px] "
       >
         <div className="absolute inset-0 bg-black/20"></div>
 
@@ -26,7 +26,7 @@ export default function AboutUs() {
             </h1>
             <h2 className="mt-2 text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy /
+                Star Alliance Aviation Academy Academy /
               </Link>{" "}
               AboutUs
             </h2>

@@ -9,7 +9,7 @@ const CabinCrew = () => {
     <div className="bg-white text-gray-800 font-sans">
       {/* Hero Section */}
       <div
-        className="relative bg-cover bg-center h-[70vh] flex items-center justify-center"
+        className=" bg-cover bg-center text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px]"
         style={{
           backgroundImage:
             "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-crew-training-banner.jpg')",
@@ -23,7 +23,7 @@ const CabinCrew = () => {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy /
+                Star Alliance Aviation Academy Academy /
               </Link>{" "}
               Cabin Crew Training
             </h2>
@@ -46,7 +46,7 @@ const CabinCrew = () => {
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />
           <div>
-            <h2 className="text-4xl font-bold mb-5 text-blue-800 font-heading">
+            <h2 className="text-4xl font-bold mb-5 text-primary font-heading">
               Why Choose Our Cabin Crew Training?
             </h2>
             <p className="mb-6 text-lg font-sans">
@@ -82,7 +82,7 @@ const CabinCrew = () => {
       >
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-5 text-blue-800">
+            <h2 className="text-4xl font-bold mb-5 text-primary">
               Counselling for Reappearance
             </h2>
             <p className="text-gray-700 text-lg">
@@ -93,7 +93,7 @@ const CabinCrew = () => {
             </p>
             <Link
               to="/counselling-for-reappearance"
-              className="inline-block mt-6 text-blue-700 font-semibold underline hover:text-blue-900 transition"
+              className="inline-block mt-6 text-Secondary font-semibold underline hover:text-Lightcolor transition"
             >
               Read More
             </Link>
@@ -115,17 +115,18 @@ const CabinCrew = () => {
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />
           <div>
-            <h2 className="text-4xl font-bold mb-5 text-blue-800">
+            <h2 className="text-4xl font-bold mb-5 text-Secondary">
               Job-Oriented CC Training
             </h2>
             <p className="text-lg">
-              Star Alliance Aviation Academy stands apart for its dedication to
-              excellence, industry relevance, and personalized support to help
-              you join top airlines as a cabin crew professional.
+              Star Alliance Aviation Academy Academy stands apart for its
+              dedication to excellence, industry relevance, and personalized
+              support to help you join top airlines as a cabin crew
+              professional.
             </p>
             <Link
               to="/job-oriented-cc-training"
-              className="inline-block mt-6 text-blue-700 font-semibold underline hover:text-blue-900 transition"
+              className="inline-block mt-6 text-Secondary font-semibold underline hover:text-Lightcolor transition"
             >
               Read More
             </Link>
@@ -161,7 +162,7 @@ const CabinCrew = () => {
       <section className="py-20 px-6 max-w-6xl mx-auto" data-aos="fade-down">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-5 text-blue-800">
+            <h2 className="text-4xl font-bold mb-5 text-Secondary">
               Who Can Apply?
             </h2>
             <ul className="list-disc ml-6 text-gray-700 space-y-3 text-lg">
@@ -196,7 +197,7 @@ const CabinCrew = () => {
 
       {/* Why Cabin Crew */}
       <section className="py-20 px-6 max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-8 text-blue-800">
+        <h2 className="text-4xl font-bold text-center mb-8 text-Secondary">
           Why Cabin Crew Is a Great Career Choice?
         </h2>
         <p className="text-xl text-center max-w-3xl mx-auto text-gray-700 mb-12">
@@ -214,14 +215,14 @@ const CabinCrew = () => {
       {/* CTA */}
       <section className="bg-gradient-to-r from-primary to-blue-800 text-white py-20 text-center">
         <h2 className="text-4xl font-extrabold mb-6">
-          Join Star Alliance Aviation Today
+          Join Star Alliance Aviation Academy Today
         </h2>
         <p className="mb-8 max-w-2xl mx-auto text-lg">
           Our mission is to build confident, capable, and charming cabin crew
           professionals who will shine in the aviation industry. Your dream
           career begins here.
         </p>
-        <button className="bg-white text-blue-800 px-8 py-4 rounded-full font-bold shadow-lg hover:bg-blue-100 transition text-lg">
+        <button className="bg-Secondary text-white px-8 py-4 rounded-full font-bold shadow-lg hover:bg-Lightcolor transition text-lg">
           <Link to="/contact-us"> Enroll Now </Link>
         </button>
       </section>

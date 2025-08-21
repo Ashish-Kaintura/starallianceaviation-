@@ -13,7 +13,7 @@ export default function TRIncludingEndorsement() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative"
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px]"
       >
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
@@ -23,7 +23,7 @@ export default function TRIncludingEndorsement() {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy /
+                Star Alliance Aviation Academy Academy /
               </Link>{" "}
               TR Including Endorsement
             </h2>
@@ -51,7 +51,7 @@ export default function TRIncludingEndorsement() {
               Empower Your Pilot Career with Expert Type Rating Training
             </h2>
             <p className="text-gray-700 font-sans m2-6 leading-relaxed text-justify">
-              At Star Alliance Aviation, we specialize in providing
+              At Star Alliance Aviation Academy, we specialize in providing
               comprehensive Type Rating (TR) programs coupled with official
               endorsement on your Commercial Pilot License (CPL). Partnering
               with top-tier Indian and international aviation institutions, we
@@ -80,7 +80,7 @@ export default function TRIncludingEndorsement() {
           {/* Why TR Matters */}
           <div className="grid md:grid-cols-2 gap-10 mb-16">
             <div className="bg-primary shadow-md rounded-xl p-8 hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-white font-heading mb-4">
+              <h3 className="text-xl font-bold text-Secondary font-heading mb-4">
                 Mandatory for Commercial Operations
               </h3>
               <p className="text-gray-200 leading-relaxed">
@@ -90,7 +90,7 @@ export default function TRIncludingEndorsement() {
               </p>
             </div>
             <div className="bg-primary shadow-md rounded-xl p-8 hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-white font-heading mb-4">
+              <h3 className="text-xl font-bold text-Secondary font-heading mb-4">
                 Enhances Your Professional Marketability
               </h3>
               <p className="text-gray-200 leading-relaxed">
@@ -109,7 +109,7 @@ export default function TRIncludingEndorsement() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
             <div className="bg-primary p-6 rounded-xl shadow hover:shadow-lg transition">
-              <h4 className="font-semibold text-lg text-white font-heading mb-2">
+              <h4 className="font-semibold text-lg text-Secondary font-heading mb-2">
                 Ground School Training
               </h4>
               <p className="text-gray-200 leading-relaxed">
@@ -118,7 +118,7 @@ export default function TRIncludingEndorsement() {
               </p>
             </div>
             <div className="bg-primary p-6 rounded-xl shadow hover:shadow-lg transition">
-              <h4 className="font-semibold text-lg text-white font-heading mb-2">
+              <h4 className="font-semibold text-lg text-Secondary font-heading mb-2">
                 Simulator-Based Training
               </h4>
               <p className="text-gray-200 leading-relaxed">
@@ -127,7 +127,7 @@ export default function TRIncludingEndorsement() {
               </p>
             </div>
             <div className="bg-primary p-6 rounded-xl shadow hover:shadow-lg transition">
-              <h4 className="font-semibold text-lg text-white font-heading mb-2">
+              <h4 className="font-semibold text-lg text-Secondary font-heading mb-2">
                 Skill Test & Certification
               </h4>
               <p className="text-gray-200 leading-relaxed">
@@ -136,7 +136,7 @@ export default function TRIncludingEndorsement() {
               </p>
             </div>
             <div className="bg-primary p-6 rounded-xl shadow hover:shadow-lg transition">
-              <h4 className="font-semibold text-lg text-white font-heading mb-2">
+              <h4 className="font-semibold text-lg text-Secondary font-heading mb-2">
                 Partnered Excellence
               </h4>
               <p className="text-gray-200 leading-relaxed">

@@ -13,7 +13,7 @@ export default function ATPLGroundClasses() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative"
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px]"
       >
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
@@ -23,7 +23,7 @@ export default function ATPLGroundClasses() {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy /
+                Star Alliance Aviation Academy Academy /
               </Link>{" "}
               ATPL Ground Classes
             </h2>
@@ -72,7 +72,7 @@ export default function ATPLGroundClasses() {
       </section>
       <section className="bg-gray-200 py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-primary mb-12">
+          <h2 className="text-3xl font-bold text-center text-Secondary mb-12">
             ATPL Details
           </h2>
           <div className="grid md:grid-cols-3 gap-10">
@@ -104,7 +104,7 @@ export default function ATPLGroundClasses() {
                   className="w-full h-64 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-white mb-2">
+                  <h3 className="text-xl font-semibold text-Secondary mb-2">
                     {item.title}
                   </h3>
                   <p className="text-gray-200 text-justify">{item.desc}</p>

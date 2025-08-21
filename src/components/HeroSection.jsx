@@ -10,7 +10,7 @@ const HeroSection = () => (
   //   <div className="w-[1300px] mt-8">
   //     <div className="bg-white text-blue-800 p-5 max-w-lg ">
   //       <h1 className="text-4xl font-bold leading-tight font-heading">
-  //         WELCOME TO STAR ALLIANCE AVIATION ACADEMY
+  //         WELCOME TO Star Alliance Aviation Academy ACADEMY
   //       </h1>
   //       <p className="mt-4  text-black text-lg font-sans">
   //         We are a team of passionate and dedicated professionals who are

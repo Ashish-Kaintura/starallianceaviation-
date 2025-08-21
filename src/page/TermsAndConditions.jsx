@@ -30,8 +30,9 @@ const TermsAndConditions = () => {
               Definitions
             </h2>
             <p className="font-sans">
-              “Star Alliance Aviation Academy” (“we,” “us,” “our”) refers to the
-              aviation training institute located in New Delhi, India.
+              “Star Alliance Aviation Academy Academy” (“we,” “us,” “our”)
+              refers to the aviation training institute located in New Delhi,
+              India.
             </p>
             <p className="mt-3">
               “You” or “Participant” refers to any individual accessing or using

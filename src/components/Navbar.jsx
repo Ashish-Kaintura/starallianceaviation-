@@ -145,7 +145,7 @@ const Navbar = () => {
             <img
               loading="lazy"
               src="https://i.postimg.cc/hvBpty6H/white-logo.png"
-              alt="Star Alliance Aviation"
+              alt="Star Alliance Aviation Academy"
               className="h-[4rem]"
             />
           </Link>
@@ -214,7 +214,7 @@ const Navbar = () => {
               src="https://i.postimg.cc/hvBpty6H/white-logo.png"
               // src="https://i.postimg.cc/qq7R0CjT/PNG-1.png"
 
-              alt="Star Alliance Aviation"
+              alt="Star Alliance Aviation Academy"
               className="h-14"
             />
           </NavLink>

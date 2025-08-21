@@ -12,7 +12,7 @@ const testimonials = [
     position: "Happy Student",
     image: "https://i.postimg.cc/BbQrMc7D/Manaya.jpg",
     quote:
-      "Star Alliance Aviation has been instrumental in shaping my career. The instructors are top-notch, and the environment is so supportive.",
+      "Star Alliance Aviation Academy has been instrumental in shaping my career. The instructors are top-notch, and the environment is so supportive.",
   },
   {
     name: "Captain Karan Nayak",

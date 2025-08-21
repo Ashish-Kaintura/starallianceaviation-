@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Video from "../../video/Airplan.mp4";
+
 import { useEffect } from "react";
 export default function ClassMedical() {
   useEffect(() => {
@@ -15,7 +15,7 @@ export default function ClassMedical() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[600px] relative"
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px]"
       >
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
@@ -25,7 +25,7 @@ export default function ClassMedical() {
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy /
+                Star Alliance Aviation Academy Academy /
               </Link>{" "}
               Class-1,2 Medical
             </h2>
@@ -47,9 +47,9 @@ export default function ClassMedical() {
               Why Choose Our Class-1 & Class-2 Medical Program?
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed">
-              At <strong>Star Alliance Aviation Academy</strong>, we guide
-              aspiring and professional pilots through the crucial DGCA medical
-              sanctioning process. From{" "}
+              At <strong>Star Alliance Aviation Academy Academy</strong>, we
+              guide aspiring and professional pilots through the crucial DGCA
+              medical sanctioning process. From{" "}
               <span className="font-semibold">Class 2 Medical</span> (your first
               step into aviation) to{" "}
               <span className="font-semibold">Class 1 Medical</span>
@@ -73,8 +73,8 @@ export default function ClassMedical() {
       {/* Ensure Fitness Section */}
       <section className="px-6 py-16 bg-white border-t">
         <div className="max-w-6xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#2c3756] font-heading">
-            Ensure Your Fitness to Fly with Star Alliance Aviation
+          <h2 className="text-3xl md:text-4xl font-bold text-Secondary font-heading">
+            Ensure Your Fitness to Fly with Star Alliance Aviation Academy
           </h2>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
             We walk you step-by-step through DGCA’s medical requirements—helping
@@ -129,7 +129,10 @@ export default function ClassMedical() {
             loop
             playsInline
           >
-            <source src={Video} type="video/mp4" />
+            <source
+              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/video/Airplan.mp4"
+              type="video/mp4"
+            />
           </video>
 
           {/* Dark overlay for readability */}
@@ -168,11 +171,11 @@ export default function ClassMedical() {
       <section className="px-6 py-16 bg-gray-100 border-t">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#2c3756] font-heading mb-6">
-            Why Star Alliance Aviation is Your Best Choice
+            Why Star Alliance Aviation Academy is Your Best Choice
           </h2>
           <div className="grid md:grid-cols-3 gap-8 mt-10">
             <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-              <h4 className="text-lg font-semibold text-blue-600 mb-2">
+              <h4 className="text-lg font-semibold text-Secondary mb-2">
                 Expert Guidance
               </h4>
               <p className="text-gray-600">
@@ -181,7 +184,7 @@ export default function ClassMedical() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-              <h4 className="text-lg font-semibold text-blue-600 mb-2">
+              <h4 className="text-lg font-semibold text-Secondary mb-2">
                 End-to-End Support
               </h4>
               <p className="text-gray-600">
@@ -190,7 +193,7 @@ export default function ClassMedical() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-              <h4 className="text-lg font-semibold text-blue-600 mb-2">
+              <h4 className="text-lg font-semibold text-Secondary mb-2">
                 Hassle-Free Experience
               </h4>
               <p className="text-gray-600">

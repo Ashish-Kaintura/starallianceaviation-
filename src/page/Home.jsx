@@ -28,11 +28,11 @@ export default function Home() {
               Who We Are
             </span> */}
             <h2 className="text-primary text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 leading-snug">
-              Star Alliance Aviation Private Limited
+              Star Alliance Aviation Academy Private Limited
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify text-sm sm:text-base">
-              Star Alliance Aviation Academy is a passionate team of people,
-              dedicated to delivering
+              Star Alliance Aviation Academy Academy is a passionate team of
+              people, dedicated to delivering
               <br />
               <br />
               TOP service & products in the aviation industry. Our academy was
