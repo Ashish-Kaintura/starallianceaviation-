@@ -39,7 +39,7 @@ const ServicesAndExpertise = () => {
             </h2>
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-Lightcolor transition"
             >
               Make an Appointment
             </Link>

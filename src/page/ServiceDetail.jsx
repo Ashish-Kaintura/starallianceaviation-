@@ -2,29 +2,16 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import servicesData from "../data/services.json";
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import NotFoundPage from "./404Page";
 const ServiceDetail = () => {
-  const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   const { slug } = useParams();
-  const service = servicesData.find((s) => s.slug === `/${slug}`);
+  const service = servicesData.find((s) => s.slug === slug);
 
   if (!service) {
-    return (
-      <div className="max-w-5xl mx-auto py-20 text-center pt-48">
-        <h1 className="text-3xl font-bold mb-4">404 Service Not Found</h1>
-        <p className="mb-6">The service you are looking for does not exist.</p>
-
-        <button
-          onClick={() => navigate(-1)}
-          className="mb-4 px-4 py-2 text-blue-500 underline rounded hover:bg-primary transition"
-        >
-          ← Back
-        </button>
-      </div>
-    );
+    return <NotFoundPage />; // 👈 instead of inline div, render global 404 page
   }
 
   return (
