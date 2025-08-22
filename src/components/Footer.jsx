@@ -55,9 +55,9 @@ const Footer = () => {
             className="h-28 mb-4"
           />
           <p className="text-sm text-gray-300">
-            Star Alliance Aviation Academy Academy is committed to shaping the
-            next generation of aviation professionals with passion, integrity,
-            and excellence.
+            Star Alliance Aviation Academy is committed to shaping the next
+            generation of aviation professionals with passion, integrity, and
+            excellence.
           </p>
         </div>
 

@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            Privacy Policy – Star Alliance Aviation Academy Academy
+            Privacy Policy – Star Alliance Aviation Academy
           </motion.h1>
 
           {/* Content */}
@@ -31,11 +31,10 @@ const PrivacyPolicy = () => {
                 Introduction
               </h2>
               <p className="font-sans">
-                Welcome to Star Alliance Aviation Academy Academy ("we," "us,"
-                "our"). Your privacy and trust are important to us. This Privacy
-                Policy explains how we collect, use, disclose, and protect
-                information when you interact with our website, programs, and
-                services.
+                Welcome to Star Alliance Aviation Academy ("we," "us," "our").
+                Your privacy and trust are important to us. This Privacy Policy
+                explains how we collect, use, disclose, and protect information
+                when you interact with our website, programs, and services.
               </p>
             </section>
 

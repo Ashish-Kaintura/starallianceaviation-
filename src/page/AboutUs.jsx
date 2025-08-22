@@ -15,18 +15,18 @@ export default function AboutUs() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px] "
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px] "
       >
         <div className="absolute inset-0 bg-black/20"></div>
 
         <div className="relative z-10 w-[1150px] mt-8">
-          <div className="text-white p-5 max-w-lg">
+          <div className="sm:visible invisible text-white p-5 max-w-lg">
             <h1 className="text-4xl md:text-5xl font-bold text-white font-heading animate-fade-in-down">
               AboutUs
             </h1>
-            <h2 className="mt-2 text-sm text-white font-heading">
+            <h2 className=" mt-2 text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy Academy /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               AboutUs
             </h2>

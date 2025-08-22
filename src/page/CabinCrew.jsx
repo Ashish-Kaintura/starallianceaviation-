@@ -9,7 +9,7 @@ const CabinCrew = () => {
     <div className="bg-white text-gray-800 font-sans">
       {/* Hero Section */}
       <div
-        className=" bg-cover bg-center text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px]"
+        className=" bg-cover bg-center text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
         style={{
           backgroundImage:
             "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-crew-training-banner.jpg')",
@@ -17,13 +17,13 @@ const CabinCrew = () => {
       >
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
-          <div className="text-white p-4 sm:p-5 max-w-2xl">
+          <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
             <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
               Cabin Crew Training
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy Academy /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               Cabin Crew Training
             </h2>
@@ -38,7 +38,7 @@ const CabinCrew = () => {
       </div>
 
       {/* Section: Program Overview */}
-      <section className="px-6 py-20 max-w-6xl mx-auto" data-aos="fade-up">
+      <section className="px-6 py-20 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
             src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/1.jpg"
@@ -76,10 +76,7 @@ const CabinCrew = () => {
       </section>
 
       {/* Section: Counseling */}
-      <section
-        className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6"
-        data-aos="zoom-in"
-      >
+      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-5 text-primary">
@@ -107,7 +104,7 @@ const CabinCrew = () => {
       </section>
 
       {/* Section: Job-Oriented Training */}
-      <section className="px-6 py-20 max-w-6xl mx-auto" data-aos="zoom-out">
+      <section className="px-6 py-20 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
             src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/3.jpg"
@@ -119,10 +116,9 @@ const CabinCrew = () => {
               Job-Oriented CC Training
             </h2>
             <p className="text-lg">
-              Star Alliance Aviation Academy Academy stands apart for its
-              dedication to excellence, industry relevance, and personalized
-              support to help you join top airlines as a cabin crew
-              professional.
+              Star Alliance Aviation Academy stands apart for its dedication to
+              excellence, industry relevance, and personalized support to help
+              you join top airlines as a cabin crew professional.
             </p>
             <Link
               to="/job-oriented-cc-training"
@@ -135,10 +131,7 @@ const CabinCrew = () => {
       </section>
 
       {/* Course Highlights */}
-      <section
-        className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6"
-        data-aos="fade-up"
-      >
+      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8 text-blue-800">
             Course Highlights
@@ -159,7 +152,7 @@ const CabinCrew = () => {
       </section>
 
       {/* Who Can Apply */}
-      <section className="py-20 px-6 max-w-6xl mx-auto" data-aos="fade-down">
+      <section className="py-20 px-6 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-5 text-Secondary">

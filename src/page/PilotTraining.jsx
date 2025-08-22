@@ -71,18 +71,18 @@ const PilotTraining = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px]"
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent"></div>
 
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
-          <div className="text-white p-4 sm:p-5 max-w-2xl">
+          <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
             <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
               Pilot Training Program
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy Academy /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               Pilot Training Program
             </h2>
@@ -115,8 +115,8 @@ const PilotTraining = () => {
                 Academy
               </h3>
               <p className="text-gray-700 text-lg mb-4">
-                At Star Alliance Aviation Academy Academy, we offer professional
-                and comprehensive pilot training programs that adhere to
+                At Star Alliance Aviation Academy , we offer professional and
+                comprehensive pilot training programs that adhere to
                 international standards. Whether you are a first-time student
                 looking to get your first license or a qualified pilot looking
                 to progress your skill level, we have highly qualified

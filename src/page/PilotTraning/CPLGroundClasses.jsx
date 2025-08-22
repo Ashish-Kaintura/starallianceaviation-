@@ -14,17 +14,17 @@ export default function CPLGroundClasses() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px]"
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
       >
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
-          <div className="text-white p-4 sm:p-5 max-w-2xl">
+          <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
             <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
               CPL Ground Classes
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy Academy /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               CPL Ground Classes
             </h2>
@@ -64,10 +64,10 @@ export default function CPLGroundClasses() {
               The CPL ground classes are valuable and essential because they
               provide the candidates with the knowledge needed to perform well
               on Engel's DGCA examinations on air regulations, meteorology,
-              navigation, and more. Star Alliance Aviation Academy Academy
-              provides student-oriented CPL ground classes with experienced
-              instructors, and the goal is to give students a solid foundation
-              on aviation theory, improve confidence, and pass the examinations
+              navigation, and more. Star Alliance Aviation Academy provides
+              student-oriented CPL ground classes with experienced instructors,
+              and the goal is to give students a solid foundation on aviation
+              theory, improve confidence, and pass the examinations
               successfully.
             </p>
           </div>

@@ -42,7 +42,7 @@ const values = [
     icon: <FaShieldAlt className="text-3xl text-white" />,
     title: "Company Ethics",
     description:
-      "Company Ethics At Star Alliance Aviation Academy Academy, we believe that ethical business practices are the foundation of our success. ",
+      "Company Ethics At Star Alliance Aviation Academy , we believe that ethical business practices are the foundation of our success. ",
   },
 ];
 

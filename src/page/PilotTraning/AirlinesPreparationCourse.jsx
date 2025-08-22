@@ -62,17 +62,17 @@ const AirlinesPreparation = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] relative md:mt-0 mt-[60px]"
+        className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
       >
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
-          <div className="text-white p-4 sm:p-5 max-w-2xl">
+          <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
             <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
               Airlines Preparation Course
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
               <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy Academy /
+                Star Alliance Aviation Academy /
               </Link>{" "}
               Airlines Preparation Course
             </h2>
@@ -93,19 +93,19 @@ const AirlinesPreparation = () => {
           </h1>
 
           <p className=" mb-10 text-center max-w-6xl mx-auto leading-relaxed font-sans">
-            Star Alliance Aviation Academy Academy's focus is on full airline
-            pilot training, ultimately resulting in people having successful
-            careers in aviation. As a top aviation academy, we are proud to
-            offer the best quality pilot preparation programs developed by
-            veteran pilots and instructors who are passionate about aviation. We
-            have a rational team of experts in the aviation industry with
-            real-world experience in many areas of aviation. From commercial
-            pilot license to type rating training to flight training, we create
-            the skills and discipline and confidence needed to have a successful
-            career in aviation; therefore, no matter your level of pilot
-            training, the students will receive practical hands-on experiential
-            learning! Come and join us, and begin your journey toward an
-            exciting and rewarding career in aviation and take the first step!
+            Star Alliance Aviation Academy 's focus is on full airline pilot
+            training, ultimately resulting in people having successful careers
+            in aviation. As a top aviation academy, we are proud to offer the
+            best quality pilot preparation programs developed by veteran pilots
+            and instructors who are passionate about aviation. We have a
+            rational team of experts in the aviation industry with real-world
+            experience in many areas of aviation. From commercial pilot license
+            to type rating training to flight training, we create the skills and
+            discipline and confidence needed to have a successful career in
+            aviation; therefore, no matter your level of pilot training, the
+            students will receive practical hands-on experiential learning! Come
+            and join us, and begin your journey toward an exciting and rewarding
+            career in aviation and take the first step!
           </p>
 
           <div className="bg-Secondary p-6 md:p-10 rounded-xl shadow-lg text-primary">
@@ -120,7 +120,7 @@ const AirlinesPreparation = () => {
           </div>
 
           <h2 className="text-3xl font-bold mt-16 mb-8 text-center">
-            Why Choose Star Alliance Aviation Academy Academy
+            Why Choose Star Alliance Aviation Academy
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

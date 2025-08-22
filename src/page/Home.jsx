@@ -31,8 +31,8 @@ export default function Home() {
               Star Alliance Aviation Academy Private Limited
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify text-sm sm:text-base">
-              Star Alliance Aviation Academy Academy is a passionate team of
-              people, dedicated to delivering
+              Star Alliance Aviation Academy is a passionate team of people,
+              dedicated to delivering
               <br />
               <br />
               TOP service & products in the aviation industry. Our academy was
@@ -137,7 +137,7 @@ export default function Home() {
           />
         </div>
       </div>
-      {/* <PopupForm /> */}
+      <PopupForm />
       <CommitmentSection />
 
       <PilotTrainingSection />

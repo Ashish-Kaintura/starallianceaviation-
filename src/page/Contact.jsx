@@ -20,7 +20,7 @@ const ContactPage = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-primary to-gray-900 text-white py-20 px-6 md:px-16 lg:px-24 text-center pt-48">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-          Contact Star Alliance Aviation Academy Academy
+          Contact Star Alliance Aviation Academy
         </h1>
         <p className="text-lg md:text-xl opacity-90 max-w-3xl mx-auto">
           Let’s connect! We’re here to answer your queries and guide you on your
@@ -132,7 +132,7 @@ const ContactPage = () => {
       {/* Google Map Embed */}
       <div className="w-full h-[400px]">
         <iframe
-          title="Star Alliance Aviation Academy Academy Location"
+          title="Star Alliance Aviation Academy  Location"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.50706418344!2d77.0688984!3d28.5272803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2b3f40e6e7b%3A0x74c0a7c9e7d5c8f7!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1691320928930!5m2!1sen!2sin"
           width="100%"
           height="100%"
