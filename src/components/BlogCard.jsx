@@ -21,7 +21,7 @@ export default function BlogCard({ post }) {
         <p className="text-gray-700 dark:text-gray-300 mt-2">{post.excerpt}</p>
         <Link
           to={`/blog/${post.slug}`}
-          className="text-indigo-500 mt-3 inline-block"
+          className="text-Secondary mt-3 inline-block"
         >
           Read More →
         </Link>
