@@ -9,6 +9,7 @@ import AppointmentForm from "../components/AppointmentForm";
 import FAQSection from "../components/FAQSection";
 import PopupForm from "../components/PopupForm";
 import { useEffect } from "react";
+import HeroSlider from "../components/HeroSlider";
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      {/* <HeroSlider /> */}
       <section className="flex justify-center px-4 py-12 border-b-2">
         <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-start px-4 sm:px-6 lg:px-8">
           {/* Left Content */}
@@ -143,6 +145,43 @@ export default function Home() {
       <PilotTrainingSection />
       <Testimonials />
       <AppointmentForm />
+      {/* Why Choose Us */}
+      <section className="px-6 py-16 bg-gray-100 border-t">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#2c3756] font-heading mb-6">
+            Why Star Alliance Aviation Academy is Your Best Choice
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8 mt-10">
+            <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h4 className="text-lg font-semibold text-Secondary mb-2">
+                Expert Guidance
+              </h4>
+              <p className="text-gray-600">
+                Led by ex-DGCA directors, CFOIs, and airline CEOs with decades
+                of industry expertise.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h4 className="text-lg font-semibold text-Secondary mb-2">
+                End-to-End Support
+              </h4>
+              <p className="text-gray-600">
+                From finding examiners to application assistance, follow-ups,
+                and renewal guidance.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h4 className="text-lg font-semibold text-Secondary mb-2">
+                Hassle-Free Experience
+              </h4>
+              <p className="text-gray-600">
+                Save time and minimize stress while focusing on what matters
+                most: your pilot training.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* <FAQSection/> */}
     </>
   );

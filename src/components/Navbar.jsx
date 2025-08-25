@@ -54,10 +54,6 @@ const Navbar = () => {
       { name: "Class-1,2 Medical", path: "/class-12-medical" },
     ],
     cabin: [
-      {
-        name: "Counselling (For Reappearance)",
-        path: "/counselling-for-reappearance",
-      },
       { name: "Job Oriented CC Training", path: "/job-oriented-cc-training" },
     ],
     services: [
@@ -67,6 +63,10 @@ const Navbar = () => {
       { name: "JOB Placement Assistance", path: "/job-placement-assistance" },
       { name: "Legal Assistance/Guidance", path: "/legal-assistance-guidance" },
       { name: "Strategic Counselling", path: "/strategic-counselling" },
+      {
+        name: "Counselling (For Reappearance)",
+        path: "/counselling-for-reappearance",
+      },
     ],
   };
 
@@ -144,7 +144,7 @@ const Navbar = () => {
           <Link to="/">
             <img
               loading="lazy"
-              src="https://i.postimg.cc/hvBpty6H/white-logo.png"
+              src="https://i.postimg.cc/L4ytzH5N/white-logo.png"
               alt="Star Alliance Aviation Academy"
               className="h-[4rem]"
             />

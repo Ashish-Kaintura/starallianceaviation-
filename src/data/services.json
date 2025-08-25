@@ -7,7 +7,7 @@
         "image2": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/2.jpg",
         "image3": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/3.jpg",
         "image4": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/4.jpg",
-        "slug": "/nsop-management",
+        "slug": "nsop-management",
         "content": {
             "title": "Welcome To NSOP Management",
             "intro": "Star Alliance Aviation Academy, Concord Aerospace, specializes in full-management solutions for your business. We are an efficiency-oriented, innovation-driven, and client-focused company, dedicated to making sure your organization thrives in the fast-changing world of business",
@@ -40,7 +40,7 @@
         "image2": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/dgca/2.jpg",
         "image3": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/dgca/3.jpg",
         "image4": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/dgca/4.jpg",
-        "slug": "/dgca-moca-liaison",
+        "slug": "dgca-moca-liaison",
         "content": {
             "title": "Welcome To DGCA/MOCA Liaison Services",
             "intro": "At DGCA/MOCA Liaison, we strive to connect the Directorate General of Civil Aviation (DGCA) and Ministry of Civil Aviation (MOCA) in such a way that it fosters communication, making sense for aviation. We exist to champion collaboration, share knowledge, and drive innovation—together with all industry stakeholders—to improve safety, efficiency, and sustainability in aviation operations.",
@@ -71,7 +71,7 @@
         "image2": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/egca/2.jpg",
         "image3": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/egca/3.jpg",
         "image4": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/egca/4.jpg",
-        "slug": "/egca-account-management",
+        "slug": "egca-account-management",
         "content": {
             "title": "Welcome to Star Alliance Aviation Academy eGCA Account Management",
             "intro": "Star Alliance Aviation Academy recognizes the importance of compliance, efficiency, and accuracy in the aviation industry. Therefore, we provide our clients the eGCA Account Management Services, a one-stop shop that encompasses all Directorate General of Civil Aviation (DGCA) digital requirements through the eGCA portal.",
@@ -103,7 +103,7 @@
         "image2": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/job/2.jpg",
         "image3": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/job/3.jpg",
         "image4": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/job/4.jpg",
-        "slug": "/job-placement-assistance",
+        "slug": "job-placement-assistance",
         "content": {
             "title": "Welcome to Our Aviation Job Placement Assistance Program",
             "intro": "Do you find yourself aspiring to fly by the clouds and make it big in an aviation-oriented career? Look no further! Promises of a successful and rewarding career in the ever-exciting aviation business lie with the Star Alliance Aviation Academy  Job Placement Assistance Program. Whether you want to become a professional pilot, an aircraft mechanic, a flight attendant, or work in aviation management, we can help at every step through the process.",
@@ -133,7 +133,7 @@
         "image2": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/leg/2.jpg",
         "image3": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/leg/3.jpg",
         "image4": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/leg/4.jpg",
-        "slug": "/legal-assistance-guidance",
+        "slug": "legal-assistance-guidance",
         "content": {
             "title": "Legal Assistance Guidance",
             "intro": "Navigating the complex legal landscape of the aviation industry requires specialized knowledge and expertise. At Star Alliance Aviation Academy, we understand the intricacies of aviation law and are committed to providing comprehensive legal assistance and guidance to individuals and businesses operating within the aviation sector.",
@@ -166,7 +166,7 @@
         "image2": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/star/2.jpg",
         "image3": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/star/3.jpg",
         "image4": "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/servicesimg/star/4.jpg",
-        "slug": "/strategic-counselling",
+        "slug": "strategic-counselling",
         "content": {
             "title": "Welcome to Star Alliance Aviation Academy Strategic Counselling for Pilots, Cabin Crew, and Operators",
             "intro": "The ever-dynamic and high-pressured field of aviation asks for guidance that is not particular or doctored but rather strategic, where a little misstep becomes an opportunity to realign future untoward incidents. Star Alliance Aviation Academy concentrates on professional strategic counselling offerings for individuals and organizations in the flight sector.",

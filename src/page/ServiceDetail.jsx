@@ -16,8 +16,6 @@ const ServiceDetail = () => {
 
   return (
     <>
-      {/* Hero Section */}
-      {/* Hero Section */}
       <section
         style={{
           backgroundImage: `url(${service.coverImag})`,

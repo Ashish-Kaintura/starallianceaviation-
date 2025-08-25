@@ -68,7 +68,7 @@ const ServicesAndExpertise = () => {
             {services.map((program, idx) => (
               <Link
                 key={idx}
-                to={program.slug}
+                to={`/${program.slug}`}
                 className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 bg-white"
               >
                 <div className="w-full h-56 overflow-hidden">

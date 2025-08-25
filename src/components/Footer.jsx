@@ -45,15 +45,16 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-white font-lato">
       {/* Top Section */}
-      <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+      <div className="max-w-6xl mx-auto px-4 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
           <img
             loading="lazy"
-            src="https://i.postimg.cc/hvBpty6H/white-logo.png"
+            src="https://i.postimg.cc/L4ytzH5N/white-logo.png"
             alt="Logo"
-            className="h-28 mb-4"
+            className="h-24 mb-4"
           />
+
           <p className="text-sm text-gray-300">
             Star Alliance Aviation Academy is committed to shaping the next
             generation of aviation professionals with passion, integrity, and

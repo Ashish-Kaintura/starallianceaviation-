@@ -4,7 +4,7 @@ export const blogPosts = [
     slug: "why-star-alliance-aviation-academy-is-the-right-choice-for-aspiring-pilots",
     title:
       "Why Star Alliance Aviation Academy  Is the Right Choice for Aspiring Pilots",
-    category: "About Aviation ",
+    category: "About Aviation",
     date: "2025-08-14",
     author: "Star Alliance Aviation Academy ",
     readTime: "8 min read",
