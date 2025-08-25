@@ -4,7 +4,7 @@ export const blogPosts = [
     slug: "why-star-alliance-aviation-academy-is-the-right-choice-for-aspiring-pilots",
     title:
       "Why Star Alliance Aviation Academy  Is the Right Choice for Aspiring Pilots",
-    category: "Aviation Training",
+    category: "About Aviation ",
     date: "2025-08-14",
     author: "Star Alliance Aviation Academy ",
     readTime: "8 min read",
@@ -75,6 +75,158 @@ export const blogPosts = [
         <p class="font-sans">Selecting the right aviation training institute can make or break your pilot career. With modern facilities, expert trainers, DGCA-certified programs, and a transparent fee structure, Star Alliance Aviation Academy  provides everything you need to take flight—literally and professionally.</p>
         <p class="font-sans">So if you’re passionate about aviation and ready to turn your dreams into reality, join the trusted name in flight training—Star Alliance Aviation Academy —and take the first step toward a soaring future.</p>
       </div>
+    `,
+  },
+  {
+    id: 2,
+    slug: "Top-Skills-You’ll-Learn-in-Our-Cabin-Crew-Training-Program",
+    title: "Top Skills You’ll Learn in Our Cabin Crew Training Program",
+    category: "Aviation Training Skills",
+    date: "2025-08-25",
+    author: "Star Alliance Aviation Academy ",
+    readTime: "8 min read",
+    image:
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/blog/Top-Skills-You’ll-Learn-in-Our-Cabin-Crew-Training-Program.jpg",
+    excerpt:
+      "If you’ve always wanted to fly high in the sky and provide outstanding customer service on an airplane all while flying through it, look no further. Start Alliance Aviation Academy has a great cabin crew training program course where you can discover what it takes to become a classic flight attendant. ",
+    content: `
+      <div class="prose prose-lg dark:prose-invert max-w-none leading-relaxed">
+        <p class="font-sans">If you’ve always wanted to fly high in the sky and provide outstanding customer service on an airplane all while flying through it, look no further. Start Alliance Aviation Academy has a great cabin crew training program course where you can discover what it takes to become a classic flight attendant. From safety and service to grooming and confidence, learn everything you need to know to become a Delta flight attendant.</p>
+
+        <p class="font-sans">Whether you're starting from scratch or already stepping into the world of aviation, our training ensures you gain practical expertise, professionalism, and the poise needed to shine in the competitive world of cabin crew.</p>
+
+        <h2 class="text-3xl font-heading font-bold mt-10">Our Cabin Crew Training Program</h2>
+        <img
+          src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/blog/Top-Skills-You’ll-Learn-in-Our-Cabin-Crew-Training-Program.jpg"
+          alt="Star Alliance Aviation Academy "
+          class="w-full rounded-xl shadow-lg object-cover my-6 max-h-[500px]"
+        />
+
+        <h3 class="text-2xl font-semibold mt-8 font-heading">Personality Development & Grooming</h3>
+        <p class="font-sans">Being a cabin crew member is not just about wearing a uniform—it's about embodying professionalism and grace. In our Personality Development & Grooming modules, you’ll learn:</p>
+       
+       
+        <ul class="list-disc pl-6 space-y-2">
+          <li>How to project a friendly yet poised persona.</li>
+          <li>Grooming standards that meet international airline requirements.</li>
+          <li> The little touches—like neat uniforms, tidy hair, and polite demeanor—that boost your professional appearance.</li>  
+        </ul>
+    
+      <h3 class="text-2xl font-semibold mt-8">Communication & Interpersonal Skills</h3>
+  <p class="font-sans">Effective cabin crew members communicate clearly and connect personally. Our Communication & Interpersonal Skills training covers:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Active listening and empathetic engagement with passengers.</li>
+    <li>Handling requests calmly and efficiently.</li>
+    <li>Resolving potential conflicts or misunderstandings with tact and confidence.</li>
+  </ul>
+  <p class="font-sans">Great communication helps keep everyone safe, comfortable, and happy throughout the journey—and it’s a skill you’ll value for life.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">Posture, Etiquette & Customer Handling</h3>
+  <p class="font-sans">Your posture speaks volumes even before you say a word. In this segment, we teach:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Maintaining upright yet relaxed posture during long flights.</li>
+    <li>Graceful movements in tight galley spaces.</li>
+    <li>Customer-centric etiquette to ensure passengers feel attended to, valued, and respected.</li>
+  </ul>
+  <p class="font-sans">By mastering posture and etiquette, you'll boost passenger satisfaction and embody the best of airline hospitality.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">In-flight Procedures & Safety Protocols</h3>
+  <p class="font-sans">Safety is the heartbeat of aviation. Our In-flight Procedures & Safety Protocols sessions cover everything from:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Pre-departure checks.</li>
+    <li>Emergency evacuations and safety demonstration drills.</li>
+    <li>Handling smoke, fire, sudden decompression, or other emergencies.</li>
+  </ul>
+  <p class="font-sans">These real-world, simulation-based drills build confidence so that you’re always prepared to respond quickly, calmly, and correctly in challenging situations.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">First Aid</h3>
+  <p class="font-sans">In addition to technical in-flight knowledge, knowing how to assist during medical emergencies is critical. Our first aid training includes:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>CPR and defibrillator use basics.</li>
+    <li>Passenger medical conditions—detecting signs of fainting, allergic reactions, or cardiac events.</li>
+    <li>Stabilizing and comforting until professional help is available.</li>
+  </ul>
+  <p class="font-sans">You become not only a skilled cabin crew member but also a trusted guardian of passenger well-being.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">Cabin Crew Resource Management</h3>
+  <p class="font-sans">In the air, teamwork is mission-critical. Cabin Crew Resource Management (CRM) equips you with:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Communication techniques to coordinate with fellow crew and cockpit.</li>
+    <li>Decision-making under pressure, prioritizing safety and service.</li>
+    <li>Leadership, delegation, and situational awareness during routine and emergency operations.</li>
+  </ul>
+  <p class="font-sans">CRM helps you perform seamlessly, working as a cohesive unit even when skies get turbulent.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">Announcements & Food & Beverage (F&B) Service</h3>
+  <p class="font-sans">Service with style — that’s what your passengers remember most. In our Announcements & F&B Service module, you’ll learn to:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Make clear, friendly PA announcements that instill comfort and authority.</li>
+    <li>Handle drink and meal service with professionalism—efficient, courteous, and attentive to detail.</li>
+    <li>Manage special meals, dietary restrictions, and passenger requests with care.</li>
+  </ul>
+  <p class="font-sans">Whether you're serving beverages or soothing nerves over the intercom, you’ll deliver an unforgettable onboard experience.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">English Proficiency (Basic & Advanced)</h3>
+  <p class="font-sans">In global aviation, English is the international language. Our English Proficiency training includes:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Basic grammar, vocabulary, and pronunciation for routine communication.</li>
+    <li>Advanced language skills for handling technical terms, safety announcements, and interacting with diverse passengers.</li>
+    <li>Role-play scenarios including distressed or non-native English speakers.</li>
+  </ul>
+  <p class="font-sans">You'll emerge fluent, confident, and ready to communicate effectively in every cabin scenario.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">Interview Preparation (Mock Interviews, Group Discussions, Role Plays)</h3>
+  <p class="font-sans">Landing a cabin crew position takes more than skills — you must also impress during recruitment. Our Interview Preparation module offers:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Mock interviews to hone your answers, poise, and professionalism.</li>
+    <li>Group discussions to showcase teamwork, reasoning, and leadership.</li>
+    <li>Role-plays simulating real interview questions or unexpected scenarios.</li>
+  </ul>
+  <p class="font-sans">Feedback from our experienced instructors ensures you face real airline recruiters with confidence and polish.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">Confidence Building & Professional Appearance</h3>
+  <p class="font-sans">Presenting yourself with assurance is as important as your technical abilities. We'll help you:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Build self-confidence through positive reinforcement and real-world practice.</li>
+    <li>Refine your posture, gesture, and body language during training and mock scenarios.</li>
+    <li>Walk, stand, and speak like a true cabin crew professional—so recruiters, colleagues, and passengers immediately recognize your presence and capability.</li>
+  </ul>
+
+  <h3 class="text-2xl font-semibold mt-8">Makeup & Hair Styling, Skin Care</h3>
+  <p class="font-sans">Looking your best keeps you confident and compliant with airline grooming norms. In practical sessions, you’ll learn:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Natural, long-lasting makeup suited for variable cabin lighting.</li>
+    <li>Smart hairstyling that remains tidy and comfortable during long shifts.</li>
+    <li>Skin care routines that protect against dry cabin air, changes in pressure, and frequent makeup use.</li>
+  </ul>
+  <p class="font-sans">These grooming skills help you maintain a fresh, polished look throughout training and on duty.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">Diet & Weight Management</h3>
+  <p class="font-sans">Healthy appearance and stamina go hand-in-hand:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li>Learn balanced nutrition that supports energy levels, skin health, and weight consistency.</li>
+    <li>Understand portion control and weight management strategies specific to a cabin crew lifestyle—frequent meals, irregular hours, and jet lag.</li>
+  </ul>
+  <p class="font-sans">All advice is healthy, sustainable, and tailored to support your training and long-term aviation career.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">Why Choose Star Alliance Aviation Academy for Cabin Crew Training?</h3>
+  <p class="font-sans">Star Alliance Aviation Academy is committed to shaping aspiring professionals into world-class cabin crew members. Our training program goes beyond theory, focusing on the essential qualities and skills required by leading airlines worldwide.</p>
+  <p class="font-sans">We provide:</p>
+  <ul class="list-disc pl-6 space-y-2 font-sans">
+    <li><strong>Expert Guidance</strong> – Learn from experienced aviation professionals and certified trainers.</li>
+    <li><strong>Comprehensive Curriculum</strong> – Covering grooming, communication, personality development, safety procedures, and customer service.</li>
+    <li><strong>Practical Training</strong> – Hands-on sessions, mock drills, and real-time in-flight procedure practice to build confidence.</li>
+    <li><strong>Interview Preparation</strong> – Specialized coaching to help you succeed in airline selection processes.</li>
+    <li><strong>Global Standards</strong> – Training aligned with international aviation requirements, ensuring you are airline-ready.</li>
+  </ul>
+  <p class="font-sans">At Star Alliance Aviation Academy, we believe in transforming passion into profession. With the right balance of knowledge, skill, and confidence, we prepare you to take off towards a rewarding career in aviation.</p>
+  <p class="font-sans">Your journey to becoming a successful cabin crew starts here.</p>
+
+  <h3 class="text-2xl font-semibold mt-8">Conclusion</h3>
+  <p class="font-sans">Your mission is to get up to speed on specific aspects of aviation—from standard operating procedures, communicating with customers, and administering first aid to speaking English, grooming, and boosting your confidence. So, at Start Alliance Aviation Academy, we invite you to experience all this and much more through our comprehensive Cabin Crew Training program—a unique journey towards becoming a practiced, self-assured, and airline-prepared cabin crew.</p>
+  <p class="font-sans">Ready to launch into a dream career? Visit our website at <a href="https://starallianceaviation.com" class="text-blue-600 underline">starallianceaviation.com</a> and register today. And with Start Alliance at your side, you’re no longer just training—you're transforming.</p>
+
+         </div>
     `,
   },
 ];

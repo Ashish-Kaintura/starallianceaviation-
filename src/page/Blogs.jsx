@@ -1,19 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { blogPosts } from "../data/blogData";
 import BlogCard from "../components/BlogCard";
-import { useEffect } from "react";
+
 export default function Blogs() {
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+  }, []);
+
   const [searchTerm, setSearchTerm] = useState("");
   const [category, setCategory] = useState("All");
+  const [sortOrder, setSortOrder] = useState("newest"); // default newest
 
-  const filteredPosts = blogPosts.filter(
+  // Filter
+  let filteredPosts = blogPosts.filter(
     (post) =>
       (category === "All" || post.category === category) &&
       post.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  // Sort
+  filteredPosts = filteredPosts.sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return sortOrder === "newest" ? dateB - dateA : dateA - dateB;
+  });
 
   const categories = ["All", ...new Set(blogPosts.map((p) => p.category))];
 
@@ -41,6 +51,16 @@ export default function Blogs() {
           {categories.map((cat) => (
             <option key={cat}>{cat}</option>
           ))}
+        </select>
+
+        {/* Sort Dropdown */}
+        <select
+          className="px-4 py-2 border rounded-lg dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+          value={sortOrder}
+          onChange={(e) => setSortOrder(e.target.value)}
+        >
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
         </select>
       </div>
 
