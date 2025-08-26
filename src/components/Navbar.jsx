@@ -93,7 +93,7 @@ const Navbar = () => {
               <span>Phone: +92 89595558</span>
               <div className="flex gap-3 text-white text-base">
                 <Link
-                  to="https://www.facebook.com/starallianceaviation/"
+                  to="https://www.facebook.com/starallianceaviationacademy/"
                   className="w-8 h-8 bg-blue-600 rounded-full flex items-center p-0 justify-center"
                 >
                   <FaFacebookF />
@@ -105,25 +105,25 @@ const Navbar = () => {
                   <FaTwitter />
                 </Link>
                 <Link
-                  to="https://www.linkedin.com/company/starallianceaviation/"
+                  to="https://www.linkedin.com/company/starallianceaviationacademy/"
                   className="w-8 h-8 bg-blue-700 rounded-full flex items-center p-0 justify-center"
                 >
                   <FaLinkedinIn />
                 </Link>
                 <Link
-                  to="https://www.instagram.com/starallianceaviation/"
+                  to="https://www.instagram.com/starallianceaviation/?hl=en"
                   className="w-8 h-8 bg-pink-700 rounded-full flex items-center p-0 justify-center"
                 >
                   <FaInstagram />
                 </Link>
                 <Link
-                  to="https://in.pinterest.com/starallianceaviation/"
+                  to="https://in.pinterest.com/starallianceaviationacademy/"
                   className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
                 >
                   <FaPinterestP />
                 </Link>
                 <Link
-                  to="https://www.youtube.com/@StarAllianceAviation"
+                  to="https://www.youtube.com/@starallianceaviationacademy"
                   className="w-8 h-8 bg-red-700 rounded-full flex items-center p-0 justify-center"
                 >
                   <FaYoutube />

@@ -29,7 +29,7 @@ const slides = [
 
 export default function HeroSlider() {
   return (
-    <div className="w-full h-[100vh] relative">
+    <div className="w-full sm:h-[100vh] h-64 sm:mt-0 mt-[73px] relative">
       <Swiper
         modules={[Autoplay, Pagination, Navigation, EffectCreative]}
         effect="creative"

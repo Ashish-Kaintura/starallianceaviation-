@@ -49,43 +49,56 @@ const SocialMedia = () => {
           }`}
         >
           <button className="action" type="button">
-            <Facebook className="action-icon" />
-            <Link to="https://www.facebook.com/starallianceaviation/">
+            <Link to="https://www.facebook.com/starallianceaviationacademy/">
+              {" "}
+              <Facebook className="action-icon" />
+            </Link>
+            <Link to="https://www.facebook.com/starallianceaviationacademy/">
               {" "}
               <span className="action-content" data-content="Facebook" />
             </Link>
           </button>
           <button className="action" type="button">
-            <Instagram className="action-icon" />
-            <Link to="https://www.instagram.com/starallianceaviation/">
+            <Link to="https://www.instagram.com/starallianceaviation/?hl=en">
+              <Instagram className="action-icon" />
+            </Link>
+            <Link to="https://www.instagram.com/starallianceaviation/?hl=en">
               {" "}
               <span className="action-content" data-content="Instagram" />
             </Link>
           </button>
           <button className="action" type="button">
-            <Twitter className="action-icon" />
+            <Link to="https://x.com/staralliance_in">
+              <Twitter className="action-icon" />
+            </Link>
             <Link to="https://x.com/staralliance_in">
               {" "}
               <span className="action-content" data-content="X" />
             </Link>
           </button>
           <button className="action" type="button">
-            <TiSocialLinkedin className="action-icon" />
-            <Link to="https://www.linkedin.com/company/starallianceaviation/">
+            <Link to="https://www.linkedin.com/company/starallianceaviationacademy/">
+              <TiSocialLinkedin className="action-icon" />
+            </Link>
+            <Link to="https://www.linkedin.com/company/starallianceaviationacademy/">
               {" "}
               <span className="action-content" data-content="LinkedIn" />
             </Link>
           </button>
           <button className="action" type="button">
-            <FaPinterestP className="action-icon" />
-            <Link to="https://in.pinterest.com/starallianceaviation/">
+            <Link to="https://in.pinterest.com/starallianceaviationacademy/">
+              <FaPinterestP className="action-icon" />
+            </Link>
+            <Link to="https://in.pinterest.com/starallianceaviationacademy/">
               {" "}
               <span className="action-content" data-content="Pinterest" />
             </Link>
           </button>
           <button className="action" type="button">
-            <Youtube className="action-icon" />
-            <Link to="https://www.youtube.com/@StarAllianceAviation">
+            <Link to="https://www.youtube.com/@starallianceaviationacademy">
+              <Youtube className="action-icon" />
+            </Link>
+            <Link to="https://www.youtube.com/@starallianceaviationacademy">
               {" "}
               <span className="action-content" data-content="YouTube" />
             </Link>
