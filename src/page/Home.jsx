@@ -96,11 +96,11 @@ export default function Home() {
 
             {/* Badge */}
             <div
-              className="absolute -bottom-6 sm:-bottom-4 lg:bottom-10 lg:right-10 bg-primary text-white px-4 py-3 sm:px-6 sm:py-4 rounded-xl shadow-lg flex items-center gap-3"
+              className="absolute -bottom-6 sm:-bottom-4 lg:bottom-10 lg:right-8 bg-primary text-white px-4 py-3 sm:px-4 sm:py-4 rounded-xl shadow-lg flex items-center gap-3"
               data-aos="zoom-in-up"
               data-aos-delay="700"
             >
-              <FaPlane className="text-xl sm:text-2xl" />
+              <FaPlane className="text-xl sm:text-xl" />
               <div>
                 <p className="text-lg sm:text-xl font-bold">50+</p>
                 <p className="text-xs sm:text-sm">Professionals</p>
