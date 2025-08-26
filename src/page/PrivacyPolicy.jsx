@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
 
           {/* Title */}
           <motion.h1
-            className="text-3xl md:text-4xl font-bold text-center text-indigo-700 mb-8"
+            className="text-3xl md:text-4xl font-bold text-center text-Secondary mb-8"
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -27,7 +27,7 @@ const PrivacyPolicy = () => {
           {/* Content */}
           <div className="space-y-6 text-gray-700 leading-relaxed relative z-10">
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Introduction
               </h2>
               <p className="font-sans">
@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Data We Collect
               </h2>
               <ul className="list-disc pl-6 space-y-2">
@@ -62,7 +62,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Use of Data
               </h2>
               <p className="font-sans">We use your information to:</p>
@@ -76,7 +76,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Cookies & Tracking Technologies
               </h2>
               <p className="font-sans">
@@ -95,7 +95,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Data Sharing & Disclosure
               </h2>
               <p className="font-sans">We may share your data with:</p>
@@ -113,7 +113,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Data Security
               </h2>
               <p className="font-sans">
@@ -124,7 +124,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Data Retention
               </h2>
               <p className="font-sans">
@@ -135,7 +135,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Your Rights & Choices
               </h2>
               <p className="font-sans">You may:</p>
@@ -149,7 +149,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Third-Party Links
               </h2>
               <p className="font-sans">
@@ -159,7 +159,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Changes to This Policy
               </h2>
               <p className="font-sans">
@@ -170,7 +170,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading ">
+              <h2 className="text-xl font-semibold text-primary mb-2 font-heading ">
                 Contact Us
               </h2>
               <p className="font-sans">

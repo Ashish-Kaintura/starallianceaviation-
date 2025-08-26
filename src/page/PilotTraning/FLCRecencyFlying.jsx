@@ -83,8 +83,8 @@ export default function FLCRecencyFlying() {
           <h2 className="text-primary text-6xl font-bold mt-2 py-7 font-heading">
             Flight License Currency (FLC) & Recency Flying Programs
           </h2>
-          <ul className=" list-disc font-sans text-sm">
-            <li className="space-y-3 ">
+          <ul className=" list-disc font-sans  text-gray-700 text-justify">
+            <li className="mb-2 ">
               Star Alliance Aviation Academy executes recency flying programs
               approved by DGCA to keep pilots current and compliant.{" "}
               <li className="space-y-3 ">

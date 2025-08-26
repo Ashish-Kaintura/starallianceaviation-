@@ -78,7 +78,7 @@ export default function Home() {
             <div className="w-full flex flex-col sm:flex-row lg:flex-row gap-4 items-center justify-center">
               <img
                 loading="lazy"
-                src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/img/Homeimg/H1.jpg"
+                src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/img/Homeimg/H%201.jpg"
                 alt="Pilot"
                 className="rounded-xl w-full sm:w-2/3 lg:w-[80%] object-cover shadow-lg"
                 data-aos="fade-up"
@@ -157,8 +157,8 @@ export default function Home() {
                 Expert Guidance
               </h4>
               <p className="text-gray-600">
-                Led by ex-DGCA directors, CFOIs, and airline CEOs with decades
-                of industry expertise.
+                Led by ex-DGCA directors, retired CFOIs, and airline retired
+                CEOs with decades of industry expertise.
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">

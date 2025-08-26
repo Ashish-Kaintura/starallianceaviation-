@@ -50,7 +50,7 @@ export default function TRIncludingEndorsement() {
             <h2 className="text-primary text-3xl font-bold mt-2 font-heading">
               Empower Your Pilot Career with Expert Type Rating Training
             </h2>
-            <p className="text-gray-700 font-sans m2-6 leading-relaxed text-justify">
+            <p className="text-gray-700 font-sans m2-6 leading-relaxed text-justify mt-4">
               At Star Alliance Aviation Academy, we specialize in providing
               comprehensive Type Rating (TR) programs coupled with official
               endorsement on your Commercial Pilot License (CPL). Partnering

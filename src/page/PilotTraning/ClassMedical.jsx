@@ -168,7 +168,7 @@ export default function ClassMedical() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="px-6 py-16 bg-gray-100 border-t">
+      {/* <section className="px-6 py-16 bg-gray-100 border-t">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#2c3756] font-heading mb-6">
             Why Star Alliance Aviation Academy is Your Best Choice
@@ -203,7 +203,7 @@ export default function ClassMedical() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

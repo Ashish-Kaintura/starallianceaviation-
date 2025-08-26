@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto maintainPopup Image</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* maintainPopup overlay */
+      .maintainpopup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+      }
+
+      .maintainpopup img {
+        max-width: 90%;
+        max-height: 90%;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+      }
+
+      /* Close button */
+      .maintainpopup span {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="text-align: center; margin-top: 50px">Welcome to My Website</h2>
+
+    <!-- maintainPopup -->
+    <div class="maintainpopup" id="maintainpopup">
+      <span id="close">&times;</span>
+      <img
+        src="https://i.postimg.cc/VLTpRnn0/POP-UP-2.jpg"
+        alt="maintainPopup Image"
+      />
+    </div>
+
+    <script>
+      const maintainpopup = document.getElementById("maintainpopup");
+      const closeBtn = document.getElementById("close");
+
+      // Show maintainpopup after 2 seconds
+      setTimeout(() => {
+        maintainpopup.style.display = "flex";
+      }, 2000);
+
+      // Close maintainpopup on X click
+      closeBtn.onclick = () => {
+        maintainpopup.style.display = "none";
+      };
+
+      // Close when clicking outside the image
+      maintainpopup.onclick = (e) => {
+        if (e.target === maintainpopup) maintainpopup.style.display = "none";
+      };
+    </script>
+  </body>
+</html>

@@ -76,7 +76,7 @@ const CounsellingReappearance = () => {
             <p className="text-lg leading-relaxed mb-4">
               Our expert staff of aviation professionals combines experience
               from several airlines, as well as professionals who have worked
-              with the Ministry of Civil Aviation (MOCA) and the Directorate
+              with the Ministry of Civil Aviation (DGCA) and the Directorate
               General of Civil Aviation (DGCA). We know that sometimes success
               in aviation is not an instant light bulb and can be few and far
               between.

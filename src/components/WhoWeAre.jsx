@@ -12,7 +12,7 @@ const WhoWeAre = () => {
           <h2 className="text-3xl md:text-3xl font-bold mb-4 leading-tight">
             Star Alliance Aviation Academy <br /> Private Limited
           </h2>
-          <p className="font-semibold mb-4">
+          <p className=" mb-4">
             Star Alliance Aviation Academy is a premier aviation training
             institute driven by a team of passionate and experienced
             professionals dedicated to delivering top-tier training, products,

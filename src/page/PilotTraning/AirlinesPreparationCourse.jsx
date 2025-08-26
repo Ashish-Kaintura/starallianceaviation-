@@ -8,12 +8,10 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const steps = [
-  "Technical Written Exam",
-  "Technical Oral Interview",
-  "HR Oral Interview",
-  "Psychometric Test",
-  "Simulator Test",
-  "Colour Test",
+  "Written Test / Online Assessment",
+  "Psychometric / Compass Test",
+  "Group Discussion (GD) /Personal Interview",
+  "Simulator Check / Skill Test",
 ];
 
 const reasons = [

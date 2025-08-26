@@ -15,7 +15,7 @@ const TermsAndConditions = () => {
 
         {/* Title */}
         <motion.h1
-          className="text-3xl md:text-4xl font-bold text-center text-indigo-700 mb-8"
+          className="text-3xl md:text-4xl font-bold text-center text-Secondary mb-8"
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -26,7 +26,7 @@ const TermsAndConditions = () => {
         {/* Content */}
         <div className="space-y-8 text-gray-700 leading-relaxed relative z-10">
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Definitions
             </h2>
             <p className="font-sans">
@@ -45,7 +45,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Acceptance of Terms
             </h2>
             <p className="font-sans">
@@ -57,7 +57,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Use of Website & Services
             </h2>
             <p className="font-sans">
@@ -69,7 +69,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Payment, Fees & Refunds
             </h2>
             <p className="font-sans">
@@ -85,7 +85,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Intellectual Property
             </h2>
             <p className="font-sans">
@@ -98,7 +98,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Participant Conduct
             </h2>
             <p className="font-sans">
@@ -110,7 +110,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Disclaimers & Limitations of Liability
             </h2>
             <p className="font-sans">
@@ -124,7 +124,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Governing Law
             </h2>
             <p className="font-sans">
@@ -135,7 +135,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Modifications to Terms
             </h2>
             <p className="font-sans">
@@ -148,7 +148,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Links to Third-Party Websites
             </h2>
             <p className="font-sans">
@@ -159,7 +159,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-2 font-heading">
+            <h2 className="text-xl font-semibold text-primary mb-2 font-heading">
               Privacy Policy
             </h2>
             <p className="font-sans">

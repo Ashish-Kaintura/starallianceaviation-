@@ -5,7 +5,7 @@ const faqs = [
   {
     question: "What programs does your pilot training include?",
     answer:
-      "We offer a full range of pilot training programs including PPL, CPL, ATPL, simulator training, and type ratings for various aircraft.",
+      "We offer a full range of pilot training programs including CPL, ATPL, simulator training, and type ratings for various aircraft.",
   },
   {
     question: "Is your training DGCA approved?",

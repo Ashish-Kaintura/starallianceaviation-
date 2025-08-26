@@ -122,7 +122,7 @@ export default function CPLGroundClasses() {
                   <h3 className="text-xl font-semibold text-Secondary mb-2">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 text-justify">{item.desc}</p>
+                  <p className="text-gray-600 ">{item.desc}</p>
                 </div>
               </div>
             ))}

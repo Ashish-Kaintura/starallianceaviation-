@@ -8,32 +8,33 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const testimonials = [
   {
-    name: "Captain Maanya",
+    name: "Maanya",
     position: "Happy Student",
     image: "https://i.postimg.cc/BbQrMc7D/Manaya.jpg",
     quote:
-      "Star Alliance Aviation Academy has been instrumental in shaping my career. The instructors are top-notch, and the environment is so supportive.",
+      "If you want to build a career as a pilot, I highly recommend Star Alliance Aviation Academy. The academy provides excellent guidance and top-quality training. With their support, I cleared my DGCA exams in the first attempt and am now successfully pursuing my flying training. Truly the best place for aspiring aviators!",
   },
   {
-    name: "Captain Karan Nayak",
+    name: "Karan Nayak ",
     position: "Happy Student",
-    image: "https://i.postimg.cc/zB5ZR1nx/Karan-Nayak.jpg",
+    image: "https://i.postimg.cc/J069gDSF/Karan-Nayak.jpg",
     quote:
-      "I loved the detailed training modules and the personal attention I received during my CPL training.",
+      "If you want to clear your DGCA exams, you must join Star Alliance Aviation Academy. The training quality here is absolutely the best and with their guidance, I cleared my DGCA exams in the first attempt. Truly a fantastic experience – highly recommended!",
   },
   {
     name: "Harshita",
     position: "Cabin Crew in Air India",
     image: "https://i.postimg.cc/0QfgYHnP/Harshita.jpg",
     quote:
-      "Their RTR preparation is unmatched. I cleared my exam in the first attempt. Highly recommended!",
+      "I completed my Cabin Crew Training at Star Alliance Aviation Academy, and it has been an excellent experience. The academy provides the best quality training with professional guidance, which helped me build the skills and confidence required for the aviation industry. Thanks to their support, I am now flying as a Cabin Crew with Air India. I am truly grateful to the academy for shaping my career.",
   },
   {
-    name: "Captain Vishal Jakhar",
+    name: "Vishal Jakhar",
     position: "Happy Student",
     image: "https://i.postimg.cc/J069gDSF/Karan-Nayak.jpg",
+    image: "https://i.postimg.cc/zB5ZR1nx/Karan-Nayak.jpg",
     quote:
-      "The cabin crew training was exceptional—practical, relevant, and engaging.",
+      "My experience with Star Alliance Aviation Academy has been excellent. The academy provides top-quality training and guidance, which helped me clear all my DGCA exams in the first attempt. I truly appreciate their support and highly recommend this academy to anyone aspiring for a career in aviation.",
   },
 ];
 
@@ -72,7 +73,7 @@ const Testimonials = () => {
               <div className="backdrop-blur-lg bg-white/80 rounded-2xl p-8 shadow-xl h-full flex flex-col justify-between hover:shadow-2xl transition duration-300">
                 <div className="text-left">
                   <FaQuoteLeft className="text-Secondary text-3xl mb-4 animate-pulse" />
-                  <p className="text-gray-800 font-medium leading-relaxed">
+                  <p className="text-gray-800 font-medium leading-relaxed sm:h-[135px]">
                     {t.quote}
                   </p>
                 </div>
@@ -87,7 +88,7 @@ const Testimonials = () => {
                     <h4 className="text-lg font-bold text-Secondary">
                       {t.name}
                     </h4>
-                    <p className="text-sm text-gray-500">{t.position}</p>
+                    <p className="text-sm text-gray-500 ">{t.position}</p>
                   </div>
                 </div>
               </div>
