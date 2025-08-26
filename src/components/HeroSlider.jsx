@@ -15,15 +15,18 @@ import "swiper/css/effect-creative";
 const slides = [
   {
     id: 1,
-    image: "https://i.postimg.cc/43D5sCxg/Website-Home-Page-Banner-1.jpg",
+    image:
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%201.jpg",
   },
   {
     id: 2,
-    image: "https://i.postimg.cc/Y2L1t24L/Website-Home-Page-Banner-2.jpg",
+    image:
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%202.jpg",
   },
   {
     id: 3,
-    image: "https://i.postimg.cc/0yHnXKgr/Website-Home-Page-Banner-3.jpg",
+    image:
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%203.jpg",
   },
 ];
 

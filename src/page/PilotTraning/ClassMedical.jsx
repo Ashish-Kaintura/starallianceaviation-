@@ -119,9 +119,43 @@ export default function ClassMedical() {
           </div>
         </section>
 
+        {/* 2 */}
+        <section className="px-6 py-16 bg-gray-50">
+          <div className="max-w-6xl mx-auto bg-Secondary p-10 rounded-2xl shadow-lg hover:shadow-xl transition">
+            {/* Content */}
+            <div className="relative z-10 max-w-5xl mx-auto px-6 text-primary text-center">
+              <h3 className="text-3xl md:text-4xl font-bold mb-6">
+                Class 1 Medical — Gateway to a Professional Aviation Career
+              </h3>
+              <p className="max-w-3xl mx-auto text-lg mb-8">
+                Required for anyone pursuing CPL training, airline cadet
+                programs, or commercial pilot roles. This advanced medical
+                ensures pilots meet the highest standards of fitness and safety.
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6 text-left">
+                <ul className="list-disc list-inside space-y-2 marker:text-primary">
+                  <li>All Class 2 medical tests</li>
+                  <li>Depth vision & detailed eye exams</li>
+                  <li>Pure-tone audiometry</li>
+                </ul>
+                <ul className="list-disc list-inside space-y-2 marker:text-primary">
+                  <li>
+                    Lung (spirometry) & cardiovascular (ECG, TMT) evaluations
+                  </li>
+                  <li>
+                    Neurological, ENT, psychological & organ function tests
+                  </li>
+                  <li>Chest X-ray, blood & urine analysis</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Class-1 Medical Section with Video */}
-        <section className="relative py-20">
-          {/* Background Video */}
+        {/* <section className="relative py-20">
+        
           <video
             className="absolute inset-0 w-full h-full object-cover"
             autoPlay
@@ -135,10 +169,10 @@ export default function ClassMedical() {
             />
           </video>
 
-          {/* Dark overlay for readability */}
+        
           <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
-          {/* Content */}
+       
           <div className="relative z-10 max-w-5xl mx-auto px-6 text-white text-center">
             <h3 className="text-3xl md:text-4xl font-bold mb-6">
               Class 1 Medical — Gateway to a Professional Aviation Career
@@ -164,7 +198,7 @@ export default function ClassMedical() {
               </ul>
             </div>
           </div>
-        </section>
+        </section> */}
       </section>
 
       {/* Why Choose Us */}

@@ -41,7 +41,7 @@ const CounsellingReappearance = () => {
       <section className="px-6 py-16 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <img
-            src="https://www.airindia.com/content/dam/air-india/newsroom/press-releases/images/Air-India-Cabin-Crew.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/1.jpg"
             alt="Aviation Counselling"
             className="rounded-xl shadow-lg"
           />
