@@ -49,14 +49,14 @@ const WhoWeAre = () => {
         </div>
 
         {/* Right: Grid Images */}
-        <div className="grid grid-cols-2 gap-4">
+        <div className="">
           <img
             loading="lazy"
-            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/A1.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/A1grid.png"
             alt="crew"
-            className="rounded-xl h-44 w-full object-contain shadow-md"
+            className="rounded-xl  w-full  shadow-md"
           />
-          <img
+          {/* <img
             loading="lazy"
             src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/A2.jpg"
             alt="plane"
@@ -73,7 +73,7 @@ const WhoWeAre = () => {
             src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/A4.jpg"
             alt="pilot"
             className="rounded-xl h-44 w-full object-contain shadow-md"
-          />
+          /> */}
         </div>
       </div>
     </section>

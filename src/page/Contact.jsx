@@ -53,6 +53,7 @@ const ContactPage = () => {
                 <Phone className="w-6 h-6 text-blue-700" />
               </div>
               <p className="text-gray-700 text-base">+91 9289595558</p>
+              <p className="text-gray-700 text-base">011-45517009</p>
             </div>
 
             <div className="flex items-center gap-4 bg-white/80 shadow-sm rounded-xl p-4 hover:shadow-md transition">
