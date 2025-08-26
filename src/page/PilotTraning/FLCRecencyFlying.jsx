@@ -10,7 +10,7 @@ export default function FLCRecencyFlying() {
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/flc/FLCbanner.jpg)`,
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           backgroundPosition: "center",
         }}
         className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
