@@ -30,7 +30,7 @@ const SocialMedia = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <section className="fixed z-40 bottom-20 left-4">
+    <section className="fixed z-40 bottom-28 left-4">
       <div className="relative flex flex-col items-center space-y-2">
         {/* Toggle Button */}
         <button

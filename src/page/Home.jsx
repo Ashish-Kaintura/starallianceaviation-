@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
 import { FaPlane } from "react-icons/fa";
-import img1 from "../img/students.png";
+import img1 from "../img/students.jpg";
 import CommitmentSection from "../components/CommitmentSection";
 import PilotTrainingSection from "../components/PilotTrainingSection";
 import Testimonials from "../components/Testimonials";
@@ -16,8 +16,8 @@ export default function Home() {
   });
   return (
     <>
-      <HeroSection />
-      {/* <HeroSlider /> */}
+      {/* <HeroSection /> */}
+      <HeroSlider />
       <section className="flex justify-center px-4 py-12 border-b-2">
         <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-start px-4 sm:px-6 lg:px-8">
           {/* Left Content */}
@@ -80,23 +80,23 @@ export default function Home() {
                 loading="lazy"
                 src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/img/Homeimg/H1.jpg"
                 alt="Pilot"
-                className="rounded-xl w-full sm:w-2/3 lg:w-[70%] object-cover shadow-lg"
+                className="rounded-xl w-full sm:w-2/3 lg:w-[80%] object-cover shadow-lg"
                 data-aos="fade-up"
                 data-aos-delay="400"
               />
-              <img
+              {/* <img
                 loading="lazy"
                 src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/img/Homeimg/H2.jpg"
                 alt="Air Hostess"
                 className="rounded-xl w-full sm:w-1/3 lg:w-[30%] object-cover shadow-lg mt-4 sm:mt-0"
                 data-aos="fade-up"
                 data-aos-delay="600"
-              />
+              /> */}
             </div>
 
             {/* Badge */}
             <div
-              className="absolute -bottom-6 sm:-bottom-8 lg:bottom-10 lg:right-10 bg-primary text-white px-4 py-3 sm:px-6 sm:py-4 rounded-xl shadow-lg flex items-center gap-3"
+              className="absolute -bottom-6 sm:-bottom-4 lg:bottom-10 lg:right-10 bg-primary text-white px-4 py-3 sm:px-6 sm:py-4 rounded-xl shadow-lg flex items-center gap-3"
               data-aos="zoom-in-up"
               data-aos-delay="700"
             >
