@@ -50,7 +50,7 @@ const Footer = () => {
         <div>
           <img
             loading="lazy"
-            src="https://i.postimg.cc/L4ytzH5N/white-logo.png"
+            src="https://i.postimg.cc/FKqwPS2B/white-logo-1.png"
             alt="Logo"
             className="h-24 mb-4"
           />
