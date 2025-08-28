@@ -90,6 +90,29 @@ const ServicesAndExpertise = () => {
               </Link>
             ))}
           </div>
+          <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-5">
+            <Link
+              to="/counselling-for-reappearance"
+              className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 bg-white"
+            >
+              <div className="w-full h-56 overflow-hidden">
+                <img
+                  loading="lazy"
+                  src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/1.jpg"
+                  alt="services"
+                  className="w-full h-full  group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-5">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Counselling (For Reappearance)
+                </h3>
+                <span className="text-sm mt-2 text-blue-500 underline inline-block">
+                  Read More →
+                </span>
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
     </>

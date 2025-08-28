@@ -76,7 +76,7 @@ const CabinCrew = () => {
       </section>
 
       {/* Section: Counseling */}
-      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">
+      {/* <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-5 text-primary">
@@ -101,7 +101,7 @@ const CabinCrew = () => {
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />
         </div>
-      </section>
+      </section> */}
 
       {/* Section: Job-Oriented Training */}
       <section className="px-6 py-20 max-w-6xl mx-auto">

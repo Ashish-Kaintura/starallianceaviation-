@@ -30,7 +30,7 @@ export default function Home() {
               Who We Are
             </span> */}
             <h2 className="text-primary text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 leading-snug">
-              Star Alliance Aviation Academy Private Limited
+              Star Alliance Aviation Academy
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify text-sm sm:text-base">
               Star Alliance Aviation Academy is a passionate team of people,
@@ -47,7 +47,7 @@ export default function Home() {
               We offer dedicated aviation management courses created and taught
               by some of the most experienced experts in the field. Our
               instructors include former Directors of the Directorate General of
-              Civil Aviation (DGCA) and previous Deputy Chief Flight Operations
+              Civil Aviation (DGCA) and EX Deputy Chief Flight Operations
               Inspectors (CFOIs) of the DGCA, as well as a former CEO of a major
               airline in India. Collectively they bring more than 30 years of
               experience and will provide the very best advisory and consultancy
@@ -157,8 +157,9 @@ export default function Home() {
                 Expert Guidance
               </h4>
               <p className="text-gray-600">
-                Led by ex-DGCA directors, retired CFOIs, and airline retired
-                CEOs with decades of industry expertise.
+                Led by former DGCA Directors, former Deputy CFOI - DGCA and
+                former CEOs of India’s largest airlines, bringing decades of
+                industry expertise.
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">

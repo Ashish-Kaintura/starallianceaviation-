@@ -2,17 +2,17 @@ import React from "react";
 
 const WhoWeAre = () => {
   return (
-    <section className="bg-gradient-to-br from-[#e9efff] to-white py-16 px-4 md:px-10">
+    <section className="bg-gradient-to-br from-[#e9efff] to-white py-16  md:px-10">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Text Content */}
-        <div className="bg-[#103057] text-white p-8 md:p-10 rounded-3xl shadow-lg">
+        <div className="bg-[#103057] text-white p-8 md:py-10 rounded-3xl shadow-lg">
           <p className="text-Secondary tracking-wider uppercase text-sm font-medium mb-2">
             Who we are
           </p>
           <h2 className="text-3xl md:text-3xl font-bold mb-4 leading-tight">
-            Star Alliance Aviation Academy <br /> Private Limited
+            Star Alliance Aviation Academy <br />
           </h2>
-          <p className=" mb-4">
+          <p className="mb-4 text-sm">
             Star Alliance Aviation Academy is a premier aviation training
             institute driven by a team of passionate and experienced
             professionals dedicated to delivering top-tier training, products,

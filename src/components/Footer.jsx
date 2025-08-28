@@ -135,7 +135,7 @@ const Footer = () => {
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-green-400" />
               <NavLink to="tel:+911234567890" className="hover:text-white">
-                092895 95558
+                +91 92895 95558,
               </NavLink>
               <NavLink to="tel:+9101145517009" className="hover:text-white">
                 011-45517009

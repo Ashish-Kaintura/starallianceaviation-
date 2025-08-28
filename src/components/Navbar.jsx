@@ -90,7 +90,7 @@ const Navbar = () => {
           <div className="w-full max-w-[1320px] flex justify-between items-center px-6 flex-wrap gap-2">
             <span>Book Online • You can request appointment 24 hours</span>
             <div className="flex items-center gap-4">
-              <span>Phone: +92 89595558</span>
+              <span>Phone: +91 92895 95558</span>
               <div className="flex gap-3 text-white text-base">
                 <Link
                   to="https://www.facebook.com/starallianceaviationacademy/"
