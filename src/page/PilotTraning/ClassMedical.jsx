@@ -74,7 +74,7 @@ export default function ClassMedical() {
       <section className="px-6 py-16 bg-white border-t">
         <div className="max-w-6xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-Secondary font-heading">
-            Ensure Your Fitness to Fly with Star Alliance Aviation Academy
+            Ensure Your Fitness to Fly with Every Airline.
           </h2>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
             We walk you step-by-step through DGCA’s medical requirements—helping
@@ -91,26 +91,32 @@ export default function ClassMedical() {
             </h3>
             <div className="space-y-4 text-gray-100 leading-relaxed">
               <p>
-                <strong>Who Needs It?</strong> Aspiring student pilots before
-                enrolling in flying school or applying for DGCA Computer Number.
+                <strong> In India, DGCA Class 2 </strong> Medical is required
+                for anyone who wishes to start their journey as a pilot.
+                Specifically, it is needed by:
               </p>
 
               <p>
                 <strong>What’s Included?</strong>
               </p>
               <ul className="grid md:grid-cols-2 gap-3 list-disc list-inside">
-                <li>Comprehensive physical check (height, weight, health)</li>
-                <li>Vision test (distant/near vision, color perception)</li>
-                <li>Hearing test</li>
-                <li>Blood & urine analyses</li>
-                <li>ECG (for 40+ candidates)</li>
-                <li>Chest X-ray</li>
+                <li>
+                  Aspiring Student Pilots 2. Candidates joining Flying Schools
+                  3.{" "}
+                </li>
+                <li>
+                  Private Pilot Licence (PPL) Applicants 4. Commercial Pilot{" "}
+                </li>
+                <li>
+                  Licence (CPL) Trainees (initially) 5. Flight Radio Telephony
+                </li>
+                <li>Operator’s Licence (RT) applicants</li>
               </ul>
 
-              <p>
+              {/* <p>
                 <strong>Validity & Cost:</strong> 2 years if under 40; 1 year if
                 40+. Cost: ₹2,000–4,000 depending on examiner & tests.
-              </p>
+              </p> */}
               <p>
                 <strong>Where?</strong> DGCA-approved medical examiners in your
                 city.
@@ -128,25 +134,23 @@ export default function ClassMedical() {
                 Class 1 Medical — Gateway to a Professional Aviation Career
               </h3>
               <p className="max-w-3xl mx-auto text-lg mb-8">
-                Required for anyone pursuing CPL training, airline cadet
-                programs, or commercial pilot roles. This advanced medical
-                ensures pilots meet the highest standards of fitness and safety.
+                ( ensure your fitness to fly with airlines ) Class 2 medical -
+                your first step towards the cockpit In India, DGCA Class 2
+                Medical is required for anyone who wishes to start their journey
+                as a pilot. Specifically, it is needed by:
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 text-left">
                 <ul className="list-disc list-inside space-y-2 marker:text-primary">
-                  <li>All Class 2 medical tests</li>
-                  <li>Depth vision & detailed eye exams</li>
-                  <li>Pure-tone audiometry</li>
+                  <li>Aspiring Student Pilots</li>
+                  <li>Candidates joining Flying Schools </li>
+                  <li>Private Pilot Licence (PPL) Applicants </li>
                 </ul>
                 <ul className="list-disc list-inside space-y-2 marker:text-primary">
+                  <li>Commercial Pilot Licence (CPL) Trainees (initially) </li>
                   <li>
-                    Lung (spirometry) & cardiovascular (ECG, TMT) evaluations
+                    FlightRadio Telephony Operator’s Licence (RT) applicants
                   </li>
-                  <li>
-                    Neurological, ENT, psychological & organ function tests
-                  </li>
-                  <li>Chest X-ray, blood & urine analysis</li>
                 </ul>
               </div>
             </div>

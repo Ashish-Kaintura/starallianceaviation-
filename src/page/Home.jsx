@@ -33,15 +33,12 @@ export default function Home() {
               Star Alliance Aviation Academy
             </h2>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify text-sm sm:text-base">
-              Star Alliance Aviation Academy is a passionate team of people,
-              dedicated to delivering
-              <br />
-              <br />
-              TOP service & products in the aviation industry. Our academy was
-              established in 2022 to meet the market demand for safe, reliable,
-              and innovative aviation training solutions. While we have been
-              expanding quite quickly, our commitment to quality and customer
-              experience has always come first.
+              Star Alliance Aviation Academy consists of passionate and
+              dedicated professionals focused on delivering top-quality products
+              and services to our customers. Founded in 2022, our Aviation
+              Academy set out to meet a market demand for innovative,
+              high-quality products. We’ve grown substantially since then, yet
+              our dedication to excellence remains unchanged.
               <br />
               <br />
               We offer dedicated aviation management courses created and taught
