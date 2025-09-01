@@ -78,36 +78,36 @@ export default function FLCRecencyFlying() {
           </div>
         </div>
       </section>
-      <div className="flex justify-center py-4 px-4 max-w-6xl mx-auto">
+      <div className="flex justify-center py-4 px-4 max-w-6xl mx-auto ">
         <div className="">
           <h2 className="text-primary sm:text-6xl text-3xl font-bold mt-2 py-7 font-heading">
             Flight License Currency (FLC) & Recency Flying Programs
           </h2>
-          <ul className=" list-disc font-sans  text-gray-700 text-justify">
+          <ul className=" font-sans text-gray-700 text-justify">
             <li className="mb-2 ">
-              Star Alliance Aviation Academy executes recency flying programs
+              1. Star Alliance Aviation Academy executes recency flying programs
               approved by DGCA to keep pilots current and compliant.{" "}
-              <li className="space-y-3 ">
+              <li className="mt-2">
                 {" "}
-                Our high-time instructors guide you through your personal flight
-                training plan using our brand-new fleet of aircraft and
+                2. Our high-time instructors guide you through your personal
+                flight training plan using our brand-new fleet of aircraft and
                 simulators.
               </li>{" "}
-              <li className="space-y-3 ">
+              <li className="mt-2">
                 {" "}
-                Pilots get minimal downtime and the ability to keep an active
+                3. Pilots get minimal downtime and the ability to keep an active
                 status or return to work.
               </li>{" "}
-              <li className="space-y-3 ">
+              <li className="mt-2">
                 {" "}
-                In every session we emphasize safety, accuracy, and regulatory
-                readiness.
+                4. In every session we emphasize safety, accuracy, and
+                regulatory readiness.
               </li>{" "}
-              <li className="space-y-3 ">
+              <li className="mt-2">
                 {" "}
-                Come and fly with Star Alliance Aviation Academy—where you can
-                quickly, easily, and cost-effectively keep your pilot license in
-                top condition.
+                5. Come and fly with Star Alliance Aviation Academy—where you
+                can quickly, easily, and cost-effectively keep your pilot
+                license in top condition.
               </li>
             </li>
           </ul>
