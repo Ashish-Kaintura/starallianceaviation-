@@ -6,7 +6,7 @@ const JobOrientedCC = () => {
     window.scrollTo(0, 0);
   });
   return (
-    <div className="bg-white text-gray-800">
+    <div className="bg-white text-gray-800 ">
       {/* Hero Section */}
       <section
         style={{
@@ -14,7 +14,7 @@ const JobOrientedCC = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="text-white flex items-center justify-center h-[600px] relative"
+        className="text-white flex items-center justify-center sm:h-[600px] mt-[72px] sm:mt-0  relative"
       >
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">

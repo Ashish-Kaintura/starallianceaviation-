@@ -78,9 +78,9 @@ export default function FLCRecencyFlying() {
           </div>
         </div>
       </section>
-      <div className="flex justify-center py-4">
-        <div className=" max-w-6xl">
-          <h2 className="text-primary text-6xl font-bold mt-2 py-7 font-heading">
+      <div className="flex justify-center py-4 px-4 max-w-6xl mx-auto">
+        <div className="">
+          <h2 className="text-primary sm:text-6xl text-3xl font-bold mt-2 py-7 font-heading">
             Flight License Currency (FLC) & Recency Flying Programs
           </h2>
           <ul className=" list-disc font-sans  text-gray-700 text-justify">

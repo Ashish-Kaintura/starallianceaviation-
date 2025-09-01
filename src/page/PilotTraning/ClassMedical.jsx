@@ -84,7 +84,7 @@ export default function ClassMedical() {
         </div>
 
         {/* Class-2 Medical Section */}
-        <section className="px-6 py-16 bg-gray-50">
+        <section className="sm:px-6 py-16 bg-gray-50">
           <div className="max-w-6xl mx-auto bg-primary p-10 rounded-2xl shadow-lg hover:shadow-xl transition">
             <h3 className="text-3xl font-semibold text-white mb-6">
               Class 2 Medical — Your First Step Toward the Cockpit
@@ -123,10 +123,10 @@ export default function ClassMedical() {
 
         {/* 2 */}
         <section className="px-6 py-16 bg-gray-50">
-          <div className="max-w-6xl mx-auto bg-Secondary p-10 rounded-2xl shadow-lg hover:shadow-xl transition">
+          <div className="max-w-6xl mx-auto bg-Secondary py-10 rounded-2xl shadow-lg hover:shadow-xl transition">
             {/* Content */}
             <div className="relative z-10 max-w-5xl mx-auto px-6 text-primary text-center">
-              <h3 className="text-3xl md:text-4xl font-bold mb-6">
+              <h3 className="text-2xl sm:text-4xl font-bold mb-6">
                 Class 1 Medical — Gateway to a Professional Aviation Career
               </h3>
               <p className="max-w-3xl mx-auto text-lg mb-8">
