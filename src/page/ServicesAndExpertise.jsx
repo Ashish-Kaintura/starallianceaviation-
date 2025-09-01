@@ -26,7 +26,7 @@ const ServicesAndExpertise = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent"></div>
 
-        <div className="relative z-10 max-w-6sxl w-full mt-4 sm:mt-8">
+        <div className="relative z-10 max-w-7xl w-full mt-4 sm:mt-8">
           <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
             <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
               Services & Expertise
