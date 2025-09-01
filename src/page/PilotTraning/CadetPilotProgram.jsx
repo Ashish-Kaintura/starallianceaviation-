@@ -19,7 +19,7 @@ export default function CadetPilotProgram() {
         <div className="absolute inset-0 bg-black/25"></div>
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
           <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
-            <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
+            <h1 className="text-3xl sm:text-[44px] font-bold text-white font-heading animate-fade-in-down">
               Cadet Pilot Program
             </h1>
             <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
