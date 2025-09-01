@@ -112,7 +112,6 @@ const PilotTraining = () => {
               </h2>
               <h3 className="text-xl font-semibold text-Secondary mb-3">
                 Become a Skilled Pilot with Star Alliance Aviation Academy
-                Academy
               </h3>
               <p className="text-gray-700 text-lg mb-4">
                 At Star Alliance Aviation Academy , we offer professional and

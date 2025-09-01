@@ -126,7 +126,7 @@ const Footer = () => {
           <h4 className="text-xl font-semibold mb-4">Contact Us</h4>
           <ul className="text-sm text-gray-300 space-y-3">
             <li className="flex items-start gap-2">
-              <FaMapMarkerAlt size={55} className="mt-1 text-red-400" />
+              <FaMapMarkerAlt size={40} className=" text-red-400 -mt-[8px] " />
               <span>
                 E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector –
                 7, Manyavar Showroom Building New Delhi-110075

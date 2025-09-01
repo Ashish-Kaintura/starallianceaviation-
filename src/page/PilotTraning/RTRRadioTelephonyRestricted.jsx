@@ -52,7 +52,7 @@ export default function RTRRadioTelephonyRestricted() {
           <div className="flex flex-col justify-start w-full lg:w-1/2">
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
               Our amazing team of instructors are considered some of the best
-              Australian instructors providing Radio Telephony Restricted (RTR)
+              Indian instructors providing Radio Telephony Restricted (RTR)
               classes. Our team has a history of high standards of delivery and
               an ongoing commitment towards improving aviation training. Our
               team is the best in the RTR delivery space.

@@ -40,6 +40,7 @@ export default function Home() {
               high-quality products. We’ve grown substantially since then, yet
               our dedication to excellence remains unchanged.
               <br />
+<<<<<<< HEAD
               {/* <br />
               TOP service & products in the aviation industry. Our academy was
               established in 2022 to meet the market demand for safe, reliable,
@@ -47,6 +48,8 @@ export default function Home() {
               expanding quite quickly, our commitment to quality and customer
               experience has always come first.
               <br /> */}
+=======
+>>>>>>> f1a17c6c04fec599e191366162810623735d89b9
               <br />
               We offer dedicated aviation management courses created and taught
               by some of the most experienced experts in the field. Our
