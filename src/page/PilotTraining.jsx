@@ -58,12 +58,18 @@ const trainingPrograms = [
   },
 ];
 import Img1 from "../img/coolbackgrounds-particles-stellar.png";
+import { Helmet } from "react-helmet";
 const PilotTraining = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
     <>
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       {/* Hero Section */}
       <section
         style={{

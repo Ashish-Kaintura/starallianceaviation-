@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 export default function ATPLGroundClasses() {
   useEffect(() => {
@@ -7,6 +8,11 @@ export default function ATPLGroundClasses() {
   });
   return (
     <div>
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL-Ground-Classesbanner.jpg)`,

@@ -79,7 +79,7 @@ export const blogPosts = [
   },
   {
     id: 2,
-    slug: "Top-Skills-You’ll-Learn-in-Our-Cabin-Crew-Training-Program",
+    slug: "Top-Skills-You-will-Learn-in-Our-Cabin-Crew-Training-Program",
     title: "Top Skills You’ll Learn in Our Cabin Crew Training Program",
     category: "Aviation Training Skills",
     date: "2025-08-25",

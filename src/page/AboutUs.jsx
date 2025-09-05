@@ -3,12 +3,18 @@ import WhoWeAre from "../components/WhoWeAre";
 import { Link } from "react-router-dom";
 import WeAreCommitted from "../components/WeAreCommitted";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 export default function AboutUs() {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
-    <div>
+    <>
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/About%20us%20banners.jpg)`,
@@ -41,6 +47,6 @@ export default function AboutUs() {
       </section>
       <WhoWeAre />
       <WeAreCommitted />
-    </div>
+    </>
   );
 }

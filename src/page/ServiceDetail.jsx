@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import servicesData from "../data/services.json";
 import { useEffect } from "react";
 import NotFoundPage from "./404Page";
+import { Helmet } from "react-helmet";
 const ServiceDetail = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -16,6 +17,11 @@ const ServiceDetail = () => {
 
   return (
     <>
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       <section
         style={{
           backgroundImage: `url(${service.coverImag})`,

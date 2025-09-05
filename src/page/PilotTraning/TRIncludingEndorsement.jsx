@@ -1,12 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 export default function TRIncludingEndorsement() {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
     <div>
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/tr/TR-INCLUDING-endorsementbanner.jpg)`,

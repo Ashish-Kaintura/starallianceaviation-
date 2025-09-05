@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 const JobOrientedCC = () => {
@@ -7,6 +8,11 @@ const JobOrientedCC = () => {
   });
   return (
     <div className="bg-white text-gray-800 ">
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       {/* Hero Section */}
       <section
         style={{

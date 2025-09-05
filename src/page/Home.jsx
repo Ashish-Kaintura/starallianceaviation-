@@ -10,6 +10,7 @@ import FAQSection from "../components/FAQSection";
 import PopupForm from "../components/PopupForm";
 import { useEffect } from "react";
 import HeroSlider from "../components/HeroSlider";
+import { Helmet } from "react-helmet";
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -17,6 +18,16 @@ export default function Home() {
   return (
     <>
       {/* <HeroSection /> */}
+      <Helmet>
+        <title>
+          Best Pilot Training Academy in Delhi , India | Star Alliance Aviation.
+        </title>
+        <meta
+          name="description"
+          content="Star Alliance Aviation Academy – India’s premier aviation training centre, led by former DGCA experts. Comprehensive pilot, cabin‑crew & airline."
+        />
+        <link rel="canonical" href="https://starallianceaviation.com/" />
+      </Helmet>
       <HeroSlider />
       <section className="flex justify-center px-4 py-12 border-b-2">
         <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-start px-4 sm:px-6 lg:px-8">

@@ -63,7 +63,7 @@ const NotFoundPage = lazy(() => import("./page/404Page"));
 const MaintenancePage = lazy(() => import("./page/MaintenancePage")); // unused, but keep
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -72,15 +72,15 @@ const App = () => {
   useEffect(() => {
     // Simulate loading time (1s)
     const timer = setTimeout(() => {
-      setLoading(false);
+      // setLoading(false);
     }, 1000);
     return () => clearTimeout(timer);
   }, []);
 
-  // 🔹 Show Loader on first load
-  if (loading) {
-    return <Loader />;
-  }
+  // // 🔹 Show Loader on first load
+  // if (loading) {
+  //   return <Loader />;
+  // }
 
   return (
     <>

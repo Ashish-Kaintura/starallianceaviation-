@@ -7,7 +7,11 @@ const PrivacyPolicy = () => {
   });
   return (
     <div className="mx-auto px-4 py-10 text-gray-800">
-      <Helmet></Helmet>
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6 pt-32">
         <div className="max-w-6xl mx-auto bg-white shadow-xl rounded-2xl p-10 relative overflow-hidden">
           {/* Background accent */}

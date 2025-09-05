@@ -10,12 +10,18 @@ import {
 import ContactForm from "../components/Contactform";
 import { Toaster } from "react-hot-toast";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 const ContactPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
     <div className="bg-gray-50 min-h-screen">
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       <Toaster position="top-center" reverseOrder={false} />
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-primary to-gray-900 text-white py-20 px-6 md:px-16 lg:px-24 text-center pt-48">

@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const TermsAndConditions = () => {
   useEffect(() => {
@@ -8,6 +9,11 @@ const TermsAndConditions = () => {
   });
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6 pt-32">
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       <div className="max-w-6xl mx-auto bg-white shadow-xl rounded-2xl p-10 relative overflow-hidden">
         {/* Background accents */}
         <div className="absolute -top-10 -left-10 w-40 h-40 bg-indigo-200 rounded-full mix-blend-multiply blur-3xl opacity-30 animate-pulse"></div>

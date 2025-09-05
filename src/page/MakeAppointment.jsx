@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 export default function MakeAppointment() {
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
@@ -36,7 +37,11 @@ export default function MakeAppointment() {
   return (
     <>
       {/* Hero Section */}
-
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       <div
         className="flex items-center justify-center min-h-screen  px-4 py-12 bg-neutral-700  relative bg-fixed bg-center bg-cover"
         style={{

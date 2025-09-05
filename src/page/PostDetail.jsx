@@ -7,6 +7,7 @@ import {
 } from "react-share";
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 export default function PostDetail() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,6 +28,11 @@ export default function PostDetail() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8 sm:pt-48">
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       {/* Post Image */}
       <div className="relative mb-8">
         <span className="absolute bottom-4 left-4 bg-indigo-600 text-white text-sm px-3 py-1 rounded-full shadow">
@@ -35,7 +41,7 @@ export default function PostDetail() {
       </div>
 
       {/* Title & Meta */}
-      <h1 className="text-4xl font-extrabold leading-tight tracking-tight dark:text-white">
+      <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-black">
         {post.title}
       </h1>
       <div className="mt-3 flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400">

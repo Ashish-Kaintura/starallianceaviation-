@@ -1,12 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 const CabinCrew = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
     <div className="bg-white text-gray-800 font-sans">
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       {/* Hero Section */}
       <div
         className=" bg-cover bg-center text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { blogPosts } from "../data/blogData";
 import BlogCard from "../components/BlogCard";
+import { Helmet } from "react-helmet";
 
 export default function Blogs() {
   useEffect(() => {
@@ -29,22 +30,25 @@ export default function Blogs() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 pt-48">
-      <h1 className="text-3xl font-bold mb-6 dark:text-white">
-        Latest Articles
-      </h1>
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
+      <h1 className="text-3xl font-bold mb-6 text-gar-700">Latest Articles</h1>
 
       {/* Filters */}
       <div className="flex flex-wrap gap-4 mb-8">
         <input
           type="text"
           placeholder="Search articles..."
-          className="px-4 py-2 border rounded-lg w-full sm:w-64 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+          className="px-4 py-2 border rounded-lg w-full sm:w-64 bg-white border-gray-700 text-gray-700"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
 
         <select
-          className="px-4 py-2 border rounded-lg dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+          className="px-4 py-2 border rounded-lg bg-white border-gray-700 text-gray-700"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
         >
@@ -55,7 +59,7 @@ export default function Blogs() {
 
         {/* Sort Dropdown */}
         <select
-          className="px-4 py-2 border rounded-lg dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+          className="px-4 py-2 border rounded-lg bg-white border-gray-700 text-gray-700"
           value={sortOrder}
           onChange={(e) => setSortOrder(e.target.value)}
         >
@@ -69,7 +73,7 @@ export default function Blogs() {
         {filteredPosts.length > 0 ? (
           filteredPosts.map((post) => <BlogCard key={post.slug} post={post} />)
         ) : (
-          <p className="text-gray-500 dark:text-gray-400">No articles found.</p>
+          <p className="text-gray-500 ">No articles found.</p>
         )}
       </div>
     </div>

@@ -1,12 +1,18 @@
 import React, { useEffect } from "react";
 import { Search } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 const CounsellingReappearance = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
     <div className="bg-white text-gray-800">
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       <section
         style={{
           backgroundImage: `url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/counsling/Counselling-For-Reappearancebanner.jpg')`,

@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import data from "../data/services.json";
 import Img1 from "../img/coolbackgrounds-particles-stellar.png";
+import { Helmet } from "react-helmet";
 
 const ServicesAndExpertise = () => {
   const [services, setServices] = useState([]);
@@ -15,6 +16,11 @@ const ServicesAndExpertise = () => {
   });
   return (
     <>
+      <Helmet>
+        <title></title>
+        <meta name="description" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
       {/* Hero Section */}
       <section
         style={{
