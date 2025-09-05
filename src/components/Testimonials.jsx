@@ -31,7 +31,7 @@ const testimonials = [
   {
     name: "Vishal Jakhar",
     position: "Happy Student",
-    image: "https://i.postimg.cc/J069gDSF/Karan-Nayak.jpg",
+    image: "https://i.postimg.cc/vHfTjQPY/vihsal-jhakar.jpg",
     quote:
       "My experience with Star Alliance Aviation Academy has been excellent. The academy provides top-quality training and guidance, which helped me clear all my DGCA exams in the first attempt. I truly appreciate their support and highly recommend this academy to anyone aspiring for a career in aviation.",
   },
